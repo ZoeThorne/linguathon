@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  english: MyString
+  tl: MyString
+  language: MyString
+  topic: MyString
+  type: 
+  tier: MyString
+
+two:
+  english: MyString
+  tl: MyString
+  language: MyString
+  topic: MyString
+  type: 
+  tier: MyString
