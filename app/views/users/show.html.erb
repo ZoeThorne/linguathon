@@ -2,10 +2,18 @@
 
 <h3>Recently seen words:</h3>
 	<% @words.each do |w| %>
-		<p><%= w.word.tl %>: <%= w.word.english %></p>
+		<p><%= w.word.tl %>: <%= w.word.english %>
+			<br>Stage: <% if w.stage.nil? %>
+							<em>You haven't got this word right yet!</em>
+						<% else %>
+							<%= w.stage %>
+						<% end %>
+		</p>
 	<% end %>
 
 <h3>My training sessions:</h3>
 	<% @trainings.each do |t| %>
-		<p><%= t.created_at.strftime("%d %b %y") %>: <%= t.name %></p>
+		<p><%= t.created_at.strftime("%d %b %y") %>: <%= t.name %>
+			<br>Topic: <%= t.topic %>
+		</p>
 	<% end %>

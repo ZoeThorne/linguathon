@@ -17,10 +17,10 @@ user2.user_words.create(word_id: 4, stage: 2)
 user2.user_words.create(word_id: 5)
 user2.user_words.create(word_id: 6)
 
-training1 = user1.Training.create(name: "First training")
-training2 = user1.Training.create(name: "Second training", topic: "local area")
+training1 = user1.trainings.create(name: "First training")
+training2 = user1.trainings.create(name: "Second training", topic: "local area")
 
-training3 = user2.Training.create(name: "First training")
+training3 = user2.trainings.create(name: "First training")
 
 training1.training_words.create(word_id: 1)
 training1.training_words.create(word_id: 2)
