@@ -1,0 +1,11 @@
+<h1><%= @user.name %></h1>
+
+<h3>Recently seen words:</h3>
+	<% @words.each do |w| %>
+		<p><%= w.word.tl %>: <%= w.word.english %></p>
+	<% end %>
+
+<h3>My training sessions:</h3>
+	<% @trainings.each do |t| %>
+		<p><%= t.created_at.strftime("%d %b %y") %>: <%= t.name %></p>
+	<% end %>

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161128113715) do
+ActiveRecord::Schema.define(version: 20161128132020) do
 
   create_table "achievements", force: :cascade do |t|
     t.string   "name"
@@ -38,6 +38,8 @@ ActiveRecord::Schema.define(version: 20161128113715) do
     t.string   "language",   default: "german"
     t.datetime "created_at",                            null: false
     t.datetime "updated_at",                            null: false
+    t.integer  "user_id"
+    t.index ["user_id"], name: "index_trainings_on_user_id"
   end
 
   create_table "user_words", force: :cascade do |t|
