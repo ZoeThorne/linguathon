@@ -1,0 +1,1624 @@
+language,tl,english,topic,word_type,tier
+german,ähnlich,similar,key words,adj,foundation
+german,anders,different,key words,adj,foundation
+german,das Gegenteil ,opposite,key words,noun,foundation
+german,gleich,same,key words,adj,foundation
+german,hoch,high,key words,adj,foundation
+german,hoher,higher,key words,adj,foundation
+german,im Großen und Ganzen,by and large,key words,other,foundation
+german,der Unterschied,difference,key words,noun,foundation
+german,unterschiedlich,different,key words,adj,foundation
+german,vergleichen,to compare,key words,verb,foundation
+german,der Vergleich,comparison,key words,noun,foundation
+german,verschieden,different,key words,adj,foundation
+german,viel,many,key words,other,foundation
+german,mehr,more,key words,other,foundation
+german,wenigstens,at least,key words,other,foundation
+german,als ob,as if,connectives,other,foundation
+german,bevor,before,connectives,other,foundation
+german,bis,until,connectives,other,foundation
+german,da,because,connectives,other,foundation
+german,damit,so that,connectives,other,foundation
+german,denn,because,connectives,other,foundation
+german,entweder,either,connectives,other,foundation
+german,nachdem,afterwards,connectives,other,foundation
+german,nur,only,connectives,other,foundation
+german,ob,whether,connectives,other,foundation
+german,obwohl,although,connectives,other,foundation
+german,seitdem,since,connectives,other,foundation
+german,so dass,so that,connectives,other,foundation
+german,um zu,in order to,connectives,other,foundation
+german,während,while,connectives,other,foundation
+german,weder noch,neither nor,connectives,other,foundation
+german,sondern,rather,connectives,other,foundation
+german,abgesehen davon,apart from this,connectives,other,foundation
+german,angenommen dass,assuming that,connectives,other,foundation
+german,außer,except,connectives,other,foundation
+german,außerdem,furthermore,connectives,other,foundation
+german,danach,afterwards,connectives,other,foundation
+german,das heißt,that is,connectives,other,foundation
+german,d.h.,ie,connectives,other,foundation
+german,dennoch,nevertheless,connectives,other,foundation
+german,deshalb,therefore,connectives,other,foundation
+german,deswegen,therefore,connectives,other,foundation
+german,drittens,thirdly,connectives,other,foundation
+german,eigentlich,actually,connectives,other,foundation
+german,erstens,firstly,connectives,other,foundation
+german,jedoch,however,connectives,other,foundation
+german,leider,unfortunately,connectives,other,foundation
+german,natürlich,naturally,connectives,other,foundation
+german,ohne Zweifel,without a doubt,connectives,other,foundation
+german,schließlich,finally,connectives,other,foundation
+german,sonst,"otherwise, or else",connectives,other,foundation
+german,sowieso,anyway,connectives,other,foundation
+german,trotzdem,nevertheless,connectives,other,foundation
+german,vorausgesetzt dass,provided that,connectives,other,foundation
+german,zuerst,first,connectives,other,foundation
+german,zufällig,by chance,connectives,other,foundation
+german,zweitens,secondly,connectives,other,foundation
+german,ab,from,prepositions,preposition,foundation
+german,durch,through,prepositions,preposition,foundation
+german,entlang,along,prepositions,preposition,foundation
+german,gegen,against,prepositions,preposition,foundation
+german,gegenüber,opposite,prepositions,preposition,foundation
+german,hinter,behind,prepositions,preposition,foundation
+german,nach,after,prepositions,preposition,foundation
+german,neben,"around, ",prepositions,preposition,foundation
+german,ohne,without,prepositions,preposition,foundation
+german,über,above,prepositions,preposition,foundation
+german,um,at,prepositions,preposition,foundation
+german,unter,below,prepositions,preposition,foundation
+german,von,from,prepositions,preposition,foundation
+german,vorbei,past,prepositions,preposition,foundation
+german,während,during,prepositions,preposition,foundation
+german,wegen,because of,prepositions,preposition,foundation
+german,zwischen,between,prepositions,preposition,foundation
+german,gar nicht,not at all,key words,other,foundation
+german,nicht mehr,no longer,key words,other,foundation
+german,nichts,nothing,key words,other,foundation
+german,nie,never,key words,other,foundation
+german,niemals,never,key words,other,foundation
+german,niemand,nobody,key words,other,foundation
+german,noch nicht,not yet,key words,other,foundation
+german,überhaupt nicht,not at all,key words,other,foundation
+german,der Buchstabe,letter,key words,noun,foundation
+german,buchstabieren,to spell,key words,verb,foundation
+german,das Dutzend,dozen,key words,noun,foundation
+german,die Nummer,number,key words,noun,foundation
+german,das Paar,pair,key words,noun,foundation
+german,die Zahl,number,key words,noun,foundation
+german,das Bargeld,cash,key words,noun,foundation
+german,der Geldschein,note,key words,noun,foundation
+german,das Geldstück ,coin,key words,noun,foundation
+german,das Kleingeld,small change,key words,noun,foundation
+german,die Münze,coin,key words,noun,foundation
+german,das Taschengeld,pocket money,home,noun,foundation
+german,wechseln,to change,key words,verb,foundation
+german,wann,when,key words,other,foundation
+german,warum,why,key words,other,foundation
+german,was für,what sort of,key words,other,foundation
+german,was,what,key words,other,foundation
+german,welcher,which,key words,other,foundation
+german,wer,who,key words,other,foundation
+german,wie lang,how long,key words,other,foundation
+german,wie viel,how many,key words,other,foundation
+german,wie,how,key words,other,foundation
+german,wieso,how come,key words,other,foundation
+german,wo,where,key words,other,foundation
+german,woher,where from,key words,other,foundation
+german,wohin,where to,key words,other,foundation
+german,womit,what with,key words,other,foundation
+german,alles Gute,all the best,key words,other,foundation
+german,bis bald,see you later,key words,other,foundation
+german,Entschuldigung,excuse me,key words,other,foundation
+german,Frohe Weihnachten,Merry Christmas,festivals,other,foundation
+german,gern geschehen,don’t mention it,key words,other,foundation
+german,herzlich willkommen,welcome,key words,other,foundation
+german,herzlichen Glückwunsch,congratulations,key words,other,foundation
+german,prost,cheers,festivals,other,foundation
+german,schöne Ferien,have a good holiday,festivals,other,foundation
+german,viel Glück,good luck,key words,other,foundation
+german,die Ahnung,idea,opinions,noun,foundation
+german,amüsant,amusing,opinions,adj,foundation
+german,angenehm,pleasant,opinions,adj,foundation
+german,Angst haben,to be afraid,opinions,verb,foundation
+german,ängstlich,anxious,opinions,adj,foundation
+german,ausgezeichnet,excellent,opinions,adj,foundation
+german,bequem,comfortable,opinions,adj,foundation
+german,bestimmt,definitely,opinions,other,foundation
+german,billig,cheap,opinions,adj,foundation
+german,blöd,stupid,opinions,adj,foundation
+german,der Blödsinn,nonsense,opinions,noun,foundation
+german,böse,angry,opinions,adj,foundation
+german,dafür,in favour,opinions,adj,foundation
+german,dagegen,opposed,opinions,adj,foundation
+german,das ist mir egal,it doesn’t matter,opinions,other,foundation
+german,denken,to think,opinions,verb,foundation
+german,deprimiert,depressed,opinions,adj,foundation
+german,die Nase voll haben,to be fed up with ,opinions,verb,foundation
+german,doof,stupid,opinions,adj,foundation
+german,eindrucksvoll,impressive,opinions,adj,foundation
+german,einfach,simple,opinions,adj,foundation
+german,entsetzlich,"terrible, awful, appalling",opinions,adj,foundation
+german,das stimmt,that’s right,opinions,other,foundation
+german,es gefällt mir,I like it,opinions,other,foundation
+german,es kommt darauf an,it depends on,opinions,other,foundation
+german,es satt haben,to be fed up with,opinions,verb,foundation
+german,froh,glad,opinions,adj,foundation
+german,furchtbar,terrible,opinions,adj,foundation
+german,gemütlich,cosy,opinions,adj,foundation
+german,genießen,to enjoy,opinions,verb,foundation
+german,glauben,to believe,opinions,verb,foundation
+german,hassen,to hate,opinions,verb,foundation
+german,herrlich,marvellous,opinions,adj,foundation
+german,hervorragend,outstanding,opinions,adj,foundation
+german,interessieren sich für,to be interested in,opinions,verb,foundation
+german,keine Ahnung haben,to have no idea,opinions,verb,foundation
+german,klasse,great,opinions,adj,foundation
+german,kompliziert,complicated,opinions,adj,foundation
+german,langweilen sich,to be bored,opinions,verb,foundation
+german,leicht,easy,opinions,adj,foundation
+german,lieb,lovely,opinions,adj,foundation
+german,lieben,to love,opinions,verb,foundation
+german,lustig,funny,opinions,adj,foundation
+german,meinen,to think,opinions,verb,foundation
+german,die Meinung,opinion,opinions,noun,foundation
+german,mies,lousy,opinions,adj,foundation
+german,möglich,possible,opinions,adj,foundation
+german,mühelos,effortless,opinions,adj,foundation
+german,mühsam,tedious,opinions,adj,foundation
+german,nützlich,useful,opinions,adj,foundation
+german,nutzlos,useless,opinions,adj,foundation
+german,prima,great,opinions,adj,foundation
+german,sauer sein,to be cross,opinions,verb,foundation
+german,schade,it’s a shame,opinions,other,foundation
+german,schrecklich,horrible,opinions,adj,foundation
+german,schwierig,difficult,opinions,adj,foundation
+german,sensibel,sensitive,opinions,adj,foundation
+german,sicher,safe,opinions,adj,foundation
+german,sogar,even,opinions,other,foundation
+german,spitze,great,opinions,adj,foundation
+german,teuer,expensive,opinions,adj,foundation
+german,typisch,typical,opinions,adj,foundation
+german,überrascht,surprised,opinions,adj,foundation
+german,unglaublich,unbelievable,opinions,adj,foundation
+german,unmöglich,impossible,opinions,adj,foundation
+german,unsicher,unsure,opinions,adj,foundation
+german,vielleicht,perhaps,opinions,other,foundation
+german,völlig,completely,opinions,other,foundation
+german,vorziehen,to prefer,opinions,verb,foundation
+german,wahrscheinlich,probably,opinions,other,foundation
+german,wichtig,important,opinions,adj,foundation
+german,wirklich,really,opinions,other,foundation
+german,wunderbar,wonderful,opinions,adj,foundation
+german,wunderschön,gorgeous,opinions,adj,foundation
+german,wünschen,to wish,opinions,verb,foundation
+german,zufrieden,content,opinions,adj,foundation
+german,zustimmen,to agree,opinions,verb,foundation
+german,die Jahreszeit,season,key words,noun,foundation
+german,das Jahr,year,key words,noun,foundation
+german,der Monat,month,key words,noun,foundation
+german,genau,exactly,key words,other,foundation
+german,halb,half,key words,other,foundation
+german,der Mittag,midday,key words,noun,foundation
+german,die Mitternacht,midnight,key words,noun,foundation
+german,nachgehen,to be slow,key words,verb,foundation
+german,pünktlich,punctual,key words,adj,foundation
+german,spät,late,key words,adj,foundation
+german,die Stunde,hour,key words,noun,foundation
+german,die Uhr,clock,key words,noun,foundation
+german,um wie viel Uhr,what time,key words,other,foundation
+german,das Viertel,quarter,key words,noun,foundation
+german,vorgehen,to be fast,key words,verb,foundation
+german,wie spät ist es,what time is it,key words,other,foundation
+german,die Zeit,time,key words,noun,foundation
+german,ab und zu,now and again,key words,other,foundation
+german,der Abend,evening,key words,noun,foundation
+german,der Anfang,beginning,key words,noun,foundation
+german,der Augenblick,moment,key words,noun,foundation
+german,aus sein,to be over,key words,verb,foundation
+german,bald,soon,key words,adj,foundation
+german,damals,in those days,key words,other,foundation
+german,das Datum,date,key words,noun,foundation
+german,dauern,to last,key words,verb,foundation
+german,ehemalig,former,key words,adj,foundation
+german,einmal,once,key words,other,foundation
+german,endlich,finally,key words,other,foundation
+german,erst,at first,key words,other,foundation
+german,fast,almost,key words,other,foundation
+german,früh,early,key words,adj,foundation
+german,die Gegenwart,present,key words,noun,foundation
+german,gerade,just,key words,other,foundation
+german,gestern,yesterday,key words,other,foundation
+german,gewöhnlich,usually,key words,other,foundation
+german,gleich,immediately,key words,other,foundation
+german,heute,today,key words,other,foundation
+german,heutzutage,nowadays,key words,other,foundation
+german,im Voraus,in advance,key words,other,foundation
+german,immer,always,key words,other,foundation
+german,immer wieder,again and again,key words,other,foundation
+german,inzwischen,in the meantime,key words,other,foundation
+german,das Jahrhundert,century,key words,noun,foundation
+german,jetzt,now,key words,other,foundation
+german,kürzlich,recently,key words,other,foundation
+german,langsam,slow,key words,adj,foundation
+german,letzter,last,key words,other,foundation
+german,das Mal,time,key words,noun,foundation
+german,manchmal,sometimes,key words,other,foundation
+german,montags,on Mondays,key words,other,foundation
+german,morgen,tomorrow,key words,other,foundation
+german,der Morgen ,morning,key words,noun,foundation
+german,morgen früh,tomorrow morning,key words,other,foundation
+german,nachher,afterwards,key words,other,foundation
+german,der Nachmittag,afternoon,key words,noun,foundation
+german,nächster,next,key words,other,foundation
+german,die Nacht,night,key words,noun,foundation
+german,nachts,at night,key words,other,foundation
+german,neulich,recently,key words,other,foundation
+german,noch einmal,once more,key words,other,foundation
+german,normalerweise,normally,key words,other,foundation
+german,nun,now,key words,other,foundation
+german,plötzlich,suddenly,key words,other,foundation
+german,regelmäßig,regular,key words,adj,foundation
+german,schnell,fast,key words,adj,foundation
+german,schon,already,key words,other,foundation
+german,seit,since,key words,other,foundation
+german,selten,rarely,key words,other,foundation
+german,sofort,immediately,key words,other,foundation
+german,täglich,daily,key words,adj,foundation
+german,übermorgen,the day after tomorrow,key words,other,foundation
+german,die Vergangenheit,past,key words,noun,foundation
+german,vorgestern,the day before yesterday,key words,other,foundation
+german,vorher,beforehand,key words,other,foundation
+german,der Vormittag,morning,key words,noun,foundation
+german,wieder,again,key words,other,foundation
+german,zu Ende sein, to finish,key words,verb,foundation
+german,die Zukunft,future,key words,noun,foundation
+german,außerhalb,outside of,key words,other,foundation
+german,bleiben,to stay,key words,verb,foundation
+german,draußen,outside,key words,other,foundation
+german,drinnen,inside,key words,other,foundation
+german,drüben,over there,key words,other,foundation
+german,die Ecke,corner,key words,noun,foundation
+german,entfernt,away,key words,other,foundation
+german,geradeaus,straight ahead,key words,other,foundation
+german,hin und her,to and fro,key words,other,foundation
+german,hin und zurück,there and back,key words,other,foundation
+german,in der Nähe,nearby,key words,other,foundation
+german,irgendwo,somewhere,key words,other,foundation
+german,liegen,to lie,key words,verb,foundation
+german,die Meile,mile,key words,noun,foundation
+german,nah,near,key words,adj,foundation
+german,nirgendwo,nowhere,key words,other,foundation
+german,oben,"above, up",key words,preposition,foundation
+german,der Ort,place,key words,noun,foundation
+german,die Seite,side,key words,noun,foundation
+german,überall,everywhere,key words,other,foundation
+german,unten,at the bottom,key words,preposition,foundation
+german,vorwärts,forwards,key words,preposition,foundation
+german,weg,away,key words,preposition,foundation
+german,weit,far,key words,adj,foundation
+german,zurück,back,key words,preposition,foundation
+german,alle,all,key words,other,foundation
+german,alles,everything,key words,other,foundation
+german,anderer,other,key words,other,foundation
+german,beide,both,key words,other,foundation
+german,breit,wide,key words,adj,foundation
+german,dick,fat,key words,adj,foundation
+german,das Ding,thing,key words,noun,foundation
+german,die Dose,can,key words,noun,foundation
+german,dünn,thin,key words,adj,foundation
+german,ein bisschen,a little,key words,other,foundation
+german,ein paar,a few,key words,other,foundation
+german,eine Menge,a lot,key words,noun,foundation
+german,einige,some,key words,other,foundation
+german,einzeln,single,key words,adj,foundation
+german,etwa,roughly,key words,other,foundation
+german,die Flasche,bottle,key words,noun,foundation
+german,ganz,whole,key words,other,foundation
+german,genug,enough,key words,adj,foundation
+german,gewaltig,enormously,key words,other,foundation
+german,das Gewicht,weight,key words,noun,foundation
+german,die Größe,size,key words,noun,foundation
+german,der Karton,cardboard box,key words,noun,foundation
+german,der Kasten,box,key words,noun,foundation
+german,kaum,hardly,key words,other,foundation
+german,leer,empty,key words,adj,foundation
+german,leicht,light,key words,adj,foundation
+german,das Maß,measure,key words,noun,foundation
+german,mehrere,several,key words,other,foundation
+german,messen,to measure,key words,verb,foundation
+german,mindestens,at least,key words,other,foundation
+german,mittelgroß,medium-sized,key words,adj,foundation
+german,noch,still,key words,other,foundation
+german,die Packung,packet,key words,noun,foundation
+german,das Paket,parcel,key words,noun,foundation
+german,das Pfund,pound,key words,noun,foundation
+german,pro,per,key words,other,foundation
+german,die Schachtel,"box, packet",key words,noun,foundation
+german,die Scheibe,slice,key words,noun,foundation
+german,schwer,heavy,key words,adj,foundation
+german,das Stück,piece,key words,noun,foundation
+german,die Tüte,bag,key words,noun,foundation
+german,ungefähr,about,key words,other,foundation
+german,voll,full,key words,adj,foundation
+german,wenig,little,key words,adj,foundation
+german,wiegen,to weigh,key words,verb,foundation
+german,der Kreis,circle,key words,noun,foundation
+german,rund,round,key words,adj,foundation
+german,viereckig,square,key words,adj,foundation
+german,bedeckt,overcast,travel and tourism,adj,foundation
+german,der Blitz,lightning,travel and tourism,noun,foundation
+german,Donner der,thunder,travel and tourism,noun,foundation
+german,feucht,damp,travel and tourism,adj,foundation
+german,frieren,to freeze,travel and tourism,verb,foundation
+german,frisch,fresh,travel and tourism,adj,foundation
+german,das Gewitter,thunderstorm,travel and tourism,noun,foundation
+german,der Grad,degree,travel and tourism,noun,foundation
+german,der Hagel,hail,travel and tourism,noun,foundation
+german,heftig,severe,travel and tourism,adj,foundation
+german,der Himmel,sky,travel and tourism,noun,foundation
+german,das Klima,climate,travel and tourism,noun,foundation
+german,kühl,cool,travel and tourism,adj,foundation
+german,der Mond,moon,travel and tourism,noun,foundation
+german,nass,wet,travel and tourism,adj,foundation
+german,der Nebel,fog,travel and tourism,noun,foundation
+german,nebelig,foggy,travel and tourism,adj,foundation
+german,der Niederschlag,precipitation,travel and tourism,noun,foundation
+german,der Regen,rain,travel and tourism,noun,foundation
+german,regnen,to rain,travel and tourism,verb,foundation
+german,der Schatten,shadow,travel and tourism,noun,foundation
+german,schattig,shady,travel and tourism,adj,foundation
+german,der Regenschauer,rain shower,travel and tourism,noun,foundation
+german,scheinen,shine,travel and tourism,verb,foundation
+german,schneien,to snow,travel and tourism,verb,foundation
+german,der Sturm,storm,travel and tourism,noun,foundation
+german,stürmisch,stormy,travel and tourism,adj,foundation
+german,trocken,dry,travel and tourism,adj,foundation
+german,der Wetterbericht,weather report,travel and tourism,noun,foundation
+german,die Wettervorhersage,weather forecast,travel and tourism,noun,foundation
+german,die Wolke,cloud,travel and tourism,noun,foundation
+german,wolkig,cloudy,travel and tourism,adj,foundation
+german,auf sein,to be open,local area,verb,foundation
+german,aufmachen,to open,local area,verb,foundation
+german,die Ausfahrt,motorway exit,local area,noun,foundation
+german,der Ausgang,exit,local area,noun,foundation
+german,besetzt,occupied,local area,adj,foundation
+german,die Einfahrt,entry,local area,noun,foundation
+german,der Eingang,entrance,local area,noun,foundation
+german,der Eintritt,admission,local area,noun,foundation
+german,frei,free,local area,adj,foundation
+german,geschlossen,closed,local area,adj,foundation
+german,offen,open,local area,adj,foundation
+german,öffnen,to open,local area,verb,foundation
+german,schließen,to close,local area,verb,foundation
+german,verboten,forbidden,local area,adj,foundation
+german,zu sein,to be closed,local area,verb,foundation
+german,zumachen,to close,local area,verb,foundation
+german,falsch,wrong,key words,adj,foundation
+german,Fehler,"mistake, error",key words,noun,foundation
+german,Recht haben,to be right,key words,verb,foundation
+german,richtig,correct,key words,adj,foundation
+german,Unrecht haben,to be wrong,key words,verb,foundation
+german,verbessern,to improve,key words,verb,foundation
+german,die Verbesserung,improvement,key words,noun,foundation
+german,die Baumwolle,cotton,key words,noun,foundation
+german,bestehen aus,to consist of,key words,verb,foundation
+german,das Eisen,iron,key words,noun,foundation
+german,das Holz,wood,key words,noun,foundation
+german,das Leder,leather,key words,noun,foundation
+german,die Pappe,cardboard,key words,noun,foundation
+german,die Seide,silk,key words,noun,foundation
+german,der Stoff,material,key words,noun,foundation
+german,die Wolle,wool,key words,noun,foundation
+german,die AG,club,school,noun,foundation
+german,usw.,etc,key words,other,foundation
+german,z.B.,e.g.,key words,other,foundation
+german,allein,alone,"me, my family and friends",adj,foundation
+german,das Alter,age,"me, my family and friends",noun,foundation
+german,altmodisch,old-fashioned,"me, my family and friends",adj,foundation
+german,sich ärgern,to be annoyed,"me, my family and friends",verb,foundation
+german,auf die Nerven gehen,to get on one’s nerves,"me, my family and friends",verb,foundation
+german,auskommen mit,to get on with,"me, my family and friends",verb,foundation
+german,aussehen,to look like,"me, my family and friends",verb,foundation
+german,der Ausweis,id card,"me, my family and friends",noun,foundation
+german,der Bart,beard,"me, my family and friends",noun,foundation
+german,berühmt,famous,"me, my family and friends",adj,foundation
+german,der Besuch,visit,"me, my family and friends",noun,foundation
+german,besuchen,to visit,"me, my family and friends",verb,foundation
+german,bevorzugen,to prefer,"me, my family and friends",verb,foundation
+german,bitten,to ask,"me, my family and friends",verb,foundation
+german,der Brieffreund,pen-friend,"me, my family and friends",noun,foundation
+german,die Brille,glasses,"me, my family and friends",noun,foundation
+german,egoistisch,selfish,"me, my family and friends",adj,foundation
+german,ehrlich,honest,"me, my family and friends",adj,foundation
+german,das Einzelkind,only child,"me, my family and friends",noun,foundation
+german,das Enkelkind,grandchild,"me, my family and friends",noun,foundation
+german,entschuldigen,to apologise,"me, my family and friends",verb,foundation
+german,erlauben,to allow,"me, my family and friends",verb,foundation
+german,ernst,serious,"me, my family and friends",adj,foundation
+german,der Erwachsene,adult,"me, my family and friends",noun,foundation
+german,das Familienmitglied,family member,"me, my family and friends",noun,foundation
+german,frech,cheeky,"me, my family and friends",adj,foundation
+german,die Freundschaft,friendship,"me, my family and friends",noun,foundation
+german,sich fühlen,to feel,"me, my family and friends",verb,foundation
+german,füttern,to feed,"me, my family and friends",verb,foundation
+german,geboren,born,"me, my family and friends",verb,foundation
+german,die Geburt,birth,"me, my family and friends",noun,foundation
+german,das Geburtsdatum,date of birth,"me, my family and friends",noun,foundation
+german,der Geburtsort,place of birth,"me, my family and friends",noun,foundation
+german,geduldig,patient,"me, my family and friends",adj,foundation
+german,das Gefühl,feeling,"me, my family and friends",noun,foundation
+german,gemein,mean,"me, my family and friends",adj,foundation
+german,gern haben,to like,"me, my family and friends",verb,foundation
+german,geschieden,divorced,"me, my family and friends",adj,foundation
+german,das Geschlecht,gender,"me, my family and friends",noun,foundation
+german,getrennt,separated,"me, my family and friends",adj,foundation
+german,glatt,straight,"me, my family and friends",adj,foundation
+german,glücklich,happy,"me, my family and friends",adj,foundation
+german,der Grund,reason,"me, my family and friends",noun,foundation
+german,gut gelaunt,good-tempered,"me, my family and friends",adj,foundation
+german,schlechte Laune haben,to be in a bad mood,"me, my family and friends",verb,foundation
+german,hässlich,ugly,"me, my family and friends",adj,foundation
+german,heiraten,to marry,"me, my family and friends",verb,foundation
+german,hilfsbereit,helpful,"me, my family and friends",adj,foundation
+german,die Hochzeit,wedding,"me, my family and friends",noun,foundation
+german,höflich,polite,"me, my family and friends",adj,foundation
+german,hübsch,pretty,"me, my family and friends",adj,foundation
+german,humorlos,humourless,"me, my family and friends",adj,foundation
+german,humorvoll,humorous,"me, my family and friends",adj,foundation
+german,ich kann es nicht leiden,I can’t stand it,"me, my family and friends",other,foundation
+german,der Jugendliche,young person,"me, my family and friends",noun,foundation
+german,der Junge,boy,"me, my family and friends",noun,foundation
+german,kennen,to know,"me, my family and friends",verb,foundation
+german,kennen lernen,to get to know,"me, my family and friends",verb,foundation
+german,komisch,weird,"me, my family and friends",adj,foundation
+german,sich kümmern um,to look after,"me, my family and friends",verb,foundation
+german,der Kuss,kiss,"me, my family and friends",noun,foundation
+german,küssen,to kiss,"me, my family and friends",verb,foundation
+german,leben,to live,"me, my family and friends",verb,foundation
+german,lebhaft,lively,"me, my family and friends",adj,foundation
+german,ledig,single,"me, my family and friends",adj,foundation
+german,die Leute,people,"me, my family and friends",noun,foundation
+german,lockig,curly,"me, my family and friends",adj,foundation
+german,der Mensch,person,"me, my family and friends",noun,foundation
+german,nennen,to call,"me, my family and friends",verb,foundation
+german,nerven,to get on someone’s nerves,"me, my family and friends",verb,foundation
+german,das Ohr,ear,"me, my family and friends",noun,foundation
+german,ordentlich,tidy,"me, my family and friends",adj,foundation
+german,die Persönlichkeit,personality,"me, my family and friends",noun,foundation
+german,der Reisepass,passport,"me, my family and friends",noun,foundation
+german,ruhig,quiet,"me, my family and friends",adj,foundation
+german,sich schämen,to be ashamed,"me, my family and friends",verb,foundation
+german,sich scheiden lassen,to get divorced,"me, my family and friends",verb,foundation
+german,der Schnurrbart,moustache,"me, my family and friends",noun,foundation
+german,schüchtern,shy,"me, my family and friends",adj,foundation
+german,selbst,self,"me, my family and friends",other,foundation
+german,selbstständig,independent,"me, my family and friends",adj,foundation
+german,der Spitzname,nickname,"me, my family and friends",noun,foundation
+german,still,quiet,"me, my family and friends",adj,foundation
+german,der Streit,argument,"me, my family and friends",noun,foundation
+german,sich streiten,to argue,"me, my family and friends",verb,foundation
+german,streng,strict,"me, my family and friends",adj,foundation
+german,die Tätowierung,tattoo,"me, my family and friends",noun,foundation
+german,der Traum,dream,"me, my family and friends",noun,foundation
+german,traurig,sad,"me, my family and friends",adj,foundation
+german,sich trennen,to separate,"me, my family and friends",verb,foundation
+german,der Typ,guy,"me, my family and friends",noun,foundation
+german,unternehmungslustig,adventurous,"me, my family and friends",adj,foundation
+german,unterstützen,to support,"me, my family and friends",verb,foundation
+german,vergeben,to forgive,"me, my family and friends",verb,foundation
+german,das Verhältnis,relationship,"me, my family and friends",noun,foundation
+german,verheiratet,married,"me, my family and friends",adj,foundation
+german,sich verloben,to get engaged,"me, my family and friends",verb,foundation
+german,verlobt,engaged,"me, my family and friends",adj,foundation
+german,verstehen sich mit,to get on with,"me, my family and friends",verb,foundation
+german,der Vorname,first name,"me, my family and friends",noun,foundation
+german,sich vorstellen,to introduce oneself,"me, my family and friends",verb,foundation
+german,weinen,to cry,"me, my family and friends",verb,foundation
+german,witzig,funny,"me, my family and friends",adj,foundation
+german,der Wohnort,where you live,"me, my family and friends",noun,foundation
+german,der Zahn,tooth,"me, my family and friends",noun,foundation
+german,die zivile Partnerschaft,civil partnership,"me, my family and friends",noun,foundation
+german,zusammen,together,"me, my family and friends",adj,foundation
+german,die Zwillinge,twins,"me, my family and friends",noun,foundation
+german,drucken,to print,technology,verb,foundation
+german,der Anrufbeantworter,voicemail,technology,noun,foundation
+german,anrufen,to phone,technology,verb,foundation
+german,benutzen,to use,technology,verb,foundation
+german,sich beschreiben,to describe yourself,technology,verb,foundation
+german,der Bindestrich,hyphen,technology,noun,foundation
+german,die Daten,data,technology,noun,foundation
+german,der Drucker,printer,technology,noun,foundation
+german,empfangen,to receive,technology,verb,foundation
+german,entwickeln,to develop,technology,verb,foundation
+german,die Entwicklung,development,technology,noun,foundation
+german,funktionieren,to function,technology,verb,foundation
+german,die Gefahr,danger,technology,noun,foundation
+german,gehören zu,to belong to,technology,verb,foundation
+german,herunterladen,download,technology,verb,foundation
+german,hochladen,upload,technology,verb,foundation
+german,der Klingelton,ringtone,technology,noun,foundation
+german,lehrreich,educational,technology,adj,foundation
+german,löschen,to delete,technology,verb,foundation
+german,die Medien,media,technology,noun,foundation
+german,der Missbrauch,abuse,technology,noun,foundation
+german,missbrauchen,to abuse,technology,verb,foundation
+german,die Nachrichten,news,technology,noun,foundation
+german,das Netz,net,technology,noun,foundation
+german,das Netzwerk,network,technology,noun,foundation
+german,peinlich,embarrassing,technology,adj,foundation
+german,das Postfach,inbox,technology,noun,foundation
+german,der Punkt,dot,technology,noun,foundation
+german,der Rechner,calculator,technology,noun,foundation
+german,das Risiko,risk,technology,noun,foundation
+german,schicken,to send,technology,verb,foundation
+german,der Schrägstrich,forward slash,technology,noun,foundation
+german,der Schutz,protection,technology,noun,foundation
+german,simsen,to text,technology,verb,foundation
+german,die soziale Medien,social media,technology,noun,foundation
+german,speichern,to save ,technology,verb,foundation
+german,die Startseite,homepage,technology,noun,foundation
+german,teilen,to share,technology,verb,foundation
+german,der Unterstrich,underscore,technology,noun,foundation
+german,das WLAN,wifi,technology,noun,foundation
+german,der Abenteuerfilm,adventure film,leisure,noun,foundation
+german,sich amüsieren,to have fun,leisure,verb,foundation
+german,Ananas,pineapple,leisure,noun,foundation
+german,anfangen,to start,leisure,verb,foundation
+german,angeln,to fish,leisure,verb,foundation
+german,die Apfelsine,orange,leisure,noun,foundation
+german,die Aprikose,apricot,leisure,noun,foundation
+german,der Badeanzug,swim suit,leisure,noun,foundation
+german,die Badehose,swimming trunks,leisure,noun,foundation
+german,bedienen,to serve,leisure,verb,foundation
+german,sich beschweren,to complain,leisure,verb,foundation
+german,bestellen,to order,leisure,verb,foundation
+german,bezahlen,to pay,leisure,verb,foundation
+german,der Bildschirm,screen,leisure,noun,foundation
+german,die Birne,pear,leisure,noun,foundation
+german,die Blockflöte,recorder,leisure,noun,foundation
+german,der Blumenkohl,cauliflower,leisure,noun,foundation
+german,die Bohne,bean,leisure,noun,foundation
+german,der Braten,roast meat,leisure,noun,foundation
+german,die Bratwurst,fried sausage,leisure,noun,foundation
+german,der Durst,thirst,leisure,noun,foundation
+german,durstig,thirsty,leisure,adj,foundation
+german,das Ei,egg,leisure,noun,foundation
+german,das Eintrittsgeld,admission fee,leisure,noun,foundation
+german,die Eintrittskarte,ticket,leisure,noun,foundation
+german,die Eisdiele,ice cream parlour,leisure,noun,foundation
+german,das Eislaufen,ice-skating,leisure,noun,foundation
+german,empfehlen,to recommend,leisure,verb,foundation
+german,die Erbse,pea,leisure,noun,foundation
+german,die Erdbeere,strawberry,leisure,noun,foundation
+german,der Essig,vinegar,leisure,noun,foundation
+german,fechten,to fence,leisure,verb,foundation
+german,der Federball,badminton,leisure,noun,foundation
+german,folgen,to follow,leisure,verb,foundation
+german,das Freibad,outdoor swimming pool,leisure,noun,foundation
+german,die Frikadelle,meatball,leisure,noun,foundation
+german,der Fruchtsaft,fruit juice,leisure,noun,foundation
+german,das Gasthaus,pub,leisure,noun,foundation
+german,die Gurke,cucumber,leisure,noun,foundation
+german,die Haferflocken,porridge,leisure,noun,foundation
+german,das Hallenbad,indoor swimming pool,leisure,noun,foundation
+german,hart,hard,leisure,adj,foundation
+german,das Hauptgericht,main course,leisure,noun,foundation
+german,die Himbeere,raspberry,leisure,noun,foundation
+german,holen,to fetch,leisure,verb,foundation
+german,der Imbiss,snack,leisure,noun,foundation
+german,die Imbissbude,takeaway,leisure,noun,foundation
+german,der Jugendklub,youth club,leisure,noun,foundation
+german,der Kakao,cocoa,leisure,noun,foundation
+german,das Kännchen,teapot,leisure,noun,foundation
+german,die Kartoffel,potato,leisure,noun,foundation
+german,der Käse,cheese,leisure,noun,foundation
+german,kegeln,bowling,leisure,verb,foundation
+german,der Keks,biscuit,leisure,noun,foundation
+german,die Kirsche,cherry,leisure,noun,foundation
+german,klettern,to climb,leisure,verb,foundation
+german,der Korbball,netball,leisure,noun,foundation
+german,köstlich,delicious,leisure,adj,foundation
+german,das Kotelett,pork chop,leisure,noun,foundation
+german,der Krimi,crime film,leisure,noun,foundation
+german,lachen,to laugh,leisure,verb,foundation
+german,laufen,to run,leisure,verb,foundation
+german,lecker,tasty,leisure,adj,foundation
+german,die Leinwand,cinema screen,leisure,noun,foundation
+german,der Liebesfilm,romantic film,leisure,noun,foundation
+german,das Lied,song,leisure,noun,foundation
+german,Lust haben,to feel like,leisure,verb,foundation
+german,das Mitglied,member,leisure,noun,foundation
+german,die Nachspeise,dessert,leisure,noun,foundation
+german,die Nudeln,pasta,leisure,noun,foundation
+german,die Nuss,nut,leisure,noun,foundation
+german,das Obst,fruit,leisure,noun,foundation
+german,das Öl,oil,leisure,noun,foundation
+german,der Pfeffer,pepper,leisure,noun,foundation
+german,der Pfirsich,peach,leisure,noun,foundation
+german,die Pflaume,plum,leisure,noun,foundation
+german,der Pilz,mushroom,leisure,noun,foundation
+german,probieren,to try,leisure,verb,foundation
+german,die Pute,turkey,leisure,noun,foundation
+german,die Rechnung,bill,leisure,noun,foundation
+german,rennen,to run,leisure,verb,foundation
+german,riechen,to smell,leisure,verb,foundation
+german,ringen,to wrestle,leisure,verb,foundation
+german,rodeln,to go sledging,leisure,verb,foundation
+german,roh,raw,leisure,adj,foundation
+german,Rollschuh laufen,to go rollerskating,leisure,verb,foundation
+german,rudern,to row,leisure,verb,foundation
+german,der Saft,juice,leisure,noun,foundation
+german,die Sahne,cream,leisure,noun,foundation
+german,sammeln,to collect,leisure,verb,foundation
+german,satt,full up,leisure,adj,foundation
+german,das Schach,chess,leisure,noun,foundation
+german,scharf,spicy,leisure,adj,foundation
+german,das Schaschlik,kebab,leisure,noun,foundation
+german,schießen,to shoot,leisure,verb,foundation
+german,schmecken,to taste,leisure,verb,foundation
+german,das Segelboot,sailing boat,leisure,noun,foundation
+german,segeln,to sail,leisure,verb,foundation
+german,die Seifenoper,soap opera,leisure,noun,foundation
+german,die Selbstbedienung,self-service,leisure,noun,foundation
+german,die Sendung,programme,leisure,noun,foundation
+german,der Senf,mustard,leisure,noun,foundation
+german,die Serie,series,leisure,noun,foundation
+german,der Sitz,seat,leisure,noun,foundation
+german,sitzen,to sit,leisure,verb,foundation
+german,spannend,exciting,leisure,adj,foundation
+german,die Speisekarte,menu,leisure,noun,foundation
+german,der Speisesaal,dining hall,leisure,noun,foundation
+german,das Spielzeug,toy,leisure,noun,foundation
+german,der Spinat,spinach,leisure,noun,foundation
+german,die Sportart,type of sport,leisure,noun,foundation
+german,springen,to jump,leisure,verb,foundation
+german,das Stadion,stadium,leisure,noun,foundation
+german,die Stimme,voice,leisure,noun,foundation
+german,stricken,to knit,leisure,verb,foundation
+german,die Suppe,soup,leisure,noun,foundation
+german,süß,sweet,leisure,adj,foundation
+german,das Tagesgericht,dish of the day,leisure,noun,foundation
+german,tauchen,to dive,leisure,verb,foundation
+german,der Thunfisch,tuna,leisure,noun,foundation
+german,das Tor,goal,leisure,noun,foundation
+german,die Torte,gateau,leisure,noun,foundation
+german,der Trainingsanzug,tracksuit,leisure,noun,foundation
+german,die Trainingsschuhe,trainers,leisure,noun,foundation
+german,treffen,to meet,leisure,verb,foundation
+german,das Trinkgeld,tip,leisure,noun,foundation
+german,turnen,to do gymnastics,leisure,verb,foundation
+german,sich unterhalten,to have a chat,leisure,verb,foundation
+german,die Unterhaltung,entertainment,leisure,noun,foundation
+german,der Vegetarier,vegetarian,leisure,noun,foundation
+german,verlieren,to lose,leisure,verb,foundation
+german,die Volksmusik,folk music,leisure,noun,foundation
+german,vorschlagen,to suggest,leisure,verb,foundation
+german,die Vorspeise,starter,leisure,noun,foundation
+german,die Vorstellung,performance,leisure,noun,foundation
+german,wandern,to hike,leisure,verb,foundation
+german,weich,soft,leisure,adj,foundation
+german,die Weintraube,grape,leisure,noun,foundation
+german,die Werbung,advert,leisure,noun,foundation
+german,werfen,to throw,leisure,verb,foundation
+german,der Wettbewerb,competition,leisure,noun,foundation
+german,die Wurst,sausage,leisure,noun,foundation
+german,zahlen,to pay,leisure,verb,foundation
+german,der Zeichentrickfilm,cartoon,leisure,noun,foundation
+german,die Zeitschrift,magazine,leisure,noun,foundation
+german,die Zeitung,newspaper,leisure,noun,foundation
+german,das Zeug,thing,leisure,noun,foundation
+german,ziehen,to pull,leisure,verb,foundation
+german,die Zitrone,lemon,leisure,noun,foundation
+german,der Zucker,sugar,leisure,noun,foundation
+german,der Zuschauer,spectator,leisure,noun,foundation
+german,die Zwiebel,onion,leisure,noun,foundation
+german,der Adventskranz,advent wreath,festivals,noun,foundation
+german,anzünden,to light,festivals,verb,foundation
+german,der Aschermittwoch,Ash Wednesday,festivals,noun,foundation
+german,bekommen,to get,festivals,verb,foundation
+german,danken,to thank,festivals,verb,foundation
+german,einladen,to invite,festivals,verb,foundation
+german,die Einladung,invitation,festivals,noun,foundation
+german,die Feier,celebration,festivals,noun,foundation
+german,feiern,to celebrate,festivals,verb,foundation
+german,der Feiertag,bank holiday,festivals,noun,foundation
+german,das Fest,festival,festivals,noun,foundation
+german,das Feuerwerk,fireworks,festivals,noun,foundation
+german,sich freuen auf,to look forward to,festivals,verb,foundation
+german,der Gast,guest,festivals,noun,foundation
+german,der Gastgeber,host,festivals,noun,foundation
+german,das Geschenk,present,festivals,noun,foundation
+german,Heiliger Abend,Christmas Eve,festivals,noun,foundation
+german,Heilige Drei Könige,Epiphany,festivals,noun,foundation
+german,der Karfreitag,Good Friday,festivals,noun,foundation
+german,der Karneval,carnival,festivals,noun,foundation
+german,die Kerze,candle,festivals,noun,foundation
+german,kirchlich,religious,festivals,adj,foundation
+german,der Lebkuchen,gingerbread,festivals,noun,foundation
+german,der Maifeiertag,May Day,festivals,noun,foundation
+german,der Muttertag,Mother’s Day,festivals,noun,foundation
+german,der Neujahrstag,New Year’s Day,festivals,noun,foundation
+german,das Osterei,Easter egg,festivals,noun,foundation
+german,der Osterhase,Easter bunny,festivals,noun,foundation
+german,Ostern,Easter,festivals,noun,foundation
+german,Pfingsten,Whitsuntide,festivals,noun,foundation
+german,Sankt Nikolaus ,St Nicholas' Day,festivals,verb,foundation
+german,schmücken,to decorate,festivals,noun,foundation
+german,Silvester,New Year’s Eve,festivals,noun,foundation
+german,der Tag der Deutschen Einheit,Day of German Unity,festivals,noun,foundation
+german,der Umzug,street procession,festivals,noun,foundation
+german,der Valentinstag,St Valentine’s Day,festivals,noun,foundation
+german,sich verkleiden,to dress up,festivals,verb,foundation
+german,verstecken,to hide,festivals,verb,foundation
+german,Weihnachten,Christmas,festivals,noun,foundation
+german,der Weihnachtsbaum,Christmas tree,festivals,noun,foundation
+german,die Weihnachtslieder,Christmas carols,festivals,noun,foundation
+german,die Ampel,traffic light,home and local area,noun,foundation
+german,anbieten,to offer,home and local area,verb,foundation
+german,das Angebot,offer,home and local area,noun,foundation
+german,anmachen,to switch on,home and local area,verb,foundation
+german,anprobieren,to try on,home and local area,verb,foundation
+german,die Apotheke,pharmacy,home and local area,noun,foundation
+german,der Apparat,appliance,home and local area,noun,foundation
+german,aufräumen,to tidy up,home and local area,verb,foundation
+german,ausgeben,to spend,home and local area,verb,foundation
+german,ausmachen,to switch off,home and local area,verb,foundation
+german,der Ausverkauf,sale,home and local area,noun,foundation
+german,ausverkauft,sold out,home and local area,adj,foundation
+german,die Bäckerei,bakery,home and local area,noun,foundation
+german,der Backofen,oven,home and local area,noun,foundation
+german,baden,to have a bath,home and local area,verb,foundation
+german,die Badewanne,bathtub,home and local area,noun,foundation
+german,das Bauernhaus,farm house,home and local area,noun,foundation
+german,der Bauernhof,farm,home and local area,noun,foundation
+german,der Baum,tree,home and local area,noun,foundation
+german,das Benzin,petrol,home and local area,noun,foundation
+german,der Berg,mountain,home and local area,noun,foundation
+german,das Bild,picture,home and local area,noun,foundation
+german,die Blume,flower,home and local area,noun,foundation
+german,braten,to fry,home and local area,verb,foundation
+german,die Brücke,bridge,home and local area,noun,foundation
+german,die Bücherei,library,home and local area,noun,foundation
+german,die Buchhandlung,book shop,home and local area,noun,foundation
+german,der Bürgersteig,pavement,home and local area,noun,foundation
+german,das Dach,roof,home and local area,noun,foundation
+german,der Dachboden,attic,home and local area,noun,foundation
+german,die Decke,ceiling,home and local area,noun,foundation
+german,das Denkmal,monument,home and local area,noun,foundation
+german,der Dom,cathedral,home and local area,noun,foundation
+german,das Doppelhaus,semi-detached house,home and local area,noun,foundation
+german,die Drogerie,chemist,home and local area,noun,foundation
+german,die Ecke,corner,home and local area,noun,foundation
+german,eigen,own,home and local area,other,foundation
+german,das Einfamilienhaus,detached house,home and local area,noun,foundation
+german,einkaufen,to shop,home and local area,verb,foundation
+german,der Einkaufskorb,shopping basket,home and local area,noun,foundation
+german,die Einkaufstasche,shopping bag,home and local area,noun,foundation
+german,der Einkaufswagen,shopping trolley,home and local area,noun,foundation
+german,einpacken,to pack,home and local area,verb,foundation
+german,der Einwohner,inhabitant,home and local area,noun,foundation
+german,das Elektrogeschäft,shop for electrical goods,home and local area,noun,foundation
+german,das Erdgeschoss,ground floor,home and local area,noun,foundation
+german,die Etage,floor,home and local area,noun,foundation
+german,das Etagenbett,bunk bed,home and local area,noun,foundation
+german,die Fabrik,factory,home and local area,noun,foundation
+german,die Fahrkarte,ticket,home and local area,noun,foundation
+german,das Feld,field,home and local area,noun,foundation
+german,flach,flat,home and local area,adj,foundation
+german,die Fleischerei,butcher,home and local area,noun,foundation
+german,der Flur,hall,home and local area,noun,foundation
+german,der Fluss,river,home and local area,noun,foundation
+german,der Friseur,hairdresser,home and local area,noun,foundation
+german,der Fußboden,floor,home and local area,noun,foundation
+german,die Fußgängerzone,pedestrian zone,home and local area,noun,foundation
+german,die Gabel,fork,home and local area,noun,foundation
+german,der Gasherd,gas cooker,home and local area,noun,foundation
+german,das Gebäude,building,home and local area,noun,foundation
+german,die Gegend,area,home and local area,noun,foundation
+german,günstig,good value,home and local area,adj,foundation
+german,der Hafen,harbour,home and local area,noun,foundation
+german,die Bushaltestelle,bus stop,home and local area,noun,foundation
+german,der Hauptbahnhof,main railway station,home and local area,noun,foundation
+german,die Hauptstadt,capital city,home and local area,noun,foundation
+german,der Haushalt,household,home and local area,noun,foundation
+german,die Hecke,hedge,home and local area,noun,foundation
+german,die Heizung,heating,home and local area,noun,foundation
+german,der Helm,helmet,home and local area,noun,foundation
+german,der Herd,cooker,home and local area,noun,foundation
+german,das Hochhaus,block of flats,home and local area,noun,foundation
+german,der Hügel,hill,home and local area,noun,foundation
+german,die Insel,island,home and local area,noun,foundation
+german,das Juweliergeschäft,jeweller,home and local area,noun,foundation
+german,kaputt,broken,home and local area,adj,foundation
+german,die Kasse,till,home and local area,noun,foundation
+german,das Kaufhaus,department store,home and local area,noun,foundation
+german,der Kirchturm,church tower,home and local area,noun,foundation
+german,das Kleidergeschäft,clothes shop,home and local area,noun,foundation
+german,klingeln,to ring,home and local area,verb,foundation
+german,klopfen,to knock,home and local area,verb,foundation
+german,kochen,to cook,home and local area,verb,foundation
+german,das Kochfeld,hob,home and local area,noun,foundation
+german,die Kommode,chest of drawers,home and local area,noun,foundation
+german,die Konditorei,confectioner,home and local area,noun,foundation
+german,das Kopfkissen,pillow,home and local area,noun,foundation
+german,kostenlos,free,home and local area,adj,foundation
+german,die Kreuzung,crossroads,home and local area,noun,foundation
+german,der Kühlschrank,fridge,home and local area,noun,foundation
+german,der Kunde,customer,home and local area,noun,foundation
+german,die Kunstgalerie,art gallery,home and local area,noun,foundation
+german,der Laden,shop,home and local area,noun,foundation
+german,das Land,country,home and local area,noun,foundation
+german,die Landschaft,landscape,home and local area,noun,foundation
+german,das Lebensmittelgeschäft,grocer,home and local area,noun,foundation
+german,leeren,to empty,home and local area,verb,foundation
+german,legen,to put down,home and local area,verb,foundation
+german,das Licht,light,home and local area,noun,foundation
+german,liefern,to deliver,home and local area,verb,foundation
+german,der Löffel,spoon,home and local area,noun,foundation
+german,mähen,to mow,home and local area,verb,foundation
+german,die Mahlzeit,meal,home and local area,noun,foundation
+german,die Marke,brand,home and local area,noun,foundation
+german,der Marktplatz,marketplace,home and local area,noun,foundation
+german,die Mauer,wall,home and local area,noun,foundation
+german,das Messer,knife,home and local area,noun,foundation
+german,die Metzgerei,butcher,home and local area,noun,foundation
+german,die Miete,rent,home and local area,noun,foundation
+german,mieten,to rent,home and local area,verb,foundation
+german,die Mikrowelle,microwave,home and local area,noun,foundation
+german,die Möbel,furniture,home and local area,noun,foundation
+german,das Mofa,moped,home and local area,noun,foundation
+german,das Motorrad,motorbike,home and local area,noun,foundation
+german,nach oben,upstairs,home and local area,preposition,foundation
+german,nach unten,downstairs,home and local area,preposition,foundation
+german,der Nachbar,neighbour,home and local area,noun,foundation
+german,der Nachteil,disadvantage,home and local area,noun,foundation
+german,der Nachttisch,nightstand,home and local area,noun,foundation
+german,der Notausgang,emergency exit,home and local area,noun,foundation
+german,die Ordnung,order,home and local area,noun,foundation
+german,der Parkplatz,parking space,home and local area,noun,foundation
+german,die Pflanze,plant,home and local area,noun,foundation
+german,das Plakat,billboard,home and local area,noun,foundation
+german,der Platz,square,home and local area,noun,foundation
+german,der Preis,price,home and local area,noun,foundation
+german,putzen,to clean,home and local area,verb,foundation
+german,die Quittung,receipt,home and local area,noun,foundation
+german,der Rasen,lawn,home and local area,noun,foundation
+german,das Regal,shelf,home and local area,noun,foundation
+german,das Reihenhaus,terraced house,home and local area,noun,foundation
+german,die Reinigung,dry cleaner,home and local area,noun,foundation
+german,die Rolltreppe,escalator,home and local area,noun,foundation
+german,die Sache,thing,home and local area,noun,foundation
+german,sauber machen,to clean,home and local area,verb,foundation
+german,das Schaufenster,shop window,home and local area,noun,foundation
+german,Schlange stehen,to queue,home and local area,verb,foundation
+german,der Schlüssel,key,home and local area,noun,foundation
+german,der Schrank,cupboard,home and local area,noun,foundation
+german,das Schreibwarengeschäft,stationery shop,home and local area,noun,foundation
+german,die Schublade,drawer,home and local area,noun,foundation
+german,das Sonderangebot,special offer,home and local area,noun,foundation
+german,der Spiegel,mirror,home and local area,noun,foundation
+german,der Spielplatz,playground,home and local area,noun,foundation
+german,der Stadtrand,outskirts,home and local area,noun,foundation
+german,stecken,to put,home and local area,verb,foundation
+german,stellen,to put,home and local area,verb,foundation
+german,die Straßenbahn,tram,home and local area,noun,foundation
+german,tanken,to fill up with petrol,home and local area,verb,foundation
+german,die Tankstelle,petrol station,home and local area,noun,foundation
+german,die Tasse,cup,home and local area,noun,foundation
+german,der Teelöffel,teaspoon,home and local area,noun,foundation
+german,der Teller,plate,home and local area,noun,foundation
+german,der Teppich,carpet,home and local area,noun,foundation
+german,der Tiefkühlschrank,freezer,home and local area,noun,foundation
+german,die Tischdecke,tablecloth,home and local area,noun,foundation
+german,der Topf,pan,home and local area,noun,foundation
+german,die Treppe,stairs,home and local area,noun,foundation
+german,der Turm,tower,home and local area,noun,foundation
+german,die U-Bahn,tube,home and local area,noun,foundation
+german,umgeben von,surrounded by,home and local area,other,foundation
+german,die Umgebung,local area,home and local area,noun,foundation
+german,umziehen,to move house,home and local area,verb,foundation
+german,der Vorhang,curtain,home and local area,noun,foundation
+german,der Vorort,suburb,home and local area,noun,foundation
+german,der Vorteil,advantage,home and local area,noun,foundation
+german,der Wald,forest,home and local area,noun,foundation
+german,die Wand,wall,home and local area,noun,foundation
+german,das Warenhaus,department store,home and local area,noun,foundation
+german,das Waschbecken,wash basin,home and local area,noun,foundation
+german,die Wiese,meadow,home and local area,noun,foundation
+german,der Wintergarten,conservatory,home and local area,noun,foundation
+german,der Wohnblock,block of flats,home and local area,noun,foundation
+german,der Zebrastreifen,zebra crossing,home and local area,noun,foundation
+german,abhängig,dependent,health and social issues,adj,foundation
+german,abnehmen,to lose weight,health and social issues,verb,foundation
+german,die Ader,vein,health and social issues,noun,foundation
+german,das Altenheim,old people's home,health and social issues,noun,foundation
+german,anonym,anonymous,health and social issues,adj,foundation
+german,atmen,to breathe,health and social issues,verb,foundation
+german,aufgeben,to give up,health and social issues,verb,foundation
+german,der Ausländer,foreigner,health and social issues,noun,foundation
+german,ausländisch,foreign,health and social issues,adj,foundation
+german,betrunken,drunk,health and social issues,adj,foundation
+german,die Bewegung,movement,health and social issues,noun,foundation
+german,bewusstlos,unconscious,health and social issues,adj,foundation
+german,das Bewusstsein,consciousness,health and social issues,noun,foundation
+german,bio,organic,health and social issues,adj,foundation
+german,das Blut,blood,health and social issues,noun,foundation
+german,brechen,to be sick,health and social issues,verb,foundation
+german,die Droge,drug,health and social issues,noun,foundation
+german,der Drogenhändler,drug dealer,health and social issues,noun,foundation
+german,der Drogensüchtige,drug addict,health and social issues,noun,foundation
+german,der Einwanderer,immigrant,health and social issues,noun,foundation
+german,sich entspannen,to relax,health and social issues,verb,foundation
+german,die Ernährung,diet,health and social issues,noun,foundation
+german,Erste Hilfe,First Aid,health and social issues,noun,foundation
+german,das Fett,fat,health and social issues,noun,foundation
+german,fettig,fatty,health and social issues,adj,foundation
+german,fettleibig,obese,health and social issues,adj,foundation
+german,die Feuerwehr,fire brigade,health and social issues,noun,foundation
+german,freiwillig,voluntarily,health and social issues,other,foundation
+german,der Freiwillige,volunteer,health and social issues,noun,foundation
+german,gebrochen,broken,health and social issues,adj,foundation
+german,gesund,healthy,health and social issues,adj,foundation
+german,die Gesundheit,health,health and social issues,noun,foundation
+german,das Gewicht,weight,health and social issues,noun,foundation
+german,gewinnen,to win,health and social issues,verb,foundation
+german,die Gleichheit,equality,health and social issues,noun,foundation
+german,halten,to keep,health and social issues,verb,foundation
+german,die Hautfarbe,skin colour,health and social issues,noun,foundation
+german,das Heim,home,health and social issues,noun,foundation
+german,helfen,to help,health and social issues,verb,foundation
+german,das Herz,heart,health and social issues,noun,foundation
+german,die Hilfe,help,health and social issues,noun,foundation
+german,hilflos,helpless,health and social issues,adj,foundation
+german,krank,ill,health and social issues,adj,foundation
+german,das Krankenhaus,hospital,health and social issues,noun,foundation
+german,der Krankenwagen,ambulance,health and social issues,noun,foundation
+german,die Krankheit,illness,health and social issues,noun,foundation
+german,der Krebs,cancer,health and social issues,noun,foundation
+german,die Leber,liver,health and social issues,noun,foundation
+german,der Magen,stomach,health and social issues,noun,foundation
+german,das Medikament,medicine,health and social issues,noun,foundation
+german,menschlich,humane,health and social issues,adj,foundation
+german,der Preis,prize,health and social issues,noun,foundation
+german,die Rasse,race,health and social issues,noun,foundation
+german,der Rassismus,racism,health and social issues,noun,foundation
+german,rassistisch,racist,health and social issues,adj,foundation
+german,der Rat,advice,health and social issues,noun,foundation
+german,rauchen,to smoke,health and social issues,verb,foundation
+german,das Rote Kreuz,Red Cross,health and social issues,noun,foundation
+german,die Ruhe,peace,health and social issues,noun,foundation
+german,schädlich,harmful,health and social issues,adj,foundation
+german,der Schmerz,pain,health and social issues,noun,foundation
+german,die Sorge,worry,health and social issues,noun,foundation
+german,spenden,to donate,health and social issues,verb,foundation
+german,die Spritze,injection,health and social issues,noun,foundation
+german,spritzen,to inject,health and social issues,verb,foundation
+german,sterben,to die,health and social issues,verb,foundation
+german,die Sucht,addiction,health and social issues,noun,foundation
+german,süchtig,addicted,health and social issues,adj,foundation
+german,das Tierheim,animal shelter,health and social issues,noun,foundation
+german,tot,dead,health and social issues,adj,foundation
+german,übel,sick,health and social issues,adj,foundation
+german,der Unfall,accident,health and social issues,noun,foundation
+german,der Verkehrsunfall,traffic accident,health and social issues,noun,foundation
+german,sich verletzen,to get injured,health and social issues,verb,foundation
+german,die Verletzung,injury,health and social issues,noun,foundation
+german,weh tun,to hurt,health and social issues,verb,foundation
+german,die Wohltätigkeit,charity,health and social issues,noun,foundation
+german,die Wohltätigkeitsveranstaltung,charity event,health and social issues,noun,foundation
+german,zunehmen,to put on weight,health and social issues,verb,foundation
+german,der Abfall,rubbish,global issues,noun,foundation
+german,der Abfalleimer,rubbish bin,global issues,noun,foundation
+german,die Abgase,exhaust fumes,global issues,noun,foundation
+german,die Energiequelle,energy source,global issues,noun,foundation
+german,das Altpapier,waste paper,global issues,noun,foundation
+german,anbauen,to grow,global issues,verb,foundation
+german,arbeitslos,unemployed,global issues,adj,foundation
+german,arm,poor,global issues,adj,foundation
+german,die Armut,poverty,global issues,noun,foundation
+german,aussterben,to die out,global issues,verb,foundation
+german,bedrohen,to threaten,global issues,verb,foundation
+german,das Benzin,petrol,global issues,noun,foundation
+german,der Bettler,beggar,global issues,noun,foundation
+german,die Bevölkerung,population,global issues,noun,foundation
+german,biologisch,biological,global issues,adj,foundation
+german,der Biomüll,organic waste,global issues,noun,foundation
+german,bleifrei,lead free,global issues,adj,foundation
+german,brauchen,to need,global issues,verb,foundation
+german,der Brennstoff,fuel,global issues,noun,foundation
+german,chemisch,chemical,global issues,adj,foundation
+german,der Dieb,thief,global issues,noun,foundation
+german,die Diskriminierung,discrimination,global issues,noun,foundation
+german,einsam,lonely,global issues,adj,foundation
+german,entsorgen,to dispose of ,global issues,verb,foundation
+german,erfrieren,to freeze to death,global issues,verb,foundation
+german,der Fahrradweg,cycle lane,global issues,noun,foundation
+german,FCKWs,CFCs,global issues,noun,foundation
+german,fliehen,to flee,global issues,verb,foundation
+german,der Flüchtling,refugee,global issues,noun,foundation
+german,der Gebrauch,usage,global issues,noun,foundation
+german,gefährlich,dangerous,global issues,adj,foundation
+german,die Gesellschaft,society,global issues,noun,foundation
+german,die Gewalt,violence,global issues,noun,foundation
+german,gewalttätig,violent,global issues,adj,foundation
+german,heizen,to heat,global issues,verb,foundation
+german,die Heizung,heating,global issues,noun,foundation
+german,im Freien,outside,global issues,other,foundation
+german,der Kaugummi,chewing gum,global issues,noun,foundation
+german,die Kohle,coal,global issues,noun,foundation
+german,das Kraftwerk,power station,global issues,noun,foundation
+german,der Krieg,war,global issues,noun,foundation
+german,der Kunststoff,synthetic material,global issues,noun,foundation
+german,der Lärm,noise,global issues,noun,foundation
+german,laut,noisy,global issues,adj,foundation
+german,das Leben,life,global issues,noun,foundation
+german,die Luft,air,global issues,noun,foundation
+german,die Luftverschmutzung,air pollution,global issues,noun,foundation
+german,der Müll,rubbish,global issues,noun,foundation
+german,die Mülltonne,dustbin,global issues,noun,foundation
+german,die Not,need,global issues,noun,foundation
+german,obdachlos,homeless,global issues,adj,foundation
+german,öffentlich,public,global issues,adj,foundation
+german,das Opfer,victim,global issues,noun,foundation
+german,das Ozonloch,hole in the ozone layer,global issues,noun,foundation
+german,die Ozonschicht,ozone layer,global issues,noun,foundation
+german,das Pfand,deposit,global issues,noun,foundation
+german,reich,rich,global issues,adj,foundation
+german,reinigen,to clean,global issues,verb,foundation
+german,sauber,clean,global issues,adj,foundation
+german,der Sauerstoff,oxygen,global issues,noun,foundation
+german,der saure Regen,acid rain,global issues,noun,foundation
+german,schaden,to harm,global issues,verb,foundation
+german,der Schaden,damage,global issues,noun,foundation
+german,schädlich,harmful,global issues,adj,foundation
+german,die Schale,peel,global issues,noun,foundation
+german,schmutzig,dirty,global issues,adj,foundation
+german,schützen,to protect,global issues,verb,foundation
+german,schwach,weak,global issues,adj,foundation
+german,die Solarzelle,solar cell,global issues,noun,foundation
+german,die Sonnenenergie,solar energy,global issues,noun,foundation
+german,die Sozialhilfe,income support,global issues,noun,foundation
+german,die Sozialwohnung,council flat,global issues,noun,foundation
+german,sparen,to save,global issues,verb,foundation
+german,die Spraydose,aerosol,global issues,noun,foundation
+german,stark,strong,global issues,adj,foundation
+german,stehlen,to steal,global issues,verb,foundation
+german,die Suppenküche,soup kitchen,global issues,noun,foundation
+german,der Treibhauseffekt,greenhouse effect,global issues,noun,foundation
+german,überbevölkert,over-populated,global issues,adj,foundation
+german,die ultraviolette Strahlen,ultra-violet rays,global issues,noun,foundation
+german,die Umfrage,survey,global issues,noun,foundation
+german,die Umwelt,environment,global issues,noun,foundation
+german,umweltfreundlich,environmentally friendly,global issues,adj,foundation
+german,unterstützen,to support,global issues,verb,foundation
+german,die Unterstützung,support,global issues,noun,foundation
+german,der Verbrauch,consumption,global issues,noun,foundation
+german,das Verbrechen,crime,global issues,noun,foundation
+german,der Verbrecher,criminal,global issues,noun,foundation
+german,der Verkehr,traffic,global issues,noun,foundation
+german,das Verkehrsmittel,transport,global issues,noun,foundation
+german,die Verpackung,packaging,global issues,noun,foundation
+german,verschmutzen,to pollute,global issues,verb,foundation
+german,die Verschmutzung,pollution,global issues,noun,foundation
+german,verschwinden,to disappear,global issues,verb,foundation
+german,vertreiben,to drive out,global issues,verb,foundation
+german,die Wasserkraft,hydroelectric power,global issues,noun,foundation
+german,die Wasserverschmutzung,water pollution,global issues,noun,foundation
+german,wegwerfen,to throw away,global issues,verb,foundation
+german,weltweit,worldwide,global issues,adj,foundation
+german,zerstören,to destroy,global issues,verb,foundation
+german,das Zuhause,home,global issues,noun,foundation
+german,abfahren,to leave,travel and tourism,verb,foundation
+german,abholen,to collect,travel and tourism,verb,foundation
+german,ankommen,to arrive,travel and tourism,verb,foundation
+german,Asien,Asia,travel and tourism,noun,foundation
+german,der Ausflug,trip,travel and tourism,noun,foundation
+german,ausfüllen,to fill in,travel and tourism,verb,foundation
+german,das Ausland,abroad,travel and tourism,noun,foundation
+german,die Aussicht,view,travel and tourism,noun,foundation
+german,der Bahnsteig,platform,travel and tourism,noun,foundation
+german,Belgien,Belgium,travel and tourism,noun,foundation
+german,beliebt,popular,travel and tourism,adj,foundation
+german,besichtigen,to visit,travel and tourism,verb,foundation
+german,bleiben,to stay,travel and tourism,verb,foundation
+german,der Blick,view,travel and tourism,noun,foundation
+german,das Boot,boat,travel and tourism,noun,foundation
+german,der Briefkasten,letter box,travel and tourism,noun,foundation
+german,die Briefmarke,postage stamp,travel and tourism,noun,foundation
+german,die Burg,castle,travel and tourism,noun,foundation
+german,der Campingplatz,campsite,travel and tourism,noun,foundation
+german,die Donau,Danube,travel and tourism,noun,foundation
+german,das Doppelzimmer,double room,travel and tourism,noun,foundation
+german,das Einzelzimmer,single room,travel and tourism,noun,foundation
+german,entwerten,to validate,travel and tourism,verb,foundation
+german,die Erinnerung,memory,travel and tourism,noun,foundation
+german,erleben,to experience,travel and tourism,verb,foundation
+german,die Ermäßigung,reduction,travel and tourism,noun,foundation
+german,die Fähre,ferry,travel and tourism,noun,foundation
+german,die Fahrkarte,ticket,travel and tourism,noun,foundation
+german,der Fahrkartenautomat,ticket machine,travel and tourism,noun,foundation
+german,der Fahrkartenschalter,ticket office,travel and tourism,noun,foundation
+german,der Fahrpreis,fare,travel and tourism,noun,foundation
+german,die Fahrradvermietung,bike hire,travel and tourism,noun,foundation
+german,die Fahrt,journey,travel and tourism,noun,foundation
+german,der Flug,flight,travel and tourism,noun,foundation
+german,der Flughafen,airport,travel and tourism,noun,foundation
+german,das Flugzeug,plane,travel and tourism,noun,foundation
+german,das Formular,form,travel and tourism,noun,foundation
+german,der Fotoapparat,camera,travel and tourism,noun,foundation
+german,die Führung,guided tour,travel and tourism,noun,foundation
+german,das Gepäck,luggage,travel and tourism,noun,foundation
+german,das Gleis,platform,travel and tourism,noun,foundation
+german,Griechenland,Greece,travel and tourism,noun,foundation
+german,die Halbpension,half board,travel and tourism,noun,foundation
+german,herumfahren,to travel around,travel and tourism,verb,foundation
+german,die Jugendherberge,youth hostel,travel and tourism,noun,foundation
+german,der Koffer,suitcase,travel and tourism,noun,foundation
+german,Köln,Cologne,travel and tourism,noun,foundation
+german,die Küste,coast,travel and tourism,noun,foundation
+german,die Linie,line,travel and tourism,noun,foundation
+german,das Meer,sea,travel and tourism,noun,foundation
+german,das Mittelmeer,Mediterranean,travel and tourism,noun,foundation
+german,München,Munich,travel and tourism,noun,foundation
+german,der Notausgang,emergency exit,travel and tourism,noun,foundation
+german,die Öffnungszeiten,opening times,travel and tourism,noun,foundation
+german,örtlich,local,travel and tourism,adj,foundation
+german,die Ostsee,Baltic Sea,travel and tourism,noun,foundation
+german,die Panne,breakdown,travel and tourism,noun,foundation
+german,der Passagier,passenger,travel and tourism,noun,foundation
+german,die Pension,guesthouse,travel and tourism,noun,foundation
+german,Polen,Poland,travel and tourism,noun,foundation
+german,die Reise,journey,travel and tourism,noun,foundation
+german,das Reisebüro,travel agency,travel and tourism,noun,foundation
+german,der Reisebus,coach,travel and tourism,noun,foundation
+german,reisen,to travel,travel and tourism,verb,foundation
+german,der Reisende,traveller,travel and tourism,noun,foundation
+german,der Reisescheck,traveller’s cheque,travel and tourism,noun,foundation
+german,die Reisetasche,travel bag,travel and tourism,noun,foundation
+german,das Reiseziel,destination,travel and tourism,noun,foundation
+german,der Rhein,Rhine,travel and tourism,noun,foundation
+german,die Richtung,direction,travel and tourism,noun,foundation
+german,die Rundfahrt,tour,travel and tourism,noun,foundation
+german,Russland,Russia,travel and tourism,noun,foundation
+german,das Schließfach,locker,travel and tourism,noun,foundation
+german,das Schloss,palace,travel and tourism,noun,foundation
+german,der See,lake,travel and tourism,noun,foundation
+german,die See,sea,travel and tourism,noun,foundation
+german,seekrank,sea sick,travel and tourism,adj,foundation
+german,sehenswert,worth seeing,travel and tourism,adj,foundation
+german,die Sehenswürdigkeit,tourist attraction,travel and tourism,noun,foundation
+german,der Sicherheitsgurt,seatbelt,travel and tourism,noun,foundation
+german,sich sonnen,to sunbathe,travel and tourism,verb,foundation
+german,der Sonnenbrand,sunburn,travel and tourism,noun,foundation
+german,die Sonnencreme,suntan lotion,travel and tourism,noun,foundation
+german,der Speisewagen,dining car,travel and tourism,noun,foundation
+german,der Stadtbummel,stroll through town,travel and tourism,noun,foundation
+german,die Stadtrundfahrt,city tour,travel and tourism,noun,foundation
+german,der Stau,traffic jam,travel and tourism,noun,foundation
+german,der Strand,beach,travel and tourism,noun,foundation
+german,die Straßenkarte,map,travel and tourism,noun,foundation
+german,suchen,to look for,travel and tourism,verb,foundation
+german,die Überfahrt,sea crossing,travel and tourism,noun,foundation
+german,übernachten,to stay overnight,travel and tourism,verb,foundation
+german,die Übernachtung,overnight stay,travel and tourism,noun,foundation
+german,die Übernachtung mit Frühstück,B&B,travel and tourism,noun,foundation
+german,überqueren,to cross,travel and tourism,verb,foundation
+german,umsteigen,to change transport,travel and tourism,verb,foundation
+german,unterwegs,on the way,travel and tourism,adj,foundation
+german,der Urlaub,holiday,travel and tourism,noun,foundation
+german,verbringen,to spend,travel and tourism,verb,foundation
+german,verpassen,to miss,travel and tourism,verb,foundation
+german,die Verspätung,delay,travel and tourism,noun,foundation
+german,die Vollpension,full board,travel and tourism,noun,foundation
+german,warten auf,to wait for,travel and tourism,verb,foundation
+german,der Wartesaal,waiting room,travel and tourism,noun,foundation
+german,weg,away,travel and tourism,adj,foundation
+german,der Weg,way,travel and tourism,noun,foundation
+german,wegfahren,to go away,travel and tourism,verb,foundation
+german,weiterfahren,to travel on,travel and tourism,verb,foundation
+german,wieder,again,travel and tourism,other,foundation
+german,Wien,Vienna,travel and tourism,noun,foundation
+german,der Wohnwagen,caravan,travel and tourism,noun,foundation
+german,das Zelt,tent,travel and tourism,noun,foundation
+german,zelten,to camp,travel and tourism,verb,foundation
+german,das Zweibettzimmer,twin bed room,travel and tourism,noun,foundation
+german,der Direktor,headteacher,education,noun,foundation
+german,das Fach,subject,education,noun,foundation
+german,die Fremdsprache,foreign language,education,noun,foundation
+german,gerecht,fair,education,adj,foundation
+german,klug,clever,education,adj,foundation
+german,lehren,to teach,education,verb,foundation
+german,das Schulfach,school subject,education,noun,foundation
+german,der Schulleiter,headteacher,education,noun,foundation
+german,die Stunde,lesson,education,noun,foundation
+german,ungerecht,unfair,education,adj,foundation
+german,Werken,DT,education,noun,foundation
+german,das Abschlusszeugnis,school leaving certificate,education,noun,foundation
+german,der Anspitzer,pencil sharpener,education,noun,foundation
+german,die Antwort,answer,education,noun,foundation
+german,antworten,to answer,education,verb,foundation
+german,sich anziehen,to get dressed,education,verb,foundation
+german,der Anzug,suit,education,noun,foundation
+german,aufpassen,to pay attention,education,verb,foundation
+german,aufstehen,to get up,education,verb,foundation
+german,aufwachen,to wake up,education,verb,foundation
+german,die Aula,school hall,education,noun,foundation
+german,der Austausch,exchange,education,noun,foundation
+german,die Auswahl,choice,education,noun,foundation
+german,sich ausziehen,to get undressed,education,verb,foundation
+german,bestehen,to pass,education,verb,foundation
+german,blau machen,to truant,education,verb,foundation
+german,die Bluse,blouse,education,noun,foundation
+german,dauern,to last,education,verb,foundation
+german,der Erfolg,success,education,noun,foundation
+german,erfolgreich,successful,education,adj,foundation
+german,erklären,to explain,education,verb,foundation
+german,erzählen,to tell,education,verb,foundation
+german,faul,lazy,education,adj,foundation
+german,fehlen,to be missing,education,verb,foundation
+german,die Ferien,holidays,education,noun,foundation
+german,fleißig,hardworking,education,adj,foundation
+german,die Frage,question,education,noun,foundation
+german,fragen,to ask,education,verb,foundation
+german,die Ganztagsschule,all-day school,education,noun,foundation
+german,die Gesamtschule,comprehensive school,education,noun,foundation
+german,gründen,to found,education,verb,foundation
+german,die Grundschule,primary school,education,noun,foundation
+german,das Gymnasium,grammar school,education,noun,foundation
+german,die Hauptschule,secondary school,education,noun,foundation
+german,der Hausmeister,caretaker,education,noun,foundation
+german,das Hemd,shirt,education,noun,foundation
+german,die Hose,trousers,education,noun,foundation
+german,das Internat,boarding school,education,noun,foundation
+german,die Klassenarbeit,test,education,noun,foundation
+german,die Klassenfahrt,school trip,education,noun,foundation
+german,das Kleid,dress,education,noun,foundation
+german,korrigieren,to correct,education,verb,foundation
+german,die Krawatte,tie,education,noun,foundation
+german,die Kreide,chalk,education,noun,foundation
+german,das Labor,laboratory,education,noun,foundation
+german,das Lehrerzimmer,staff room,education,noun,foundation
+german,das Lineal,ruler,education,noun,foundation
+german,malen,to paint,education,verb,foundation
+german,die Mittagspause,lunch break,education,noun,foundation
+german,mündlich,orally,education,other,foundation
+german,nachsitzen,to have a detention,education,verb,foundation
+german,die Note,mark,education,noun,foundation
+german,der Notendruck,pressure to achieve good marks/grades,education,noun,foundation
+german,die Pause,break,education,noun,foundation
+german,plaudern,to chat,education,verb,foundation
+german,die Prüfung,exam,education,noun,foundation
+german,sich rasieren,to shave,education,verb,foundation
+german,der Raum,room,education,noun,foundation
+german,die Realschule,secondary school,education,noun,foundation
+german,rechnen,to calculate,education,verb,foundation
+german,die Regel,rule,education,noun,foundation
+german,der Rock,skirt,education,noun,foundation
+german,schaffen,to manage,education,verb,foundation
+german,der Schal,scarf,education,noun,foundation
+german,sich schminken,to put on makeup,education,verb,foundation
+german,schriftlich,written,education,adj,foundation
+german,der Schüler,student,education,noun,foundation
+german,der Schulhof,playground,education,noun,foundation
+german,schwatzen,to chatter,education,verb,foundation
+german,die Seite,page,education,noun,foundation
+german,das Sekretariat,school office,education,noun,foundation
+german,sich setzen,to sit down,education,verb,foundation
+german,sitzen bleiben,to repeat a school year,education,verb,foundation
+german,das Sprachlabor,language lab,education,noun,foundation
+german,der Stundenplan,timetable,education,noun,foundation
+german,die Tafel,whiteboard,education,noun,foundation
+german,die Turnhalle,sports hall,education,noun,foundation
+german,üben,to practise,education,verb,foundation
+german,die Übung,exercise,education,noun,foundation
+german,der Umkleideraum,changing room,education,noun,foundation
+german,sich umziehen,to get changed,education,verb,foundation
+german,der Unterricht,teaching,education,noun,foundation
+german,unterrichten,to teach,education,verb,foundation
+german,verlassen,to leave,education,verb,foundation
+german,die Versammlung,assembly,education,noun,foundation
+german,verstehen,to understand,education,verb,foundation
+german,versuchen,to try,education,verb,foundation
+german,wählen,to choose,education,verb,foundation
+german,sich waschen,to have a wash,education,verb,foundation
+german,wiederholen,to repeat,education,verb,foundation
+german,wissen,to know,education,verb,foundation
+german,das Wörterbuch,dictionary,education,noun,foundation
+german,die Zahnbürste,toothbrush,education,noun,foundation
+german,die Zahnpasta,toothpaste,education,noun,foundation
+german,zeichnen,to draw,education,verb,foundation
+german,das Zeugnis,school report,education,noun,foundation
+german,zuhören,to listen,education,verb,foundation
+german,der Azubi,apprentice,education,noun,foundation
+german,das Abitur,A-level,education,noun,foundation
+german,der Abiturient,A-level students,education,noun,foundation
+german,arbeiten,to work,education,verb,foundation
+german,dasArbeitspraktikum,work experience,education,noun,foundation
+german,die Ausbildung,education,education,noun,foundation
+german,der Berufsberater,careers adviser,education,noun,foundation
+german,die Berufsschule,vocational training school,education,noun,foundation
+german,sich bewerben um,to apply for,education,verb,foundation
+german,die Bewerbung,application,education,noun,foundation
+german,der Brief,letter,education,noun,foundation
+german,der Chef,boss,education,noun,foundation
+german,sich entscheiden,to decide,education,verb,foundation
+german,die Erfahrung,experience,education,noun,foundation
+german,fertig,ready,education,adj,foundation
+german,der Führerschein,driving licence,education,noun,foundation
+german,die Gelegenheit,opportunity,education,noun,foundation
+german,der Kollege,colleague,education,noun,foundation
+german,der Kurs,course,education,noun,foundation
+german,der Lebenslauf,CV,education,noun,foundation
+german,die Lehre,apprenticeship,education,noun,foundation
+german,der Lohn,wage,education,noun,foundation
+german,der Mindestlohn,minimum wage,education,noun,foundation
+german,der Nebenjob,part-time job,education,noun,foundation
+german,die Oberstufe,sixth-form,education,noun,foundation
+german,der Rat,advice,education,noun,foundation
+german,das Semester,term,education,noun,foundation
+german,der Studienplatz,university place,education,noun,foundation
+german,das Studium,studies,education,noun,foundation
+german,theoretisch,theoretical,education,adj,foundation
+german,verdienen,to earn,education,verb,foundation
+german,der Angestellte,employee,work,noun,foundation
+german,der Apotheker,pharmacist,work,noun,foundation
+german,die Arbeitszeit,work hours,work,noun,foundation
+german,der Bäcker,baker,work,noun,foundation
+german,der Bauarbeiter,builder,work,noun,foundation
+german,bauen,to build,work,verb,foundation
+german,der Bauer,farmer,work,noun,foundation
+german,der Beamte,civil servant,work,noun,foundation
+german,der Beruf,job,work,noun,foundation
+german,berufstätig,employed,work,adj,foundation
+german,beschäftigt,busy,work,adj,foundation
+german,beschließen,to decide,work,verb,foundation
+german,besitzen,to own,work,verb,foundation
+german,der Besitzer,owner,work,noun,foundation
+german,die Bezahlung,payment,work,noun,foundation
+german,der Briefträger,postman,work,noun,foundation
+german,das Büro,office,work,noun,foundation
+german,erfüllen,to fulfil,work,verb,foundation
+german,der Feuerwehrmann,fire fighter,work,noun,foundation
+german,der Fleischer,butcher,work,noun,foundation
+german,der Friseur,hairdresser,work,noun,foundation
+german,ganztags,all day,work,adj,foundation
+german,der Gärtner,gardener,work,noun,foundation
+german,das Gehalt,salary,work,noun,foundation
+german,die Halbtagsarbeit,part time employment,work,noun,foundation
+german,die Hausfrau,house wife,work,noun,foundation
+german,die Karriere,career,work,noun,foundation
+german,der Kassierer,cashier,work,noun,foundation
+german,der Klempner,plumber,work,noun,foundation
+german,der Koch,chef,work,noun,foundation
+german,der Krankenpfleger,nurse,work,noun,foundation
+german,der LKW-Fahrer,lorry driver,work,noun,foundation
+german,der Maler,"painter, decorator",work,noun,foundation
+german,der Metzger,butcher,work,noun,foundation
+german,der Pfarrer,vicar,work,noun,foundation
+german,die Polizei,police,work,noun,foundation
+german,der Polizist,policeman,work,noun,foundation
+german,der Postbote,postman,work,noun,foundation
+german,der Rentner,pensioner,work,noun,foundation
+german,der Schauspieler,actor,work,noun,foundation
+german,die Schichtarbeit,shift work,work,noun,foundation
+german,der Teilzeitjob,part time job,work,noun,foundation
+german,der Termin,appointment,work,noun,foundation
+german,der Tischler,carpenter,work,noun,foundation
+german,der Verkäufer,shop assistant,work,noun,foundation
+german,die Vollzeitarbeit,full time work,work,noun,foundation
+german,das Vorstellungsgespräch,job interview,work,noun,foundation
+german,die Werkstatt,garage,work,noun,foundation
+german,der Wunsch,wish,work,noun,foundation
+german,der Alleinerziehende,single parent,"me, my family and friends",noun,higher
+german,alleinstehend,single,"me, my family and friends",adj,higher
+german,der Angeber,"show off, poser","me, my family and friends",noun,higher
+german,aufpassen auf,to look after,"me, my family and friends",verb,higher
+german,ausgeglichen,balanced,"me, my family and friends",adj,higher
+german,der Bekannte,acquaintance,"me, my family and friends",noun,higher
+german,die Beziehung,relationship,"me, my family and friends",noun,higher
+german,die Braut,bride,"me, my family and friends",noun,higher
+german,der Bräutigam,groom,"me, my family and friends",noun,higher
+german,die Ehe,marriage,"me, my family and friends",noun,higher
+german,eifersüchtig,jealous,"me, my family and friends",adj,higher
+german,der Sinn für Humor,sense of humour,"me, my family and friends",noun,higher
+german,eingebildet,conceited,"me, my family and friends",adj,higher
+german,der Enkel,grandson,"me, my family and friends",noun,higher
+german,die Enkelin,granddaughter,"me, my family and friends",noun,higher
+german,die gleichgeschlechtliche Ehe,same-sex marriage,"me, my family and friends",noun,higher
+german,großzügig,generous,"me, my family and friends",adj,higher
+german,der Junggeselle,bachelor,"me, my family and friends",noun,higher
+german,lebhaft,lively,"me, my family and friends",adj,higher
+german,leiden,to suffer,"me, my family and friends",verb,higher
+german,minderjährig,underage,"me, my family and friends",adj,higher
+german,miteinander,with each other,"me, my family and friends",other,higher
+german,der Neffe,nephew,"me, my family and friends",noun,higher
+german,die Nichte,niece,"me, my family and friends",noun,higher
+german,die Schulter,shoulder,"me, my family and friends",noun,higher
+german,der Schwager,brother-in-law,"me, my family and friends",noun,higher
+german,die Schwägerin,sister-in-law,"me, my family and friends",noun,higher
+german,selbstbewusst,self-confident,"me, my family and friends",adj,higher
+german,die Trauung,wedding ceremony,"me, my family and friends",noun,higher
+german,treu,faithful,"me, my family and friends",adj,higher
+german,der Verlobte,fiance,"me, my family and friends",noun,higher
+german,verrückt,crazy,"me, my family and friends",adj,higher
+german,der Verwandte,relative,"me, my family and friends",noun,higher
+german,die Verwandtschaft,relatives,"me, my family and friends",noun,higher
+german,verzeihen,to forgive,"me, my family and friends",verb,higher
+german,volljährig,of age,"me, my family and friends",adj,higher
+german,zurechtkommen mit,to cope with,"me, my family and friends",verb,higher
+german,zuverlässig,reliable,"me, my family and friends",adj,higher
+german,zweifeln,to doubt,"me, my family and friends",,higher
+german,die Anwendungen,applications,technology,noun,higher
+german,das Betriebssystem,operating system,technology,noun,higher
+german,die Einstellungen,settings,technology,noun,higher
+german,leistungsstark,powerful,technology,adj,higher
+german,die Sicherheit,safety,technology,noun,higher
+german,aufnehmen,to record,leisure,verb,higher
+german,aufregend,exciting,leisure,adj,higher
+german,das Bergsteigen,mountain climbing,leisure,noun,higher
+german,der Dirigent,conductor,leisure,noun,higher
+german,die Ente,duck,leisure,noun,higher
+german,das Ergebnis,result,leisure,noun,higher
+german,ermüdend,tiring,leisure,adj,higher
+german,der Flachbildschirm,flat screen TV,leisure,noun,higher
+german,die Flimmerkiste,telly,leisure,noun,higher
+german,die Forelle,trout,leisure,noun,higher
+german,die Gans,goose,leisure,noun,higher
+german,die Geige,violin,leisure,noun,higher
+german,geräuchert,smoked,leisure,adj,higher
+german,die Halbfettmilch,semi-skimmed milk,leisure,noun,higher
+german,hausgemacht,homemade,leisure,adj,higher
+german,der Honig,honey,leisure,noun,higher
+german,das Kalbfleisch,veal,leisure,noun,higher
+german,der Knoblauch,garlic,leisure,noun,higher
+german,der Lachs,salmon,leisure,noun,higher
+german,das Lammfleisch,lamb,leisure,noun,higher
+german,die Leichtathletik,athletics,leisure,noun,higher
+german,die Magermilch,skimmed milk,leisure,noun,higher
+german,das Mehl,flour,leisure,noun,higher
+german,die Querflöte,flute,leisure,noun,higher
+german,das Rennen,race,leisure,noun,higher
+german,das Rindfleisch,beef,leisure,noun,higher
+german,das Rührei,scrambled eggs,leisure,noun,higher
+german,das Schlagzeug,drums,leisure,noun,higher
+german,Schlittschuh laufen,ice skating,leisure,verb,higher
+german,schmackhaft,tasty,leisure,adj,higher
+german,das Schweinefleisch,pork,leisure,noun,higher
+german,das Spiegelei,fried egg,leisure,noun,higher
+german,das Sprudelwasser,sparkling water,leisure,noun,higher
+german,der Truthahn,turkey,leisure,noun,higher
+german,die Überraschung,surprise,leisure,noun,higher
+german,der Untertitel,subtitle,leisure,noun,higher
+german,der Verein,club,leisure,noun,higher
+german,das Vergnügen,enjoyment,leisure,noun,higher
+german,die Vollmilch,full fat milk,leisure,noun,higher
+german,würzig,spicy,leisure,adj,higher
+german,der Aprilscherz,April fool’s trick,festivals,noun,higher
+german,die Gastfreundschaft,hospitality,festivals,noun,higher
+german,der Tag der Arbeit,May Day,festivals,noun,higher
+german,der Abstellraum,storeroom,home and local area,noun,higher
+german,ausschalten,to switch off,home and local area,verb,higher
+german,das Besteck,cutlery,home and local area,noun,higher
+german,der Brunnen,well,home and local area,noun,higher
+german,die Einbahnstraße,one way street,home and local area,noun,higher
+german,einschalten,to switch on,home and local area,verb,higher
+german,die Essecke,eating area,home and local area,noun,higher
+german,der Fahrschein,ticket,home and local area,noun,higher
+german,das Gerät,appliance,home and local area,noun,higher
+german,geräumig,roomy,home and local area,adj,higher
+german,das Geschirr,crockery,home and local area,noun,higher
+german,gratis,free of charge,home and local area,adj,higher
+german,die Grünanlage,park,home and local area,noun,higher
+german,das Mehrfamilienhaus,apartment block,home and local area,noun,higher
+german,das Möbelstück,piece of furniture,home and local area,noun,higher
+german,die öffentliche Verkehrsmittel,public transport,home and local area,noun,higher
+german,pleite,skint,home and local area,adj,higher
+german,preiswert,good value,home and local area,adj,higher
+german,der Rabatt,discount,home and local area,noun,higher
+german,die Sackgasse,cul-de-sac,home and local area,noun,higher
+german,die Sparkasse,savings bank,home and local area,noun,higher
+german,der Stadtteil,part of town,home and local area,noun,higher
+german,das Stadtviertel,district,home and local area,noun,higher
+german,das Stockwerk,floor,home and local area,noun,higher
+german,der Strom,electricity,home and local area,noun,higher
+german,die Tiefkühltruhe,chest freezer,home and local area,noun,higher
+german,das Treppenhaus,staircase,home and local area,noun,higher
+german,umsonst,in vain,home and local area,other,higher
+german,der Umzug,move,home and local area,noun,higher
+german,der Wolkenkratzer,skyscraper,home and local area,noun,higher
+german,abstinent,teetotal,health and social issues,adj,higher
+german,der Atem,breath,health and social issues,noun,higher
+german,die Atembeschwerden,breathing difficulties,health and social issues,noun,higher
+german,der Bedürftige,person in need,health and social issues,noun,higher
+german,begehen,to perpetrate,health and social issues,verb,higher
+german,benachteiligen,to disadvantage,health and social issues,verb,higher
+german,sich bewegen,to move,health and social issues,verb,higher
+german,die Drogenberatungsstelle,advice centre for drug addicts,health and social issues,noun,higher
+german,ehrenamtlich,honorary,health and social issues,adj,higher
+german,einatmen,to breathe in,health and social issues,verb,higher
+german,die Eingliederung,integration,health and social issues,noun,higher
+german,einnehmen,to take in,health and social issues,verb,higher
+german,die Entziehungskur,rehab,health and social issues,noun,higher
+german,sich erbrechen,to be sick,health and social issues,verb,higher
+german,fettarm,low in fat,health and social issues,adj,higher
+german,das Gehirn,brain,health and social issues,noun,higher
+german,lebendig,alive,health and social issues,adj,higher
+german,magersüchtig,anorexic,health and social issues,adj,higher
+german,das Mindesthaltbarkeitsdatum,best before date,health and social issues,noun,higher
+german,die Nahrung,food,health and social issues,noun,higher
+german,die Rassenvorurteile,racial prejudice,health and social issues,noun,higher
+german,der Rassist,racist,health and social issues,noun,higher
+german,der Raucherhusten,smoker’s cough,health and social issues,noun,higher
+german,das Rauschgift,narcotic,health and social issues,noun,higher
+german,die Straftat,crime,health and social issues,noun,higher
+german,die Süßigkeiten,sweets,health and social issues,noun,higher
+german,die Überdosis,overdose,health and social issues,noun,higher
+german,übergewichtig,overweight,health and social issues,adj,higher
+german,vermeiden,to avoid,health and social issues,verb,higher
+german,die Abholzung,deforestation,global issues,noun,higher
+german,die Auspuffgase,exhaust fumes,global issues,noun,higher
+german,bedürftig,needy,global issues,adj,higher
+german,das Düngemittel,fertiliser,global issues,noun,higher
+german,die Einwegflasche,non-recyclable bottle,global issues,noun,higher
+german,die Hauptverkehrszeit,rush hour,global issues,noun,higher
+german,die Müllentsorgung,waste disposal,global issues,noun,higher
+german,das Obdachlosenheim,hostel for homeless people,global issues,noun,higher
+german,überschreiten,to exceed,global issues,verb,higher
+german,verpesten,to pollute,global issues,verb,higher
+german,verschwenden,to waste,global issues,verb,higher
+german,verwenden,to use,global issues,verb,higher
+german,wiederverwerten,to recycle,global issues,verb,higher
+german,die Wiederverwertung,recycling,global issues,noun,higher
+german,das Andenken,souvenir,travel and tourism,noun,higher
+german,der Ärmelkanal,English Channel,travel and tourism,noun,higher
+german,der Aufenthalt,stay,travel and tourism,noun,higher
+german,die Auskunft,information,travel and tourism,noun,higher
+german,die Autovermietung,car rental,travel and tourism,noun,higher
+german,sich beeilen,to hurry,travel and tourism,verb,higher
+german,begleiten,to accompany,travel and tourism,verb,higher
+german,bestätigen,to confirm,travel and tourism,verb,higher
+german,der Bodensee,Lake Constance,travel and tourism,noun,higher
+german,der Dampfer,steam boat,travel and tourism,noun,higher
+german,der Empfang,hotel reception,travel and tourism,noun,higher
+german,entdecken,to discover,travel and tourism,verb,higher
+german,sich erinnern,to remember,travel and tourism,verb,higher
+german,der Fahrradverleih,bike hire,travel and tourism,noun,higher
+german,Genf,Geneva,travel and tourism,noun,higher
+german,die Gepäckaufbewahrung,left luggage,travel and tourism,noun,higher
+german,die Klimaanlage,air conditioning,travel and tourism,noun,higher
+german,der Prospekt,brochure,travel and tourism,noun,higher
+german,der Strandkorb,wicker beach chair,travel and tourism,noun,higher
+german,die Verbindung,connection,travel and tourism,noun,higher
+german,das Verkehrsamt,tourist information office,travel and tourism,noun,higher
+german,der Zoll,customs,travel and tourism,noun,higher
+german,der Zuschlag,surcharge,travel and tourism,noun,higher
+german,der Fremdsprachenassistent,language assistant,education,noun,higher
+german,abschreiben,to copy,education,verb,higher
+german,abwesend,absent,education,adj,higher
+german,anwesend,present,education,adj,higher
+german,die Aussprache,pronunciation,education,noun,higher
+german,beantworten,to answer,education,verb,higher
+german,durchfallen,to fail,education,verb,higher
+german,eine Frage stellen,to ask a question,education,verb,higher
+german,der Gang,corridor,education,noun,higher
+german,die Leistung,achievement,education,noun,higher
+german,der Leistungsdruck,pressure to achieve,education,noun,higher
+german,die Patrone,cartridge,education,noun,higher
+german,die Schere,scissors,education,noun,higher
+german,schwänzen,to skive,education,verb,higher
+german,die Strafarbeit,punishment,education,noun,higher
+german,versetzt werden,to be moved up a year,education,verb,higher
+german,einstellen,to employ,work,verb,higher
+german,die Fachschule,technical college,education,noun,higher
+german,die Hauswirtschaftslehre,home economics,education,noun,higher
+german,das Pflichtfach,compulsory subject,education,noun,higher
+german,die Sozialkunde,social studies,education,noun,higher
+german,das Wahlfach,optional subject,education,noun,higher
+german,die Wirtschaftslehre,business studies,education,noun,higher
+german,der Arbeitgeber,employer,work,noun,higher
+german,die Besprechung,meeting,work,noun,higher
+german,der Betrieb,business,work,noun,higher
+german,kündigen,to sack,work,verb,higher
+german,vereinbaren,to arrange,work,verb,higher
