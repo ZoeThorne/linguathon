@@ -1,7 +1,9 @@
 <h1><%= @user.name %></h1>
 
+<%= button_to "Start training!", new_training_path, :method => "get" %>
+
 <h3>Recently seen words:</h3>
-	<% @words.each do |w| %>
+	<% @recent_words.each do |w| %>
 		<p><%= w.word.tl %>: <%= w.word.english %>
 			<br>Stage: <% if w.stage.nil? %>
 							<em>You haven't got this word right yet!</em>
@@ -16,4 +18,46 @@
 		<p><%= t.created_at.strftime("%d %b %y") %>: <%= t.name %>
 			<br>Topic: <%= t.topic %>
 		</p>
+	<% end %>
+
+<h3>My strengths:</h3>
+	<h4>Top words</h4>
+	<% @best_words.each do |bw| %>
+		<p><%= bw.word.tl %>: <%= bw.word.english %>
+		<br>Stage: <% if bw.stage.nil? %>
+							<em>You haven't got this word right yet!</em>
+						<% else %>
+							<%= bw.stage %>
+						<% end %></p>
+	<% end %>
+
+	<h4>Top topics</h4>
+	<% @best_topics.uniq.each do |bt| %>
+		<p><%= bt.word.topic %></p>
+	<% end %>
+
+	<h4>Top word types</h4>
+	<% @best_word_types.uniq.each do |bwt| %>
+		<p><%= bwt.word.word_type %></p>
+	<% end %>
+
+<h3>I need to improve:</h3>
+	<h4>Words to work on:</h4>
+	<% @worst_words.each do |ww| %>
+		<p><%= ww.word.tl %>: <%= ww.word.english %>
+		<br>Stage: <% if ww.stage.nil? %>
+							<em>You haven't got this word right yet!</em>
+						<% else %>
+							<%= ww.stage %>
+						<% end %></p>
+	<% end %>
+
+	<h4>Topics to work on:</h4>
+	<% @worst_topics.uniq.each do |wt| %>
+		<p><%= wt.word.topic %></p>
+	<% end %>
+
+	<h4>Word types to work on:</h4>
+	<% @worst_word_types.uniq.each do |wwt| %>
+		<p><%= wwt.word.word_type %></p>
 	<% end %>

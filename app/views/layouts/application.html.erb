@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
+  	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Linguathon</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
   </head>
 
   <body>
   	<% if user_signed_in? %>
   		<h2>Hey, <%= current_user.name %>!</h2>
-  		<%= link_to 'My training sessions', user_path %>
+  		<%= link_to 'My training sessions', user_path(current_user) %>
   		<%= link_to 'Log out', destroy_user_session_path, method: 'DELETE' %>
   	<% else %>
   		<%= link_to 'Sign up', new_user_registration_path %>
@@ -19,5 +27,7 @@
   	<% end %>
   
     <%= yield %>
+    <!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>
 </html>
