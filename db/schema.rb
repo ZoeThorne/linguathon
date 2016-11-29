@@ -45,9 +45,9 @@ ActiveRecord::Schema.define(version: 20161128132020) do
   create_table "user_words", force: :cascade do |t|
     t.integer  "user_id"
     t.integer  "word_id"
-    t.integer  "stage"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.integer  "stage",      default: 0
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
     t.index ["user_id"], name: "index_user_words_on_user_id"
     t.index ["word_id"], name: "index_user_words_on_word_id"
   end
@@ -77,12 +77,12 @@ ActiveRecord::Schema.define(version: 20161128132020) do
   create_table "words", force: :cascade do |t|
     t.string   "english"
     t.string   "tl"
-    t.string   "language"
+    t.string   "language",   default: "german"
     t.string   "topic"
     t.string   "word_type"
     t.string   "tier"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",                    null: false
+    t.datetime "updated_at",                    null: false
   end
 
 end
