@@ -13,3 +13,47 @@
  *= require_tree .
  *= require_self
  */
+
+ body {
+ 	margin: 0;
+ 	padding-top: 70px;
+ 	background-image: url(bg.png);
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ }
+
+ /* Navbar */
+
+ .navbar{
+ 	background-color: #111111;
+ 	opacity: 0.8;
+ 	filter: alpha(opacity=80); /* For IE8 and earlier */
+ 	/*background-image: url(transparent.png);
+ 	background-size: cover;*/
+ 	/*color: white;*/
+ 	text-align: center;
+ }
+
+ .nav-container {
+	padding-top: 10px;
+	padding-bottom: 10px;
+ }
+
+ .navbar-text {
+ 	padding-left: 280px;
+ }
+
+ .navbar-nav {
+ 	display: inline-block;
+ 	float: right;
+ }
+
+ .nav-links {
+ 	display: inline-block;
+ 	float: right;
+ }
+
+ #nav-logo {
+ 	height: 30px;
+ }
+

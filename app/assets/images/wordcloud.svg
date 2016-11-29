@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="3000px" height="2250px" viewBox="0 0 3000 2250">
+<defs>
+<style type="text/css"> @import url(http://fonts.googleapis.com/css?family=Pacifico:normal); </style>
+</defs>
+<clipPath id="cp1">
+<path d="M 0,0 L 3000,0 L3000,2250 L 0,2250 z M 0,0 L 3375,0 L 3375,2538 L 0,2538 z" fill-rule="evenodd">
+</path>
+</clipPath>
+<g clip-path="url(#cp1)">
+</g>
+<rect x="0" y="0" width="3375" height="2538" opacity="1" fill="rgb(110, 54, 103)" stroke="none">
+</rect>
+<text x="-587.501708984375" y="22.185625" style="font: normal 221.85625000000005px Pacifico" text-anchor="start" dy="87.69021739130437" opacity="1" fill="rgb(212, 208, 208)" stroke="none" transform="translate(1496, 1124) rotate(88.88932144696724)">Zdravstvuyte</text>
+<text x="-243.027587890625" y="22.185625" style="font: normal 221.85625000000005px Pacifico" text-anchor="start" dy="87.69021739130437" opacity="1" fill="rgb(212, 208, 208)" stroke="none" transform="translate(1672, 1204) rotate(-46.33886150496852)">Hylo</text>
+<text x="-419.976806640625" y="22.185625" style="font: normal 221.85625000000005px Pacifico" text-anchor="start" dy="87.69021739130437" opacity="1" fill="rgb(247, 250, 252)" stroke="none" transform="translate(1900, 1284) rotate(-40.644613152641526)">Bunã ziua</text>
+<text x="-414.7230224609375" y="22.185625" style="font: normal 221.85625000000005px Pacifico" text-anchor="start" dy="87.69021739130437" opacity="1" fill="rgb(153, 148, 148)" stroke="none" transform="translate(1024, 1084) rotate(-47.640727685634275)">Merhaba</text>
+<text x="-392.3538818359375" y="22.185625" style="font: normal 221.85625000000005px Pacifico" text-anchor="start" dy="87.69021739130437" opacity="1" fill="rgb(83, 83, 83)" stroke="none" transform="translate(1692, 776) rotate(-64.47688742440364)">Namaste</text>
+<text x="-192.9271697998047" y="22.185625" style="font: normal 221.85625000000005px Pacifico" text-anchor="start" dy="87.69021739130437" opacity="1" fill="rgb(83, 83, 83)" stroke="none" transform="translate(1180, 1268) rotate(-45.14819737401938)">chào</text>
+<text x="-171.15380859375" y="22.185625" style="font: normal 221.85625000000005px Pacifico" text-anchor="start" dy="87.69021739130437" opacity="1" fill="rgb(247, 250, 252)" stroke="none" transform="translate(1252, 1540) rotate(62.04181988473935)">Xin</text>
+<text x="-282.29547119140625" y="22.185625" style="font: normal 221.85625000000005px Pacifico" text-anchor="start" dy="87.69021739130437" opacity="1" fill="rgb(212, 208, 208)" stroke="none" transform="translate(1104, 676) rotate(75.47777296268528)">Vitayu</text>
+<text x="-169.79974365234375" y="22.185625" style="font: normal 221.85625000000005px Pacifico" text-anchor="start" dy="87.69021739130437" opacity="1" fill="rgb(247, 250, 252)" stroke="none" transform="translate(1932, 936) rotate(22.888407694666867)">Olá</text>
+<text x="-543.6300048828125" y="22.185625" style="font: normal 221.85625000000005px Pacifico" text-anchor="start" dy="87.69021739130437" opacity="1" fill="rgb(153, 148, 148)" stroke="none" transform="translate(1592, 1736) rotate(-2.192935122958456)">Dzien' dobry</text>
+<text x="-243.027587890625" y="22.185625" style="font: normal 221.85625000000005px Pacifico" text-anchor="start" dy="87.69021739130437" opacity="1" fill="rgb(153, 148, 148)" stroke="none" transform="translate(2096, 1496) rotate(-7.794554403208844)">Hola</text>
+<text x="-484.7552490234375" y="22.185625" style="font: normal 221.85625000000005px Pacifico" text-anchor="start" dy="87.69021739130437" opacity="1" fill="rgb(83, 83, 83)" stroke="none" transform="translate(2116, 424) rotate(39.29868157244564)">Guten Tag</text>
+<text x="-350.0528869628906" y="22.185625" style="font: normal 221.85625000000005px Pacifico" text-anchor="start" dy="87.69021739130437" opacity="1" fill="rgb(212, 208, 208)" stroke="none" transform="translate(868, 800) rotate(85.58103627892764)">Bonjour</text>
+<text x="-204.6262969970703" y="22.185625" style="font: normal 221.85625000000005px Pacifico" text-anchor="start" dy="87.69021739130437" opacity="1" fill="rgb(83, 83, 83)" stroke="none" transform="translate(1276, 464) rotate(-57.872410918378556)">Ciao</text>
+<text x="-415.9145812988281" y="22.185625" style="font: normal 221.85625000000005px Pacifico" text-anchor="start" dy="87.69021739130437" opacity="1" fill="rgb(83, 83, 83)" stroke="none" transform="translate(760, 1468) rotate(71.06743695163547)">Dia dhuit</text>
+<text x="-299.5733337402344" y="22.185625" style="font: normal 221.85625000000005px Pacifico" text-anchor="start" dy="87.69021739130437" opacity="1" fill="rgb(153, 148, 148)" stroke="none" transform="translate(1628, 428) rotate(68.49643108902809)">Ni hao</text>
+<text x="-325.78802490234375" y="22.185625" style="font: normal 221.85625000000005px Pacifico" text-anchor="start" dy="87.69021739130437" opacity="1" fill="rgb(247, 250, 252)" stroke="none" transform="translate(1716, 1984) rotate(27.55729095869194)">Jambo</text>
+<text x="-266.5341491699219" y="22.185625" style="font: normal 221.85625000000005px Pacifico" text-anchor="start" dy="87.69021739130437" opacity="1" fill="rgb(212, 208, 208)" stroke="none" transform="translate(2216, 1900) rotate(-41.05012907544997)">Hello</text>
+</svg>

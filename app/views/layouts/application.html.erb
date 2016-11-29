@@ -9,7 +9,11 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
 	<!-- jQuery library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -17,14 +21,38 @@
   </head>
 
   <body>
-  	<% if user_signed_in? %>
-  		<h2>Hey, <%= current_user.name %>!</h2>
-  		<%= link_to 'My training sessions', user_path(current_user) %>
-  		<%= link_to 'Log out', destroy_user_session_path, method: 'DELETE' %>
-  	<% else %>
-  		<%= link_to 'Sign up', new_user_registration_path %>
-  		<%= link_to 'Log in', user_session_path %>
-  	<% end %>
+  	<nav class="navbar navbar-default navbar-fixed-top">
+  		<div class="container-fluid nav-container">
+  			<div class="row navbar-header">
+    			<div class="col-lg-3 logo">
+      				<a class="navbar-brand" href="/">
+      					<img alt="Linguathon" src="/assets/logo.png" id="nav-logo">
+      				</a>
+      				<h5><strong>It's a marathon, not a sprint<strong></h5>
+    			</div>
+
+    			<div class="col-lg-6 navbar-centre">
+    				<% if user_signed_in? %>
+  						<h4 class="navbar-text">Hey, <%= current_user.name %>!</h4>
+  					<% end %>
+    			</div>
+
+    			<div class="col-lg-3 nav-links navbar-right">
+    				<ul class="navbar-nav">
+    				<% if user_signed_in? %>
+    				 		<li class="nav-links"><%= link_to 'My training sessions', user_path(current_user) %></li>
+    				 		<li class="nav-links"><%= link_to 'Log out', destroy_user_session_path, method: 'DELETE' %></li>
+    				<% else %>
+  							<li class="nav-links"><%= link_to 'Sign up', new_user_registration_path %></li>
+  							<li class="nav-links"><%= link_to 'Log in', user_session_path %></li>
+  					<% end %>
+  	
+    			</div>
+    		</div>			
+  		</div><!-- /.container-fluid -->
+	</nav>
+
+  	
   
     <%= yield %>
     <!-- Latest compiled JavaScript -->
