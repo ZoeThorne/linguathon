@@ -6,7 +6,7 @@
 		<div class="col-lg-4 achievements">
 			<div class="stat-box">
 				<div class="mini-header">
-					<h3>Recently seen words:</h3>
+					<h3>Recently Seen Words</h3>
 				</div>
 				<div class="contents">
 					<% @recent_words.each do |w| %>
@@ -33,7 +33,7 @@
 			<%= button_to "Start training!", new_training_path, :method => "get", :class => "training-button" %>
 			<div class="recent-trainings">
 				<div class="mini-header">
-					<h3><%= @user.name %>'s training sessions:</h3>
+					<h3><%= @user.name %>'s Training Sessions</h3>
 				</div>
 				<div class="contents">
 					<% @trainings.each do |t| %>
@@ -48,7 +48,7 @@
 		<div class="col-lg-4 stats">
 			<div class="stat-box">
 				<div class="mini-header">
-					<h3>My strengths:</h3>
+					<h3>My Strengths</h3>
 				</div>
 				<div class="contents">
 					<h4>Top words</h4>
@@ -75,7 +75,7 @@
 
 			<div class="stat-box">
 				<div class="mini-header">
-					<h3>I need to improve:</h3>
+					<h3>I Need To Improve...</h3>
 				</div>
 				<div class="contents">
 					<h4>Words to work on:</h4>

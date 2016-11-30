@@ -6,11 +6,10 @@ class Training < ApplicationRecord
 	def filter_words(tier, topic, stages, word_types)
 
 		words_to_train = Word.all
-
-		words_to_train.filter_tier(tier)
-		words_to_train.filter_topics(topic)
+		tier == "foundation" ? words_to_train = words_to_train.select {|w| w.tier == "foundation"} : words_to_train
+		topic == "all" ? words_to_train : words_to_train = words_to_train.select {|w| w.topic == topic}
 		# words_to_train.filter_stages(stages)
-		words_to_train.filter_word_types(word_types)
+		word_types == "all word types" ? words_to_train : words_to_train = words_to_train.select {|w| w.word_type == word_types}
 		return words_to_train
 
 	end

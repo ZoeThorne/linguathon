@@ -1,0 +1,21 @@
+<div class="container-fluid new-training">
+	<div class="row">
+			<h1><%= @user.name %>'s Training Session</h1>
+		<div class="col-lg-12 training-form">
+			<div class="training-details">
+				<h3><%= @training.name %></h3>
+				<small><%= @training.created_at.strftime("%d %b %y") %></small>
+			</div>
+
+			<div class="training-words">
+				<ul>
+					<% @words.each do |w| %>
+						<li><%= w.word.tl %>&ensp;<%= w.word.english %></li>
+					<% end %>
+				</ul>
+			</div>
+
+			<button type="button" class="btn btn-default btn-md">I'm ready!</button>
+		</div>
+	</div>
+</div>
