@@ -17,6 +17,7 @@
  body {
  	margin: 0;
  	padding-top: 70px;
+ 	padding-bottom: 70px;
  	background-image: url(bg.png);
  	background-size: cover;
  	background-repeat: no-repeat;
@@ -32,28 +33,39 @@
  	background-size: cover;*/
  	/*color: white;*/
  	text-align: center;
+ 	border-size: border-box;
  }
 
  .nav-container {
 	padding-top: 10px;
 	padding-bottom: 10px;
+	border-size: border-box;
+ }
+
+ .navbar-brand {
+
  }
 
  .navbar-text {
  	padding-left: 280px;
+ 	border-size: border-box;
  }
 
  .navbar-nav {
  	display: inline-block;
  	float: right;
+ 	border-size: border-box;
  }
 
  .nav-links {
  	display: inline-block;
  	float: right;
+ 	margin-left: 80px;
+ 	margin-right: 10px;
  }
 
  #nav-logo {
  	height: 30px;
+ 	padding-left: 20px;
  }
 

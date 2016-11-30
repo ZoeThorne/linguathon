@@ -1,3 +1,67 @@
 // Place all the styles related to the users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.user-page {
+	padding: 10px;
+	color: white;
+}
+
+.mini-header {
+	background-color: #f5f5f5;
+	opacity: 0.8;
+ 	filter: alpha(opacity=80); /* For IE8 and earlier */
+ 	color: black;
+ 	width: 100%;
+ 	border-top-left-radius: 5px;
+ 	border-top-right-radius: 5px;
+ 	margin-left: -11px;
+ 	margin-top: -10px;
+ 	margin-bottom: 10px;
+ 	padding: 3px;
+ 	width: 106%;
+}
+
+.trophy-cabinet {
+	background-color: #111111;
+ 	opacity: 0.8;
+ 	filter: alpha(opacity=80); /* For IE8 and earlier */
+ 	box-sizing: border-box;
+ 	border-radius: 5px;
+ 	padding:10px;
+ 	margin: 10px;
+ 	text-align: center;
+}
+
+.training-button {
+	width: 250px;
+	margin: 15px;
+	margin-left: 70px;
+	padding: 5px;
+	color: black;
+	font-size: 20px;
+
+}
+
+.recent-trainings {
+	background-color: #111111;
+ 	opacity: 0.8;
+ 	filter: alpha(opacity=80); /* For IE8 and earlier */
+ 	box-sizing: border-box;
+ 	border-radius: 5px;
+ 	padding:10px;
+ 	margin: 10px;
+ 	text-align: center;
+}
+
+
+.stat-box {
+	background-color: #111111;
+ 	opacity: 0.8;
+ 	filter: alpha(opacity=80); /* For IE8 and earlier */
+ 	box-sizing: border-box;
+ 	border-radius: 5px;
+ 	padding:10px;
+ 	margin: 10px;
+ 	text-align: center;
+}

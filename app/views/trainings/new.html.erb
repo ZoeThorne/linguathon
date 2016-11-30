@@ -1,4 +1,8 @@
-<h1>Let's train</h1>
+<div class="container-fluid new-training">
+	<div class="row">
+			<h1>Let's train</h1>
+		<div class="col-lg-12 training-form">
+
 
     <%= form_for [@training] do |f| %>
         <% if @training.errors.any? %>
@@ -10,56 +14,55 @@
                 <li><%= message %></li>
                 <% end %>
            </ul>
-           <h2>What do you want to train today?</h2>
          </div>
         <% end %>
-
+		<h2>What do you want to train today?</h2>
        
         <div class="field">
         	<h4>Topics</h4>
 
         		<%= radio_button_tag(:topic, "all") %>
 				<%= label_tag(:all, "All topics") %>
-
+				&ensp;
           		<%= radio_button_tag(:topic, "key words") %>
 				<%= label_tag(:key_words, "General key words") %>
-
+				&ensp;
 				<%= radio_button_tag(:topic, "connectives") %>
 				<%= label_tag(:connectives, "Connectives") %>
-
+				&ensp;
 				<%= radio_button_tag(:topic, "prepositions") %>
 				<%= label_tag(:prepositions, "Prepositions") %>
-
+				&ensp;
 				<%= radio_button_tag(:topic, "opinions") %>
 				<%= label_tag(:opinions, "Opinions") %>
-
+				&ensp;
 				<%= radio_button_tag(:topic, "travel and tourism") %>
 				<%= label_tag(:travel_and_tourism, "Travel and Tourism") %>
-
+				&ensp;
 				<%= radio_button_tag(:topic, "home and local area") %>
 				<%= label_tag(:local_area, "Home and local area") %>
-
+				&ensp;
 				<%= radio_button_tag(:topic, "me, my family and friends") %>
 				<%= label_tag(:me_my_family_and_friends, "Me, my family and friends") %>
-
+				&ensp;
 				<%= radio_button_tag(:topic, "technology") %>
 				<%= label_tag(:technology, "Technology") %>
-
+				&ensp;
 				<%= radio_button_tag(:topic, "leisure") %>
 				<%= label_tag(:leisure, "Leisure") %>
-
+				&ensp;
 				<%= radio_button_tag(:topic, "festivals") %>
 				<%= label_tag(:festivals, "Festivals") %>
-
+				&ensp;
 				<%= radio_button_tag(:topic, "health and social issues") %>
 				<%= label_tag(:health_and_social_issues, "Health and Social Issues") %>
-
+				&ensp;
 				<%= radio_button_tag(:topic, "global issues") %>
 				<%= label_tag(:global_issues, "Global Issues") %>
-
+				&ensp;
 				<%= radio_button_tag(:topic, "education") %>
 				<%= label_tag(:education, "Education") %>
-
+				&ensp;
 				<%= radio_button_tag(:topic, "work") %>
 				<%= label_tag(:work, "Work") %>
           </div>
@@ -68,22 +71,22 @@
         	<h4>Stage</h4>
         		<%= radio_button_tag(:stage, "all stages") %>
 				<%= label_tag(:any_stage, "A mixture of stages") %>
-
+				&ensp;
 				<%= radio_button_tag(:stage, "unseen") %>
 				<%= label_tag(:unseen, "Words I haven't seen yet") %>
-
+				&ensp;
 				<%= radio_button_tag(:stage, "0") %>
 				<%= label_tag(:zero, "Words I haven't got right yet") %>
-
+				&ensp;
 				<%= radio_button_tag(:stage, "1") %>
 				<%= label_tag(:one, "Stage 1 words") %>
-
+				&ensp;
 				<%= radio_button_tag(:stage, "2") %>
 				<%= label_tag(:two, "Stage 2 words") %>
-
+				&ensp;
 				<%= radio_button_tag(:stage, "3") %>
 				<%= label_tag(:three, "Stage 3 words") %>
-
+				&ensp;
 				<%= radio_button_tag(:stage, "4") %>
 				<%= label_tag(:four, "Stage 4 words") %>				
         </div>
@@ -92,19 +95,19 @@
         	<h4>Type of word</h4>
         		<%= radio_button_tag(:word_type, "all word types") %>
 				<%= label_tag(:all_word_types, "A mixture of word types") %>
-
+				&ensp;
 				<%= radio_button_tag(:word_type, "verb") %>
 				<%= label_tag(:verb, "Only verbs") %>
-
+				&ensp;
 				<%= radio_button_tag(:word_type, "noun") %>
 				<%= label_tag(:noun, "Only nouns") %>
-
+				&ensp;
 				<%= radio_button_tag(:word_type, "adjective") %>
 				<%= label_tag(:adjective, "Only adjectives") %>
-
+				&ensp;
 				<%= radio_button_tag(:word_type, "preposition") %>
 				<%= label_tag(:preposition, "Only prepositions") %>
-
+				&ensp;
 				<%= radio_button_tag(:word_type, "other") %>
 				<%= label_tag(:other, "Only other types of words") %>				
         </div>
@@ -113,6 +116,10 @@
         <input type="hidden" name="tier" value=<%= current_user.tier %>>
 
           <div class="actions">
-            <%= f.submit %>
+          	<br>
+            <%= f.submit "Let's go!"%>
           </div>
     <% end %>
+    	</div>
+    </div>
+ </div>

@@ -1,63 +1,112 @@
-<h1><%= @user.name %></h1>
+<body>
 
-<%= button_to "Start training!", new_training_path, :method => "get" %>
+<div class="container-fluid user-page">
+	<div class="row">
+	
+		<div class="col-lg-4 achievements">
+			<div class="stat-box">
+				<div class="mini-header">
+					<h3>Recently seen words:</h3>
+				</div>
+				<div class="contents">
+					<% @recent_words.each do |w| %>
+						<p><%= w.word.tl %>: <%= w.word.english %>
+						<br>Stage: <% if w.stage.nil? %>
+									<em>You haven't got this word right yet!</em>
+								<% else %>
+									<%= w.stage %>
+								<% end %>
+						</p>
+					<% end %>
+				</div>
+				</div>
+			<div class="trophy-cabinet">
+				<div class="mini-header">
+					<h3>Trophy Cabinet</h3>
+				</div>
+				<div class="contents">
+				</div>
+			</div>
+		</div>
 
-<h3>Recently seen words:</h3>
-	<% @recent_words.each do |w| %>
-		<p><%= w.word.tl %>: <%= w.word.english %>
-			<br>Stage: <% if w.stage.nil? %>
-							<em>You haven't got this word right yet!</em>
-						<% else %>
-							<%= w.stage %>
+		<div class="col-lg-4 training">
+			<%= button_to "Start training!", new_training_path, :method => "get", :class => "training-button" %>
+			<div class="recent-trainings">
+				<div class="mini-header">
+					<h3><%= @user.name %>'s training sessions:</h3>
+				</div>
+				<div class="contents">
+					<% @trainings.each do |t| %>
+						<p><%= t.created_at.strftime("%d %b %y") %>: <%= t.name %>
+						<br>Topic: <%= t.topic %>
+						</p>
+					<% end %>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-lg-4 stats">
+			<div class="stat-box">
+				<div class="mini-header">
+					<h3>My strengths:</h3>
+				</div>
+				<div class="contents">
+					<h4>Top words</h4>
+					<% @best_words.each do |bw| %>
+						<p><%= bw.word.tl %>: <%= bw.word.english %>
+						<br>Stage: <% if bw.stage.nil? %>
+										<em>You haven't got this word right yet!</em>
+									<% else %>
+										<%= bw.stage %>
+									<% end %></p>
 						<% end %>
-		</p>
-	<% end %>
 
-<h3>My training sessions:</h3>
-	<% @trainings.each do |t| %>
-		<p><%= t.created_at.strftime("%d %b %y") %>: <%= t.name %>
-			<br>Topic: <%= t.topic %>
-		</p>
-	<% end %>
+					<h4>Top topics</h4>
+						<% @best_topics.uniq.each do |bt| %>
+							<p><%= bt.word.topic %></p>
+						<% end %>
 
-<h3>My strengths:</h3>
-	<h4>Top words</h4>
-	<% @best_words.each do |bw| %>
-		<p><%= bw.word.tl %>: <%= bw.word.english %>
-		<br>Stage: <% if bw.stage.nil? %>
-							<em>You haven't got this word right yet!</em>
-						<% else %>
-							<%= bw.stage %>
-						<% end %></p>
-	<% end %>
+					<h4>Top word types</h4>
+						<% @best_word_types.uniq.each do |bwt| %>
+							<p><%= bwt.word.word_type %></p>
+						<% end %>
+					</div>
+				</div>
 
-	<h4>Top topics</h4>
-	<% @best_topics.uniq.each do |bt| %>
-		<p><%= bt.word.topic %></p>
-	<% end %>
+			<div class="stat-box">
+				<div class="mini-header">
+					<h3>I need to improve:</h3>
+				</div>
+				<div class="contents">
+					<h4>Words to work on:</h4>
+						<% @worst_words.each do |ww| %>
+							<p><%= ww.word.tl %>: <%= ww.word.english %>
+							<br>Stage: <% if ww.stage.nil? %>
+											<em>You haven't got this word right yet!</em>
+										<% else %>
+											<%= ww.stage %>
+										<% end %></p>
+						<% end %>
 
-	<h4>Top word types</h4>
-	<% @best_word_types.uniq.each do |bwt| %>
-		<p><%= bwt.word.word_type %></p>
-	<% end %>
+					<h4>Topics to work on:</h4>
+						<% @worst_topics.uniq.each do |wt| %>
+							<p><%= wt.word.topic %></p>
+						<% end %>
 
-<h3>I need to improve:</h3>
-	<h4>Words to work on:</h4>
-	<% @worst_words.each do |ww| %>
-		<p><%= ww.word.tl %>: <%= ww.word.english %>
-		<br>Stage: <% if ww.stage.nil? %>
-							<em>You haven't got this word right yet!</em>
-						<% else %>
-							<%= ww.stage %>
-						<% end %></p>
-	<% end %>
+					<h4>Word types to work on:</h4>
+						<% @worst_word_types.uniq.each do |wwt| %>
+							<p><%= wwt.word.word_type %></p>
+						<% end %>
+					</div>
+				</div>
+		</div>
+	</div>
+</div>
 
-	<h4>Topics to work on:</h4>
-	<% @worst_topics.uniq.each do |wt| %>
-		<p><%= wt.word.topic %></p>
-	<% end %>
+</body>
 
-	<h4>Word types to work on:</h4>
-	<% @worst_word_types.uniq.each do |wwt| %>
-		<p><%= wwt.word.word_type %></p>
-	<% end %>
+
+
+
+	
+
