@@ -37,9 +37,9 @@
 				</div>
 				<div class="contents">
 					<% @trainings.each do |t| %>
-						<p><%= link_to "#{t.updated_at.strftime("%d %b %y")}: #{t.name}", training_path(t) %>
+						<p><%= link_to "#{t.updated_at.strftime("%d %b %y")}: #{t.name.capitalize}", training_path(t) %>
 					
-						<br>Topic: <%= t.topic %>
+						<br>Topic: <%= t.topic.capitalize %>
 						</p>
 					<% end %>
 				</div>

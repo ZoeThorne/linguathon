@@ -5,11 +5,20 @@ class Training < ApplicationRecord
 
 	def filter_words(tier, topic, stages, word_types)
 
-		words_to_train = Word.all
-		tier == "foundation" ? words_to_train = words_to_train.select {|w| w.tier == "foundation"} : words_to_train
-		topic == "all" ? words_to_train : words_to_train = words_to_train.select {|w| w.topic == topic}
-		# words_to_train.filter_stages(stages)
-		word_types == "all word types" ? words_to_train : words_to_train = words_to_train.select {|w| w.word_type == word_types}
+		# filter by stage
+		
+		word_filters = {}
+		word_filters[:tier] = "foundation" if tier == "foundation"
+		word_filters[:topic] = topic unless topic == "all"
+		word_filters[:word_type] = word_types unless word_types == "all word types"  
+		words_to_train = Word.where(word_filters).left_outer_joins(user_words: :user).where("user_words.user_id = ? OR user_words.user_id IS NULL", user.id)
+		
+		unless stages == "all stages"
+			words_to_train = words_to_train.where(user_words: {stage: stages.to_i})
+		end
+
+
+		
 		return words_to_train
 
 	end

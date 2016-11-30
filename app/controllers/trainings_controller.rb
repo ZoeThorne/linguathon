@@ -46,4 +46,9 @@ class TrainingsController < ApplicationController
     	@words = @training.training_words
     end
 
+    def my_api_method
+    	render json: {result: "incorrect"}
+    end
+
+
 end
