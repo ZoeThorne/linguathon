@@ -7,7 +7,7 @@
     <%= form_for [@training] do |f| %>
         <% if @training.errors.any? %>
          <div id="error_explanation">
-            <h2><%= pluralize(@comment.errors.count, "error") %> prohibited this comment from being saved:</h2>
+            <h2><%= pluralize(@comment.errors.count, "error") %> prohibited this training from being created:</h2>
 
             <ul>
               <% @training.errors.full_messages.each do |message| %>
@@ -16,12 +16,15 @@
            </ul>
          </div>
         <% end %>
+        <% if flash[:notice] %>
+    		<div class="notice" style="color:red"><%= flash[:notice] %></div>
+  		<% end %>
 		<h2>What do you want to train today?</h2>
        
         <div class="field">
         	<h4>Topics</h4>
 
-        		<%= radio_button_tag(:topic, "all") %>
+        		<%= radio_button_tag(:topic, "all", :checked) %>
 				<%= label_tag(:all, "All topics") %>
 				&ensp;
           		<%= radio_button_tag(:topic, "key words") %>
@@ -69,7 +72,7 @@
 
         <div class="field">
         	<h4>Stage</h4>
-        		<%= radio_button_tag(:stage, "all stages") %>
+        		<%= radio_button_tag(:stage, "all stages", :checked) %>
 				<%= label_tag(:any_stage, "A mixture of stages") %>
 				&ensp;
 				<%= radio_button_tag(:stage, "unseen") %>
@@ -93,7 +96,7 @@
 
         <div class="field">
         	<h4>Type of word</h4>
-        		<%= radio_button_tag(:word_type, "all word types") %>
+        		<%= radio_button_tag(:word_type, "all word types", :checked) %>
 				<%= label_tag(:all_word_types, "A mixture of word types") %>
 				&ensp;
 				<%= radio_button_tag(:word_type, "verb") %>

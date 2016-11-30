@@ -2,6 +2,8 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+/*  New Training */
+
 .new-training {
 	background-color: #111111;
  	opacity: 0.8;
@@ -23,4 +25,28 @@
  	padding: 10px;
  	border-radius: 5px;
  	max-width: 95%;
+}
+
+
+/* Show training */
+
+.display-trainings {
+	background-color: #ffffff;
+	opacity: 1;
+ 	filter: alpha(opacity=100);
+ 	padding: 20px;
+ 	margin-left: 150px;
+}
+
+.table-headings {
+	margin: 10px 10px 10px 10px;
+	padding: 10px 15px 10px 15px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.words-to-train {
+	margin: 10px 10px 10px 10px;
+	padding: 10px 15px 10px 15px;
+	text-align: left;
 }

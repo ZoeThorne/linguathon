@@ -37,7 +37,8 @@
 				</div>
 				<div class="contents">
 					<% @trainings.each do |t| %>
-						<p><%= t.created_at.strftime("%d %b %y") %>: <%= t.name %>
+						<p><%= link_to "#{t.updated_at.strftime("%d %b %y")}: #{t.name}", training_path(t) %>
+					
 						<br>Topic: <%= t.topic %>
 						</p>
 					<% end %>

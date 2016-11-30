@@ -11,11 +11,18 @@ class TrainingsController < ApplicationController
 	    @stage = params[:stage]
 	    @word_type = params[:word_type]
 	    training = Training.new(user: current_user, topic: @topic, tier: @tier)
-	    training.save
 	    @words = training.filter_words(@tier, @topic, @stage, @word_type)
-	    binding.pry
-	    @words = @words.shuffle.first(10)
-	    training.words = @words
+	    	if @words.length < 10
+	    		flash[:notice] = "There aren't enough words that fit your selection. Try a different combination."
+    			redirect_to new_training_path
+    		else
+    			training.save
+	    		@words = @words.shuffle
+	    		@words = @words.take(10)
+	    		training.words = @words
+	    		redirect_to training_path(training)
+	    	end
+	    
 	    
     # @words = 
     # training= Training.create(word: @words,user: current_user)
@@ -29,6 +36,12 @@ class TrainingsController < ApplicationController
 
     def show
     	@user = current_user
+    	@training = Training.find_by(id: params[:id])
+    	@words = @training.training_words
+    end
+
+    def train
+    	@user = User.find_by(id: params[:user_id])
     	@training = Training.find_by(id: params[:id])
     	@words = @training.training_words
     end

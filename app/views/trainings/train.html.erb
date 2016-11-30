@@ -1,0 +1,21 @@
+<div class="container-fluid new-training">
+	<div class="row">
+			<h1><%= @user.name %>'s Training Session</h1>
+		<div class="col-lg-12 training-form">
+			<div class="training-details">
+				<h3><%= @training.name %></h3>
+				<small><%= @training.updated_at.strftime("%d %b %y") %></small>
+			</div>
+
+			<div class="training">
+				<div class="training-question">
+					<h3>Question will go here</h3>
+				</div>
+				<div class="training-answer">
+					<h3>Answer will go here</h3>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>

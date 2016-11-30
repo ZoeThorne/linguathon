@@ -32,7 +32,7 @@ class UsersController < ApplicationController
 						end
 		@worst_word_types = @worst_word_types.uniq
 
-		@trainings = @user.trainings
+		@trainings = @user.trainings.order("updated_at DESC").limit(15)
 		render :show
 	end
 

@@ -4,18 +4,34 @@
 		<div class="col-lg-12 training-form">
 			<div class="training-details">
 				<h3><%= @training.name %></h3>
-				<small><%= @training.created_at.strftime("%d %b %y") %></small>
+				<small><%= @training.updated_at.strftime("%d %b %y") %></small>
 			</div>
 
 			<div class="training-words">
-				<ul>
+				<h4>Topic:&nbsp;<%= @training.topic %>
+				&emsp;&emsp;&emsp;Stage:&nbsp;<!-- Add in stage here when ready -->
+				&emsp;&emsp;&emsp;Word Types:&nbsp;<!-- Add in word types here when ready --></h4>
+				<table class="display-trainings">
+					<tr>
+    					<th class="table-headings">German</th>
+    					<th class="table-headings">English</th>
+    					<th class="table-headings">Word Type</th>
+    					<th class="table-headings">Current Stage</th>
+    					<th class="table-headings">Most Recent Result</th>
+  					</tr>
 					<% @words.each do |w| %>
-						<li><%= w.word.tl %>&ensp;<%= w.word.english %></li>
+					<tr>
+						<td class="words-to-train"><%= w.word.tl %></td>
+						<td class="words-to-train"><%= w.word.english %></td>
+						<td class="words-to-train"><%= w.word.word_type %></td>
+						<td class="words-to-train"></td>
+						<td class="words-to-train"></td>
+					</tr>
 					<% end %>
-				</ul>
+				</table>
 			</div>
 
-			<button type="button" class="btn btn-default btn-md">I'm ready!</button>
+			<%= button_to "I'm ready!", train_path(@user.id, @training.id), :method => "get", :class => "btn btn-default btn-md" %>
 		</div>
 	</div>
 </div>
