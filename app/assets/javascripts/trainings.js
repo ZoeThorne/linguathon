@@ -10,15 +10,15 @@ function getWordsFromAjax(){
 	});
 };
 
-function showFirstQuestion(response){
-	console.log("It worked");
-	console.log(response[0]);
-	$('.training-question-1').empty();
-	var q = `<h1>${response[0].english}</h1>
-				<br><h3>What is the German?</h3>`;
-	$('.training-question-1').append(q)
+// function showFirstQuestion(response){
+// 	console.log("It worked");
+// 	console.log(response[0]);
+// 	$('.training-question-1').empty();
+// 	var q = `<h1>${response[0].english}</h1>
+// 				<br><h3>What is the German?</h3>`;
+// 	$('.training-question-1').append(q)
 
-};
+// };
 
 function getFirstAnswer(){
 	$('.answer-question-1').submit(function(event){
