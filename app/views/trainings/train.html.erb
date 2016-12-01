@@ -7,9 +7,94 @@
 				<small><%= @training.updated_at.strftime("%d %b %y") %></small>
 			</div>
 
-			<div class="training">
+			<div class="training-1">
+				<div class="training-question-1">
+					<h3>Question 1 will go here</h3>
+				</div>
+				<div class="training-answer">
+					<form class="answer-question-1" method="POST">
+      					<input type="text" name="q1-answer" id="q1-answer" placeholder="Your answer">
+
+      					<button id="submit" type="submit" name="button">Submit</button>
+    				</form>
+				</div>
+			</div>
+
+			<div class="training-2">
 				<div class="training-question">
-					<h3>Question will go here</h3>
+					<h3>Question 2 will go here</h3>
+				</div>
+				<div class="training-answer">
+					<h3>Answer will go here</h3>
+				</div>
+			</div>
+
+			<div class="training-3">
+				<div class="training-question">
+					<h3>Question 3 will go here</h3>
+				</div>
+				<div class="training-answer">
+					<h3>Answer will go here</h3>
+				</div>
+			</div>
+
+			<div class="training-4">
+				<div class="training-question">
+					<h3>Question 4 will go here</h3>
+				</div>
+				<div class="training-answer">
+					<h3>Answer will go here</h3>
+				</div>
+			</div>
+
+			<div class="training-5">
+				<div class="training-question">
+					<h3>Question 5 will go here</h3>
+				</div>
+				<div class="training-answer">
+					<h3>Answer will go here</h3>
+				</div>
+			</div>
+
+			<div class="training-6">
+				<div class="training-question">
+					<h3>Question 6 will go here</h3>
+				</div>
+				<div class="training-answer">
+					<h3>Answer will go here</h3>
+				</div>
+			</div>
+
+			<div class="training-7">
+				<div class="training-question">
+					<h3>Question 7 will go here</h3>
+				</div>
+				<div class="training-answer">
+					<h3>Answer will go here</h3>
+				</div>
+			</div>
+
+			<div class="training-8">
+				<div class="training-question">
+					<h3>Question 8 will go here</h3>
+				</div>
+				<div class="training-answer">
+					<h3>Answer will go here</h3>
+				</div>
+			</div>
+
+			<div class="training-9">
+				<div class="training-question">
+					<h3>Question 9 will go here</h3>
+				</div>
+				<div class="training-answer">
+					<h3>Answer will go here</h3>
+				</div>
+			</div>
+
+			<div class="training-10">
+				<div class="training-question">
+					<h3>Question 10 will go here</h3>
 				</div>
 				<div class="training-answer">
 					<h3>Answer will go here</h3>
@@ -19,3 +104,7 @@
 		</div>
 	</div>
 </div>
+
+<script>
+	var id = <%= @training.id %>
+</script> 
