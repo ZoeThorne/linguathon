@@ -1,0 +1,2 @@
+module ApiWordHelper
+end
