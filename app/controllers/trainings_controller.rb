@@ -22,16 +22,6 @@ class TrainingsController < ApplicationController
 	    		training.words = @words
 	    		redirect_to training_path(training)
 	    	end
-	    
-	    
-    # @words = 
-    # training= Training.create(word: @words,user: current_user)
-
-    #   if training
-    #     render plain: "The training was created."
-    #   else
-    #     render plain: "We couldn't create the training."
-    #   end 
     end
 
     def show
