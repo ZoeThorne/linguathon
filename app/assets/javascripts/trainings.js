@@ -23,44 +23,42 @@ function generateQuestions(response){
 	$('.js-answer').each(function(index) {
 		$(this).attr("id",response[index].id);
 	});
-	// var totalQuestions = 10;
-	// var currentQuestion = 0;
-	// var $questions = $(".training-question");
-	// console.log($questions);
-	// // $($questions.eq(currentQuestion)).show();
-	// $(".training-question").eq(currentQuestion).show();
-	// console.log(currentQuestion);
-	// console.log($(".training-question").eq(currentQuestion))
+
 };
 
-
-// function getAnswer(){
-// 	$("[class*=answer-question]" ).submit(function(event){
-// 		event.preventDefault();
-// 		var guess = $( event.currentTarget ).val();
-// 		console.log(guess)
-// 		// $('.training-1').hide();
-// 		// $('.training-2').show();
-// 	});
-// };
-
-function getFirstAnswer(){
-	$('.answer-question-1').submit(function(event){
+var counter = 1
+function getAnswer(){
+	$(document).on('click', '[class=answer-question-' + counter +'] button', function (event){
+	// $("[class*=answer-question]" ).submit(function(event){
 		event.preventDefault();
-		var guess1 = $('#q1-answer').val();
-		var answer1 = $('input:hidden').attr('id');
-		console.log(guess1)
-		console.log(answer1)
-		ajaxCheck(guess1, answer1);
+		console.log("Form submitted")
+		var guess = $(this).parent().find('input:text').val();
+		var answer = $(this).parent().find('input:hidden').attr('id');
+		console.log($('[class=answer-question-' + counter +']'))
+		console.log(guess);
+		console.log(answer);
+		counter++
+		ajaxCheck(guess, answer);
 	});
 };
 
-function ajaxCheck(guess1, answer1){;
+// function getFirstAnswer(){
+// 	$('.answer-question-1').submit(function(event){
+// 		event.preventDefault();
+// 		var guess1 = $('#q1-answer').val();
+// 		var answer1 = $('input:hidden').attr('id');
+// 		console.log(guess1)
+// 		console.log(answer1)
+// 		ajaxCheck(guess1, answer1);
+// 	});
+// };
+
+function ajaxCheck(guess, answer){;
 	$.ajax({
 		type: "POST",
-		data: {guess: guess1},
+		data: {guess: guess},
 		dataType: 'json',
-		url: "/api/trainings/"+id+"/words/"+answer1+"/check",
+		url: "/api/trainings/"+id+"/words/"+answer+"/check",
 		success: function(response){
 			result = response.status
 			console.log(result)
@@ -75,6 +73,8 @@ function ajaxCheck(guess1, answer1){;
 				<button id="next" class="next" name="next">Next</button>
 			`
 			$('.response').append(next)
+				getAnswer();
+
 		}, 
 		error: handleError
 	});
@@ -83,6 +83,7 @@ function ajaxCheck(guess1, answer1){;
 function nextQuestion(){
 	$(document).on('click', '.next', function (event){
   		event.preventDefault();
+  		
   		$('.training-1').hide();
 		$('.training-2').show();
 		$('.response').empty();
@@ -103,7 +104,7 @@ function handleError(error){
 
 $(document).on('ready', function () {
 	getWordsFromAjax();
-	// getAnswer();
-	getFirstAnswer();
+	getAnswer();
+	// getFirstAnswer();
 	nextQuestion();
 });
