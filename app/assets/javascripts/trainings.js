@@ -72,8 +72,21 @@ function ajaxCheck(guess, answer){;
 				<br>
 				<button id="next" class="next" name="next">Next</button>
 			`
-			$('.response').append(next)
-				getAnswer();
+
+			var finish = `
+				<br>
+				<button id="finish" class="finish" name="finish">Finished Training</button>
+			`
+			// $('.response').append(next)
+			// 	getAnswer();
+
+			if (counter <= 10) {
+				$('.response').append(next)
+					getAnswer();
+					
+			} else {
+				$('.response').append(finish)
+			};
 
 		}, 
 		error: handleError
@@ -83,11 +96,12 @@ function ajaxCheck(guess, answer){;
 function nextQuestion(){
 	$(document).on('click', '.next', function (event){
   		event.preventDefault();
-  		
-  		$('.training-1').hide();
-		$('.training-2').show();
+  		var q = (counter - 1);
+  		$('[class=training-'+ q +']').hide();
+		$('[class=training-'+ counter +']').show();
 		$('.response').empty();
-		console.log("Button clicked");
+		// console.log(q);
+		// console.log($('[class=training-'+ q +']'));
 	});
 };
 
