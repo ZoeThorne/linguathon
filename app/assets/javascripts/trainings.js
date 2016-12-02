@@ -49,8 +49,6 @@ function getFirstAnswer(){
 		event.preventDefault();
 		var guess1 = $('#q1-answer').val();
 		var answer1 = $('input:hidden').attr('id');
-		// var answer = $('input[name$="q1-answer"]').attr('id');
-		// var answer = $('.js-q1-answer').attr('id');
 		console.log(guess1)
 		console.log(answer1)
 		ajaxCheck(guess1, answer1);
@@ -59,23 +57,24 @@ function getFirstAnswer(){
 
 function ajaxCheck(guess1, answer1){;
 	$.ajax({
-		type: "GET",
-		data: guess1,
+		type: "POST",
+		data: {guess: guess1},
+		dataType: 'json',
 		url: "/api/trainings/"+id+"/words/"+answer1+"/check",
 		success: function(response){
-			console.log(response.tl);
-			console.log(guess1);
-			$('#response').empty();
-			if (response.tl == guess1) {
-				$('#response').append("Correct!")
+			result = response.status
+			console.log(result)
+			$('.response').empty();
+			if (result == "correct") {
+				$('.response').append("Correct!")
 			} else {
-				$('#response').append("The answer was actually " +response.tl)
+				$('.response').append("The answer was actually " +response.tl)
 			}
 			var next = `
 				<br>
 				<button id="next" class="next" name="next">Next</button>
 			`
-			$('#response').append(next)
+			$('.response').append(next)
 		}, 
 		error: handleError
 	});
@@ -86,7 +85,7 @@ function nextQuestion(){
   		event.preventDefault();
   		$('.training-1').hide();
 		$('.training-2').show();
-		$('#response').empty();
+		$('.response').empty();
 		console.log("Button clicked");
 	});
 };

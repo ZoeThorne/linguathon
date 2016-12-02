@@ -13,12 +13,13 @@ class ApiWordsController < ApplicationController
 		@user = current_user
 		@training = Training.find_by(id: params[:training_id])
 		@word = Word.find_by(id: params[:word_id])
-		# @guess = guess1
-		render json: @word
-		# render :json => {
-  		#     		:word => @word,
-  		#     		:guess => @guess
-  		#  		}
+		guess = params[:guess]
+		if guess == @word.tl
+			render json: {status: "correct"}
+		else
+			render json: {status: "incorrect", tl: @word.tl}
+		end
+		
 
 	end
 
