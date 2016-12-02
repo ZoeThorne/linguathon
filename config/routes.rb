@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get '/users/:id', to: 'users#show', as: 'user'
   get 'users/:user_id/trainings/:id/train', to: 'trainings#train', as: 'train'
   get '/api/trainings/:id/words', to: 'api_words#get_words', as: 'get_words'
-  post '/api/trainings/:training_id/words/:word_id/check', to: 'api_words#check', as: 'check'
+  get '/api/trainings/:id/results', to: 'api_words#get_results', as: 'get_results'
+  post '/api/trainings/:training_id/words/:word_id/check', to: 'api_words#check'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

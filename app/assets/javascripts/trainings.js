@@ -27,16 +27,29 @@ function generateQuestions(response){
 };
 
 var counter = 1
-function getAnswer(){
-	$(document).on('click', '[class=answer-question-' + counter +'] button', function (event){
+ function getAnswer(){
+// 	$(document).on('click', '[class=answer-question-' + counter +'] button', function (event){
+// 	// $("[class*=answer-question]" ).submit(function(event){
+// 		event.preventDefault();
+// 		console.log("Form submitted")
+// 		var guess = $(this).parent().find('input:text').val();
+// 		var answer = $(this).parent().find('input:hidden').attr('id');
+// 		console.log($('[class=answer-question-' + counter +']'))
+// 		console.log(guess);
+// 		console.log(answer);
+// 		counter++
+// 		ajaxCheck(guess, answer);
+// 	});
+
+	$(document).on('submit', '[class=answer-question-' + counter +']', function (event){
 	// $("[class*=answer-question]" ).submit(function(event){
 		event.preventDefault();
 		console.log("Form submitted")
+		// console.log($(this).serializeArray())
 		var guess = $(this).parent().find('input:text').val();
 		var answer = $(this).parent().find('input:hidden').attr('id');
-		console.log($('[class=answer-question-' + counter +']'))
-		console.log(guess);
-		console.log(answer);
+// 		console.log(guess);
+// 		console.log(answer);
 		counter++
 		ajaxCheck(guess, answer);
 	});
@@ -83,7 +96,7 @@ function ajaxCheck(guess, answer){;
 			if (counter <= 10) {
 				$('.response').append(next)
 					getAnswer();
-					
+
 			} else {
 				$('.response').append(finish)
 			};
@@ -105,10 +118,29 @@ function nextQuestion(){
 	});
 };
 
-// function checkAnswer(response){
-// 	console.log(response);
-// 	// console.log(guess1);
-// };
+function getResults(){
+	$(document).on('click', '.finish', function (event){
+		event.preventDefault();
+		console.log("Finished")
+		$('.training-10').hide();
+		$.ajax({
+		type: "GET", 
+		url: "/api/trainings/"+id+"/results",
+		success: function(response){
+			console.log(response)
+			response.forEach(function(r){
+				$('.results').append("<h4>Word: "+ r.word.english +"&emsp; Answer: "+ r.word.tl +"</h4>")
+				if (r.result == true) {
+					$('.results').append("<h4>You got this right!</h4><br><br>")
+				} else {
+					$('.results').append("<h4>You didn't get it this time.</h4><br><br>")
+				};
+			})
+		}, 
+		error: handleError
+	});
+	});
+};
 
 
 function handleError(error){
@@ -121,4 +153,5 @@ $(document).on('ready', function () {
 	getAnswer();
 	// getFirstAnswer();
 	nextQuestion();
+	getResults();
 });

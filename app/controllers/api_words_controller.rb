@@ -36,10 +36,19 @@ class ApiWordsController < ApplicationController
 				new_word.save
 			end
 			this_training_word = @training.training_words.find_by(word_id: @word.id)
-			this_training_word.update_attributes(:result => true)
+			this_training_word.update_attributes(:result => false)
 			render json: {status: "incorrect", tl: @word.tl}
 		end
 		
+
+	end
+
+	def get_results
+		@user = current_user
+		@training = Training.find_by(id: params[:id])
+		@words = @training.words
+		@training_words = @training.training_words
+		render json: @training_words.to_json(:include => :word)
 
 	end
 
