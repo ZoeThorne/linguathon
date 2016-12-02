@@ -24,7 +24,13 @@
 						<td class="words-to-train"><%= w.word.tl %></td>
 						<td class="words-to-train"><%= w.word.english %></td>
 						<td class="words-to-train"><%= w.word.word_type %></td>
-						<td class="words-to-train"><%= w.word.user_words.find_by(user_id: @user).try!(:stage) %></td>
+						<td class="words-to-train"><% this_word = w.word.user_words.find_by(user_id: @user).try!(:stage) %>
+													<% if this_word == nil %>
+														You haven't seen this word yet.
+													<% else %>
+														<%= this_word %>
+													<% end %>
+						</td>
 						<td class="words-to-train"></td>
 					</tr>
 					<% end %>

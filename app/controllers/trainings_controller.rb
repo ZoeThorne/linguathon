@@ -28,6 +28,19 @@ class TrainingsController < ApplicationController
     	@user = current_user
     	@training = Training.find_by(id: params[:id])
     	@words = @training.training_words
+    	# @stages = @words.each do |word|
+    	# 			word.stage_for_user
+    	# 			end
+    	# @stages = []
+    	# @words.each do |word|
+    	# 	this_word = @user.user_words.find_by_id(word.id)
+  			# 	if this_word == nil
+  			# 		stage = nil
+  			# 	else
+  			# 		stage = this_word.stage
+  			# end
+  			# @stages.push(stage)
+  		# end
     end
 
     def train
