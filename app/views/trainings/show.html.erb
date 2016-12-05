@@ -31,7 +31,14 @@
 														<%= this_word %>
 													<% end %>
 						</td>
-						<td class="words-to-train"></td>
+						<td class="words-to-train"><% if w.result == true %>
+														Correct
+													<% elsif w.result == false %>
+														Incorrect
+													<% else %>
+														You haven't seen this word yet.
+													<% end %>
+						</td>
 					</tr>
 					<% end %>
 				</table>
