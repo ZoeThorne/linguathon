@@ -20,7 +20,23 @@
     		<div class="notice" style="color:red"><%= flash[:notice] %></div>
   		<% end %>
 		<h2>What do you want to train today?</h2>
-
+		<% time = Time.now %>
+		<% case time.wday %>
+		<% when 0 %>
+			<h5 style="color:green"><strong>Daily Challenge: triple points for Leisure today!</strong></h5>
+		<% when 1 %>
+			<h5 style="color:green"><strong>Daily Challenge: triple points for Key Words today!</strong></h5>
+		<% when 2 %>
+			<h5 style="color:green"><strong>Daily Challenge: triple points for verbs today!</strong></h5>
+		<% when 3 %>
+			<h5 style="color:green"><strong>Daily Challenge: triple points for nouns today!</strong></h5>
+		<% when 4 %>
+			<h5 style="color:green"><strong>Daily Challenge: triple points for Education today!</strong></h5>
+		<% when 5 %>
+			<h5 style="color:green"><strong>Daily Challenge: triple points for Me, My Family and Friends today!</strong></h5>
+		<% else %>
+			<h5 style="color:green"><strong>Daily Challenge: triple points for Home and Local Area today!</strong></h5>
+		<% end %>
 
        
         <div class="field">
