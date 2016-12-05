@@ -6,13 +6,13 @@ class TrainingsController < ApplicationController
 
 	def create
 	    user = User.find_by(id: params[:user_id])
-	    @name = params[:name]
+
 	    @tier = params[:tier]
 	    @topic = params[:topic]
 	    @stage = params[:stage]
 	    @word_type = params[:word_type]
 
-	    training = Training.new(user: current_user, topic: @topic, tier: @tier, name: @name)
+	    training = Training.new(user: current_user, topic: @topic, tier: @tier)
 
 	    @words = training.filter_words(@tier, @topic, @stage, @word_type)
 	    	if @words.length < 10
