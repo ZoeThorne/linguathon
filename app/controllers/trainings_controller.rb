@@ -11,9 +11,9 @@ class TrainingsController < ApplicationController
 	    @topic = params[:topic]
 	    @stage = params[:stage]
 	    @word_type = params[:word_type]
-	    binding.pry
+
 	    training = Training.new(user: current_user, topic: @topic, tier: @tier, name: @name)
-	    binding.pry
+
 	    @words = training.filter_words(@tier, @topic, @stage, @word_type)
 	    	if @words.length < 10
 	    		flash[:notice] = "There aren't enough words that fit your selection. Try a different combination."
@@ -50,6 +50,13 @@ class TrainingsController < ApplicationController
     	@user = User.find_by(id: params[:user_id])
     	@training = Training.find_by(id: params[:id])
     	@words = @training.training_words
+    	@words.each do |w|
+    		this_word = @user.user_words.find_by(word_id: w.word_id)
+    		unless this_word
+    			new_word = @user.user_words.create(word: w.word, stage: 0)
+				new_word.save
+			end
+		end
     end
 
     def my_api_method
