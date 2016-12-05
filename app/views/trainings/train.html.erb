@@ -9,22 +9,65 @@
 
 			<% @words.each_with_index do |w, i| %>
 				<% q_num = i + 1 %>
+				<% this_word = @user.user_words.find_by(word_id: w.word_id) %>
 				<div class="training-<%= q_num %>">
 					<div class="training-question">
-						<h1><strong>Q<%- q_num %>.</strong> w.word.english</h1>
-						<h3>What is the German?</h3>
-					</div>
-					<div class="training-answer">
-						<form class="answer-question-<%= q_num %>" method="POST">
-							<input type="text" name="q<%= q_num %>-answer" id="q<%= q_num %>-answer" placeholder="Your answer">
-							<input type="hidden" class="js-answer" name="js-q<%= q_num %>-answer" id="<%= w.word_id %>">
+						<% if this_word %>
+							<% if this_word.stage >= 4 %>
+								<h1>Q<%= q_num %>. <strong><%= w.word.english %></strong></h1>
+								<h5><em>Type of word: <%= w.word.word_type %></em></h5>
+								<h3>What is the German?</h3>
+								<div class="training-answer">
+									<form class="answer-question-<%= q_num %>" method="POST">
+										<input type="text" name="q<%= q_num %>-answer" id="q<%= q_num %>-answer" placeholder="Your answer">
+										<input type="hidden" class="js-answer" name="js-q<%= q_num %>-answer" id="<%= w.word_id %>">
 
-							<button id="submit" type="submit" name="button">Submit</button>
-						</form>
+										<button id="submit" type="submit" name="button">Submit</button>
+									</form>
+								</div>
+							<% elsif this_word.stage == 2 || this_word.stage == 3 %>
+								<h1>Q<%= q_num %>. <strong><%= w.word.english %></strong></h1>
+								<h5><em>Type of word: <%= w.word.word_type %></em></h5>
+								<h3>What is the German?</h3>
+								<h3><em><%= w.word.tl.gsub(/\B\w+\B/){$&.split(//).sort_by{rand}.join} %></em></h3>
+								<div class="training-answer">
+									<form class="answer-question-<%= q_num %>" method="POST">
+										<input type="text" name="q<%= q_num %>-answer" id="q<%= q_num %>-answer" placeholder="Your answer">
+										<input type="hidden" class="js-answer" name="js-q<%= q_num %>-answer" id="<%= w.word_id %>">
+
+										<button id="submit" type="submit" name="button">Submit</button>
+									</form>
+								</div>
+							<% else %>
+								<h1>Q<%= q_num %>. <strong><%= w.word.english %></strong></h1>
+								<h5><em>Type of word: <%= w.word.word_type %></em></h5>
+								<h3>What is the German?</h3>
+								<div class="training-answer">
+									<% poss_words = [] %>
+									<% until poss_words.length == 3 %>
+										<% a_word = @words.sample %>
+										<% unless a_word == w %>
+											<% poss_words.push(a_word) %>
+										<% end %>
+									<% end %>
+									<% poss_words.push(w) %>
+									<form class="answer-question-<%= q_num %>" method="POST">
+										<% poss_words.shuffle.each do |pw| %>
+											<input type="radio" name="q<%= q_num %>-answer" value="<%= pw.word.tl%>" ><%= pw.word.tl %> &emsp;
+										<% end %>
+										<input type="hidden" class="js-answer" name="js-q<%= q_num %>-answer" id="<%= w.word_id %>">
+										<br><br>
+										<button id="submit" type="submit" name="button">Submit</button>
+									</form>
+								</div>				
+
+							<% end %>
+						<% end %>
 					</div>
 					<div class="response">
-					</div>
 				</div>
+				</div>
+
 			<% end %>
 			<!-- <div class="training-1">
 				<div class="training-question">

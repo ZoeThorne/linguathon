@@ -45,11 +45,15 @@ var counter = 1
 	// $("[class*=answer-question]" ).submit(function(event){
 		event.preventDefault();
 		console.log("Form submitted")
+		$(this).parent().find('#submit').hide();
 		// console.log($(this).serializeArray())
-		var guess = $(this).parent().find('input:text').val();
+		var guess = $(this).parent().find('input:radio:checked').val();
+		if (guess == undefined) {
+			guess = $(this).parent().find('input:text').val(); 
+		};
 		var answer = $(this).parent().find('input:hidden').attr('id');
-// 		console.log(guess);
-// 		console.log(answer);
+		console.log(guess);
+		console.log(answer);
 		counter++
 		ajaxCheck(guess, answer);
 	});
@@ -149,7 +153,7 @@ function handleError(error){
 }
 
 $(document).on('ready', function () {
-	getWordsFromAjax();
+	// getWordsFromAjax();
 	getAnswer();
 	// getFirstAnswer();
 	nextQuestion();
