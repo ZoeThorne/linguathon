@@ -3,9 +3,12 @@
 			<h1><%= @user.name %>'s Training Session</h1>
 		<div class="col-lg-12 training-form">
 			<div class="training-details">
+				<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#tips" style="float:right">Tips</button>
+				<br>
 				<h3><%= @training.name %></h3>
 				<small><%= @training.updated_at.strftime("%d %b %y") %></small>
 			</div>
+			
 
 			<% @words.each_with_index do |w, i| %>
 				<% q_num = i + 1 %>
@@ -19,13 +22,20 @@
 								<h3>What is the German?</h3>
 								<div class="training-answer">
 									<form class="answer-question-<%= q_num %>" method="POST">
-										<input type="text" name="q<%= q_num %>-answer" id="q<%= q_num %>-answer" placeholder="Your answer">
+										<input type="text" name="q<%= q_num %>-answer" id="q<%= q_num %>-answer" placeholder="Your answer" autocomplete="off">
 										<input type="hidden" class="js-answer" name="js-q<%= q_num %>-answer" id="<%= w.word_id %>">
 
 										<button id="submit" type="submit" name="button">Submit</button>
 										<div class="umlauts">
-						<button type="button" class="btn btn-primary btn-xs spec-char" id="Ae" data-value="&Auml;">&Auml;</button>
-					</div>
+											<br>
+											<button type="button" class="btn btn-primary btn-xs spec-char" id="Ae" data-value="&Auml;">&Auml;</button>
+											<button type="button" class="btn btn-primary btn-xs spec-char" id="Oe" data-value="&Ouml;">&Ouml;</button>
+											<button type="button" class="btn btn-primary btn-xs spec-char" id="Ue" data-value="&Uuml;">&Uuml;</button>
+											<button type="button" class="btn btn-primary btn-xs spec-char" id="ae" data-value="&auml;">&auml;</button>
+											<button type="button" class="btn btn-primary btn-xs spec-char" id="oe" data-value="&ouml;">&ouml;</button>
+											<button type="button" class="btn btn-primary btn-xs spec-char" id="ue" data-value="&uuml;">&uuml;</button>
+											<button type="button" class="btn btn-primary btn-xs spec-char" id="ss" data-value="&szlig;">&szlig;</button>
+										</div>
 									</form>
 								</div>
 							<% elsif this_word.stage == 2 || this_word.stage == 3 %>
@@ -35,13 +45,20 @@
 								<h3><em><%= w.word.tl.gsub(/\B\w+\B/){$&.split(//).sort_by{rand}.join} %></em></h3>
 								<div class="training-answer">
 									<form class="answer-question-<%= q_num %>" method="POST">
-										<input type="text" name="q<%= q_num %>-answer" id="q<%= q_num %>-answer" placeholder="Your answer">
+										<input type="text" name="q<%= q_num %>-answer" id="q<%= q_num %>-answer" placeholder="Your answer" autocomplete="off">
 										<input type="hidden" class="js-answer" name="js-q<%= q_num %>-answer" id="<%= w.word_id %>">
 
 										<button id="submit" type="submit" name="button">Submit</button>
 										<div class="umlauts">
-						<button type="button" class="btn btn-primary btn-xs spec-char" id="Ae" data-value="&Auml;">&Auml;</button>
-					</div>
+											<br>
+											<button type="button" class="btn btn-primary btn-xs spec-char" id="Ae" data-value="&Auml;">&Auml;</button>
+											<button type="button" class="btn btn-primary btn-xs spec-char" id="Oe" data-value="&Ouml;">&Ouml;</button>
+											<button type="button" class="btn btn-primary btn-xs spec-char" id="Ue" data-value="&Uuml;">&Uuml;</button>
+											<button type="button" class="btn btn-primary btn-xs spec-char" id="ae" data-value="&auml;">&auml;</button>
+											<button type="button" class="btn btn-primary btn-xs spec-char" id="oe" data-value="&ouml;">&ouml;</button>
+											<button type="button" class="btn btn-primary btn-xs spec-char" id="ue" data-value="&uuml;">&uuml;</button>
+											<button type="button" class="btn btn-primary btn-xs spec-char" id="ss" data-value="&szlig;">&szlig;</button>
+										</div>
 									</form>
 								</div>
 							<% else %>
@@ -233,7 +250,38 @@
 		</div>
 	</div>
 </div>
-
+<div class="modal fade" id="tips" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+		<div class="modal-content">
+				<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+				<h4 class="modal-title" id="myModalLabel">Tips for answering questions</h4>
+				</div>
+				<div class="modal-body">
+					 <ul>
+					 	<li>You need to include the correct gender for nouns (der / die / das). It might be annoying but you need to know them.</li>
+					 	<br>
+					 	<li>Nouns need to have a capital letter.</li>
+					 	<br>
+					 	<li>If the noun refers to a person, Linguathon uses the masculine version by default (eg 'der Lehrer' rather than 'die Lehrerin').</li>
+					 	<br>
+					 	<li>Use the plain version of adjectives, with no agreements (eg 'gelb')</li>
+					 	<br>
+					 	<li>For adverbs, Linguathon uses the masculine/nominative version by default (eg 'welcher')</li>
+					 	<br>
+					 	<li>You need to include umlauts and special characters. Use the buttons to insert them.</li>
+					 	<br>
+					 	<li>Look carefully at the word type to help you. There's a difference between 'a present' (noun), 'present' (adjective) and 'to present' (verb), for example.</li>
+					 </ul>
+				</div>
+				<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+		</div>
+		</div>
+</div>
 <script>
 	var id = <%= @training.id %>
 </script> 

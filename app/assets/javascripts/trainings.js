@@ -155,7 +155,7 @@ function handleError(error){
 
 
 function umlauts(){
-	$('#Ae').on('click', function (event){
+	$('.spec-char').on('click', function (event){
 		event.preventDefault();
 		// $('.training-answer').insertAtCaret("&Auml;");
 		var $txt = $(this).parents("form").find('input:text');
@@ -164,7 +164,8 @@ function umlauts(){
         var caretPos = $txt[0].selectionStart;
         // console.log(caretPos)
         var textAreaTxt = $txt.val();
-        var txtToAdd = "Ä";
+        var txtToAdd = $(this).data('value');
+        console.log(txtToAdd);
         $txt.val(textAreaTxt.substring(0, caretPos) + txtToAdd + textAreaTxt.substring(caretPos) );
 	});
 }
