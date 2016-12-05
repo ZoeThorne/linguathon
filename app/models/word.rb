@@ -13,4 +13,29 @@ class Word < ApplicationRecord
   		end
   		return stage
   	end
+
+  	def calculate_points(word)
+  		time = Time.now
+  		if time.wday == 0 && word.topic == "leisure"
+  			points = 3
+  		elsif time.wday == 1 && word.topic == "key words"
+  			points = 3
+  		elsif time.wday == 2 && word.word_type == "verb"
+  			points = 3
+  		elsif time.wday == 3 && word.word_type == "noun"
+  			points = 3
+  		elsif time.wday == 4 && word.topic == "education"
+  			points = 3
+  		elsif time.wday == 5 && word.topic == "me, my family and friends"
+  			points = 3
+  		elsif time.wday == 6 && word.topic == "home and local area"
+  			points = 3
+  		else
+  			points = 1
+  		end
+
+  		return points				
+  			
+  	end
+
 end
