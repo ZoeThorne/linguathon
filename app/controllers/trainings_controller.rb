@@ -6,11 +6,14 @@ class TrainingsController < ApplicationController
 
 	def create
 	    user = User.find_by(id: params[:user_id])
+	    @name = params[:name]
 	    @tier = params[:tier]
 	    @topic = params[:topic]
 	    @stage = params[:stage]
 	    @word_type = params[:word_type]
-	    training = Training.new(user: current_user, topic: @topic, tier: @tier)
+	    binding.pry
+	    training = Training.new(user: current_user, topic: @topic, tier: @tier, name: @name)
+	    binding.pry
 	    @words = training.filter_words(@tier, @topic, @stage, @word_type)
 	    	if @words.length < 10
 	    		flash[:notice] = "There aren't enough words that fit your selection. Try a different combination."

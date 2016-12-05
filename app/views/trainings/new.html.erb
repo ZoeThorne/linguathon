@@ -20,52 +20,54 @@
     		<div class="notice" style="color:red"><%= flash[:notice] %></div>
   		<% end %>
 		<h2>What do you want to train today?</h2>
+
+
        
         <div class="field">
         	<h4>Topics</h4>
 
         		<%= radio_button_tag(:topic, "all", :checked) %>
 				<%= label_tag(:all, "All topics") %>
-				&ensp;
+				&emsp;
           		<%= radio_button_tag(:topic, "key words") %>
 				<%= label_tag(:key_words, "General key words") %>
-				&ensp;
+				&emsp;
 				<%= radio_button_tag(:topic, "connectives") %>
 				<%= label_tag(:connectives, "Connectives") %>
-				&ensp;
+				&emsp;
 				<%= radio_button_tag(:topic, "prepositions") %>
 				<%= label_tag(:prepositions, "Prepositions") %>
-				&ensp;
+				&emsp;
 				<%= radio_button_tag(:topic, "opinions") %>
 				<%= label_tag(:opinions, "Opinions") %>
-				&ensp;
+				&emsp;
 				<%= radio_button_tag(:topic, "travel and tourism") %>
 				<%= label_tag(:travel_and_tourism, "Travel and Tourism") %>
-				&ensp;
+				&emsp;
 				<%= radio_button_tag(:topic, "home and local area") %>
 				<%= label_tag(:local_area, "Home and local area") %>
-				&ensp;
+				&emsp;
 				<%= radio_button_tag(:topic, "me, my family and friends") %>
 				<%= label_tag(:me_my_family_and_friends, "Me, my family and friends") %>
-				&ensp;
+				&emsp;
 				<%= radio_button_tag(:topic, "technology") %>
 				<%= label_tag(:technology, "Technology") %>
-				&ensp;
+				&emsp;
 				<%= radio_button_tag(:topic, "leisure") %>
 				<%= label_tag(:leisure, "Leisure") %>
-				&ensp;
+				&emsp;
 				<%= radio_button_tag(:topic, "festivals") %>
 				<%= label_tag(:festivals, "Festivals") %>
-				&ensp;
+				&emsp;
 				<%= radio_button_tag(:topic, "health and social issues") %>
 				<%= label_tag(:health_and_social_issues, "Health and Social Issues") %>
-				&ensp;
+				&emsp;
 				<%= radio_button_tag(:topic, "global issues") %>
 				<%= label_tag(:global_issues, "Global Issues") %>
-				&ensp;
+				&emsp;
 				<%= radio_button_tag(:topic, "education") %>
 				<%= label_tag(:education, "Education") %>
-				&ensp;
+				&emsp;
 				<%= radio_button_tag(:topic, "work") %>
 				<%= label_tag(:work, "Work") %>
           </div>
