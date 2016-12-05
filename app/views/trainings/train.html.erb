@@ -23,6 +23,9 @@
 										<input type="hidden" class="js-answer" name="js-q<%= q_num %>-answer" id="<%= w.word_id %>">
 
 										<button id="submit" type="submit" name="button">Submit</button>
+										<div class="umlauts">
+						<button type="button" class="btn btn-primary btn-xs spec-char" id="Ae" data-value="&Auml;">&Auml;</button>
+					</div>
 									</form>
 								</div>
 							<% elsif this_word.stage == 2 || this_word.stage == 3 %>
@@ -36,6 +39,9 @@
 										<input type="hidden" class="js-answer" name="js-q<%= q_num %>-answer" id="<%= w.word_id %>">
 
 										<button id="submit" type="submit" name="button">Submit</button>
+										<div class="umlauts">
+						<button type="button" class="btn btn-primary btn-xs spec-char" id="Ae" data-value="&Auml;">&Auml;</button>
+					</div>
 									</form>
 								</div>
 							<% else %>
@@ -64,8 +70,9 @@
 							<% end %>
 						<% end %>
 					</div>
+
 					<div class="response">
-				</div>
+					</div>
 				</div>
 
 			<% end %>

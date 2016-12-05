@@ -152,10 +152,30 @@ function handleError(error){
 	console.log(error.responseText); 
 }
 
+
+
+function umlauts(){
+	$('#Ae').on('click', function (event){
+		event.preventDefault();
+		// $('.training-answer').insertAtCaret("&Auml;");
+		var $txt = $(this).parents("form").find('input:text');
+		// console.log($(this).parents("form").find('input:text'));
+		console.log($txt)
+        var caretPos = $txt[0].selectionStart;
+        // console.log(caretPos)
+        var textAreaTxt = $txt.val();
+        var txtToAdd = "Ä";
+        $txt.val(textAreaTxt.substring(0, caretPos) + txtToAdd + textAreaTxt.substring(caretPos) );
+	});
+}
+
 $(document).on('ready', function () {
 	// getWordsFromAjax();
 	getAnswer();
 	// getFirstAnswer();
 	nextQuestion();
 	getResults();
+	umlauts();
+
 });
+
