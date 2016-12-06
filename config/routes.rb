@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :user_achievements
 	root to: 'users#index'
   resources :trainings
   resources :achievements
