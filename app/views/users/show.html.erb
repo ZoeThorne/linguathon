@@ -33,9 +33,9 @@
 					<div class="trophies">
 						<% if @user.achievements %>
 							<% @user.achievements.each do |a| %>
-								<div class="achievement">
+								
 									<img alt="<%= a.name %>" src="/assets/<%= a.icon %>" title="<%= a.description %>">
-								</div>
+								
 							<% end %>
 						<% end %>
 					</div>
