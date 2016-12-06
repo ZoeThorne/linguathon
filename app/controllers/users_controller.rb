@@ -2,7 +2,9 @@ class UsersController < ApplicationController
 	before_action :authenticate_user!, only: [:show]
 
 	def index
-
+		unless current_user.nil?
+			redirect_to user_path(current_user)
+		end
 	end
 
 	def show
