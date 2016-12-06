@@ -29,9 +29,9 @@ class ApiWordsController < ApplicationController
 			this_training_word = @training.training_words.find_by(word_id: @word.id)
 			this_training_word.update_attributes(:result => true)
 			extra_points = @word.calculate_points(@word)
-			binding.pry
+
 			@user.update_attribute(:points, @user.points + extra_points)
-			binding.pry
+
 			render json: {status: "correct"}
 		else
 			this_word = @user.user_words.find_by(word_id: @word.id)

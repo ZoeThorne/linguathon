@@ -30,6 +30,15 @@
 				<div class="contents">
 					<h4>Days Trained In A Row: <%= @user.streak(:trainings) %></h4>
 					<h4>Total Points: <%= @user.points %></h4>
+					<div class="trophies">
+						<% if @user.achievements %>
+							<% @user.achievements.each do |a| %>
+								<div class="achievement">
+									<img alt="<%= a.name %>" src="/assets/<%= a.icon %>" title="<%= a.description %>">
+								</div>
+							<% end %>
+						<% end %>
+					</div>
 				</div>
 			</div>
 		</div>

@@ -35,8 +35,9 @@ class UsersController < ApplicationController
 		@trainings = @user.trainings.order("updated_at DESC").limit(15)
 		render :show
 
+		@user.check_achievements(@user)
 		@achievements = @user.achievements
-		
+
 	end
 
 end
