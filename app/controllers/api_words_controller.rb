@@ -25,6 +25,7 @@ class ApiWordsController < ApplicationController
 				unless this_word.stage == 5
 					this_word.update_attributes(:stage => this_word.stage + 1)
 				end
+				
 			end
 			this_training_word = @training.training_words.find_by(word_id: @word.id)
 			this_training_word.update_attributes(:result => true)
