@@ -148,6 +148,32 @@ color: white;
 	font-weight: bold;
 }
 
+@media screen and (max-width: 767px) {
+    .training-button {
+        margin-left: 25%;
+    }
+    .mini-header {
+    	width: 104%;
+    	margin-left: -10px;
+    }
+
+    .navbar-text {
+    	padding-left: 50px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .training-button {
+        margin-left: 33%;
+    } 
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){
+    .training-button {
+        margin-left: 40%;
+    } 
+}
+
 /* Sign-up / Log-in */
 
 .devise-form {

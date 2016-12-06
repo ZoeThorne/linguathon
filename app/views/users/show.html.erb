@@ -2,8 +2,26 @@
 
 <div class="container-fluid user-page">
 	<div class="row">
-	
-		<div class="col-lg-4 achievements">
+		<div class="col-lg-4 col-lg-push-4 col-sm-12 col-xs-12 training">
+			<%= button_to "Start training!", new_training_path, :method => "get", :class => "training-button" %>
+			<div class="recent-trainings">
+				<div class="mini-header">
+					<h3><%= @user.name %>'s Training Sessions</h3>
+				</div>
+				<div class="contents">
+					<button href="#training-sessions" class="btn btn-default" data-toggle="collapse">See Most Recent Training Sessions</button>
+					<div id="training-sessions" class="collapse">
+					<% @trainings.each do |t| %>
+						<p><%= link_to "#{t.updated_at.strftime("%d %b %y")}: #{t.name.capitalize}", training_path(t) %>
+					
+						<br>Topic: <%= t.topic.capitalize %>
+						</p>
+					<% end %>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-lg-pull-4 col-sm-12 col-xs-12 achievements">
 			<div class="stat-box">
 				<div class="mini-header">
 					<h3>Recently Seen Words</h3>
@@ -43,27 +61,9 @@
 			</div>
 		</div>
 
-		<div class="col-lg-4 training">
-			<%= button_to "Start training!", new_training_path, :method => "get", :class => "training-button" %>
-			<div class="recent-trainings">
-				<div class="mini-header">
-					<h3><%= @user.name %>'s Training Sessions</h3>
-				</div>
-				<div class="contents">
-					<button href="#training-sessions" class="btn btn-default" data-toggle="collapse">See Most Recent Training Sessions</button>
-					<div id="training-sessions" class="collapse">
-					<% @trainings.each do |t| %>
-						<p><%= link_to "#{t.updated_at.strftime("%d %b %y")}: #{t.name.capitalize}", training_path(t) %>
-					
-						<br>Topic: <%= t.topic.capitalize %>
-						</p>
-					<% end %>
-					</div>
-				</div>
-			</div>
-		</div>
+		
 
-		<div class="col-lg-4 stats">
+		<div class="col-lg-4 col-sm-12 col-xs-12 stats">
 			<div class="stat-box">
 				<div class="mini-header">
 					<h3>My Strengths</h3>

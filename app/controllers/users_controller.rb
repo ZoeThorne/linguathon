@@ -8,7 +8,7 @@ class UsersController < ApplicationController
 	end
 
 	def show
-		@user = User.find(params[:id])
+		@user = current_user
 		@words = @user.user_words
 		@recent_words = @words.order("created_at DESC").limit(15)
 		@best_words = @words.order("stage DESC").limit(15)
