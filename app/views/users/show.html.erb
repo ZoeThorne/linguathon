@@ -12,11 +12,11 @@
 					<button href="#recent-words" class="btn btn-default" data-toggle="collapse">See Latest Words</button>
 					<div id="recent-words" class="collapse">
 					<% @recent_words.each do |w| %>
-						<p><%= w.word.tl %>: <%= w.word.english %>
-						<br>Stage: <% if w.stage.nil? %>
-									<em>You haven't got this word right yet!</em>
+						<p><strong class="tl-word"><%= w.word.tl %></strong>: <%= w.word.english %>
+						<br><small style="color: #88D317">Stage: <% if w.stage.nil? %>
+									<em style="color:red">You haven't got this word right yet!</em>
 								<% else %>
-									<%= w.stage %>
+									<%= w.stage %></small>
 								<% end %>
 						</p>
 					<% end %>
@@ -72,11 +72,11 @@
 					<button href="#top-words" class="btn btn-default" data-toggle="collapse">Top Words</button>
 					<div id="top-words" class="collapse">
 						<% @best_words.each do |bw| %>
-							<p><%= bw.word.tl %>: <%= bw.word.english %>
-							<br>Stage: <% if bw.stage.nil? %>
-											<em>You haven't got this word right yet!</em>
+							<p><strong class="tl-word"><%= bw.word.tl %></strong>: <%= bw.word.english %>
+							<br><small style="color: #88D317">Stage: <% if bw.stage.nil? %>
+											<em style="color:red">You haven't got this word right yet!</em>
 										<% else %>
-											<%= bw.stage %>
+											<%= bw.stage %></small>
 										<% end %></p>
 							<% end %>
 					</div>
@@ -107,11 +107,11 @@
 					<button href="#worst-words" class="btn btn-default" data-toggle="collapse">Words To Work On</button>
 					<div id="worst-words" class="collapse">
 						<% @worst_words.each do |ww| %>
-							<p><%= ww.word.tl %>: <%= ww.word.english %>
-							<br>Stage: <% if ww.stage.nil? %>
-											<em>You haven't got this word right yet!</em>
+							<p><strong class="tl-word"><%= ww.word.tl %></strong>: <%= ww.word.english %>
+							<br><small style="color: #88D317">Stage: <% if ww.stage.nil? %>
+											<em style="color:red">You haven't got this word right yet!</em>
 										<% else %>
-											<%= ww.stage %>
+											<%= ww.stage %></small>
 										<% end %></p>
 						<% end %>
 					</div>
