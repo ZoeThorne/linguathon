@@ -1,5 +1,7 @@
 class UsersController < ApplicationController
 	before_action :authenticate_user!, only: [:show]
+	 # after_action :send_welcome_email, only: [:create]
+	
 
 	def index
 		unless current_user.nil?
@@ -41,5 +43,12 @@ class UsersController < ApplicationController
 		@achievements = @user.achievements
 
 	end
+
+	   #  private
+
+    # def send_welcome_email
+    #   WelcomeMailer.welcome_email(resource).deliver_now
+    #   puts "Email sent"
+    # end
 
 end

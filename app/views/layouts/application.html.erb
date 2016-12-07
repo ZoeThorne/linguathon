@@ -55,17 +55,19 @@
       </ul> -->
       <div class="navbar-left">
       	<% if user_signed_in? %>
-  						<h4 class="navbar-text">Hey, <%= current_user.name %>!</h4>
-  					<% end %>
+  			<h4 class="navbar-text">Hey, <%= current_user.name %>!</h4>
+  		<% end %>
       </div>
       <ul class="nav navbar-nav navbar-right">
       	<% if user_signed_in? %>
-    				 		<li class="nav-links"><%= link_to 'My training sessions', user_path(current_user) %></li>
-    				 		<li class="nav-links"><%= link_to 'Log out', destroy_user_session_path, method: 'DELETE' %></li>
-    				<% else %>
-  							<li class="nav-links"><%= link_to 'Sign up', new_user_registration_path %></li>
-  							<li class="nav-links"><%= link_to 'Log in', user_session_path %></li>
-  					<% end %>
+    		<li class="nav-links"><%= link_to 'My training sessions', user_path(current_user) %></li>
+    		<li class="nav-links"><%= link_to 'Log out', destroy_user_session_path, method: 'DELETE' %></li>
+    	<% else %>
+  			<li class="nav-links"><%= link_to 'Sign up', new_user_registration_path %></li>
+  			<li class="nav-links"><%= link_to 'Log in', user_session_path %></li>
+  		<% end %>
+  			<li class="nav-links"><%= link_to "FAQ", "/faq" %></li>
+  			<li class="nav-links"><%= link_to "News", "/news" %></li>
         <!-- <li><a href="#">Link</a></li> -->
 <!--         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>

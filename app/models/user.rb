@@ -15,6 +15,9 @@ class User < ApplicationRecord
 
   has_streak
 
+  after_create :send_welcome_email
+
+
     def has_achievement?(user, achievement)
     	check = user.achievements.find_by(name: achievement)
     	if check == nil
@@ -38,33 +41,35 @@ class User < ApplicationRecord
 
     def streak_achievements(user)
     	streak = user.streak(:trainings)
-    	if streak >= 1 && user.has_achievement?(user, "1st") == false
-    		# new_achievements.push("1st")
-    		new_a = user.user_achievements.create(achievement: Achievement.find_by(name: "1st"))
-    		new_a.save
+    	if streak
+	    	if streak >= 1 && user.has_achievement?(user, "1st") == false
+	    		# new_achievements.push("1st")
+	    		new_a = user.user_achievements.create(achievement: Achievement.find_by(name: "1st"))
+	    		new_a.save
 
-    	elsif streak >= 2 && user.has_achievement?(user, "2days") == false
-    		new_a = user.user_achievements.create(achievement: Achievement.find_by(name: "2days"))
-    		new_a.save
-    	elsif streak >= 3 && user.has_achievement?(user, "3days") == false
-    		new_a = user.user_achievements.create(achievement: Achievement.find_by(name: "3days"))
-    		new_a.save
-    	elsif streak >= 5 && user.has_achievement?(user, "5days") == false
-    		new_a = user.user_achievements.create(achievement: Achievement.find_by(name: "5days"))
-    		new_a.save
-    	elsif streak >= 7 && user.has_achievement?(user, "7days") == false
-    		new_a = user.user_achievements.create(achievement: Achievement.find_by(name: "7days"))
-    		new_a.save
-    	elsif streak >= 14 && user.has_achievement?(user, "2weeks") == false
-    		new_a = user.user_achievements.create(achievement: Achievement.find_by(name: "2weeks"))
-    		new_a.save
-    	elsif streak >= 21 && user.has_achievement?(user, "3weeks") == false
-    		new_a = user.user_achievements.create(achievement: Achievement.find_by(name: "3weeks"))
-    		new_a.save
-    	elsif streak >= 28 && user.has_achievement?(user, "1month") == false
-    		new_a = user.user_achievements.create(achievement: Achievement.find_by(name: "1month"))
-    		new_a.save
-    	end
+	    	elsif streak >= 2 && user.has_achievement?(user, "2days") == false
+	    		new_a = user.user_achievements.create(achievement: Achievement.find_by(name: "2days"))
+	    		new_a.save
+	    	elsif streak >= 3 && user.has_achievement?(user, "3days") == false
+	    		new_a = user.user_achievements.create(achievement: Achievement.find_by(name: "3days"))
+	    		new_a.save
+	    	elsif streak >= 5 && user.has_achievement?(user, "5days") == false
+	    		new_a = user.user_achievements.create(achievement: Achievement.find_by(name: "5days"))
+	    		new_a.save
+	    	elsif streak >= 7 && user.has_achievement?(user, "7days") == false
+	    		new_a = user.user_achievements.create(achievement: Achievement.find_by(name: "7days"))
+	    		new_a.save
+	    	elsif streak >= 14 && user.has_achievement?(user, "2weeks") == false
+	    		new_a = user.user_achievements.create(achievement: Achievement.find_by(name: "2weeks"))
+	    		new_a.save
+	    	elsif streak >= 21 && user.has_achievement?(user, "3weeks") == false
+	    		new_a = user.user_achievements.create(achievement: Achievement.find_by(name: "3weeks"))
+	    		new_a.save
+	    	elsif streak >= 28 && user.has_achievement?(user, "1month") == false
+	    		new_a = user.user_achievements.create(achievement: Achievement.find_by(name: "1month"))
+	    		new_a.save
+	    	end
+	    end
     end
 
     def words_achievements(user)
@@ -218,6 +223,12 @@ class User < ApplicationRecord
     		new_a = user.user_achievements.create(achievement: Achievement.find_by(name: "stage5"))
     		new_a.save
     	end
+    end
+
+  private
+
+    def send_welcome_email
+      WelcomeMailer.welcome_email(self).deliver_now
     end
 
 end
