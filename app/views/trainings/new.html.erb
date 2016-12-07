@@ -41,93 +41,146 @@
        
         <div class="field">
         	<h4>Topics</h4>
-
+				<span style="white-space:nowrap">
         		<%= radio_button_tag(:topic, "all", :checked) %>
-				<%= label_tag(:all, "All topics") %>
+				<%= label_tag(:all, "All topics")  %>
+				</span>
 				&emsp;
+				<span style="white-space:nowrap">
           		<%= radio_button_tag(:topic, "key words") %>
 				<%= label_tag(:key_words, "General key words") %>
+				</span>
 				&emsp;
+				<span style="white-space:nowrap">
 				<%= radio_button_tag(:topic, "connectives") %>
 				<%= label_tag(:connectives, "Connectives") %>
+				</span>
 				&emsp;
+				<span style="white-space:nowrap">
 				<%= radio_button_tag(:topic, "prepositions") %>
 				<%= label_tag(:prepositions, "Prepositions") %>
+				</span>
 				&emsp;
+				<span style="white-space:nowrap">
 				<%= radio_button_tag(:topic, "opinions") %>
 				<%= label_tag(:opinions, "Opinions") %>
+				</span>
 				&emsp;
+				<span style="white-space:nowrap">
 				<%= radio_button_tag(:topic, "travel and tourism") %>
 				<%= label_tag(:travel_and_tourism, "Travel and Tourism") %>
+				</span>
 				&emsp;
+				<span style="white-space:nowrap">
 				<%= radio_button_tag(:topic, "home and local area") %>
 				<%= label_tag(:local_area, "Home and local area") %>
+				</span>
 				&emsp;
+				<span style="white-space:nowrap">
 				<%= radio_button_tag(:topic, "me, my family and friends") %>
 				<%= label_tag(:me_my_family_and_friends, "Me, my family and friends") %>
+				</span>
 				&emsp;
+				<span style="white-space:nowrap">
 				<%= radio_button_tag(:topic, "technology") %>
 				<%= label_tag(:technology, "Technology") %>
+				</span>
 				&emsp;
+				<span style="white-space:nowrap">
 				<%= radio_button_tag(:topic, "leisure") %>
 				<%= label_tag(:leisure, "Leisure") %>
+				</span>
 				&emsp;
+				<span style="white-space:nowrap">
 				<%= radio_button_tag(:topic, "festivals") %>
 				<%= label_tag(:festivals, "Festivals") %>
+				</span>
 				&emsp;
+				<span style="white-space:nowrap">
 				<%= radio_button_tag(:topic, "health and social issues") %>
 				<%= label_tag(:health_and_social_issues, "Health and Social Issues") %>
+				</span>
 				&emsp;
+				<span style="white-space:nowrap">
 				<%= radio_button_tag(:topic, "global issues") %>
 				<%= label_tag(:global_issues, "Global Issues") %>
+				</span>
 				&emsp;
+				<span style="white-space:nowrap">
 				<%= radio_button_tag(:topic, "education") %>
 				<%= label_tag(:education, "Education") %>
+				</span>
 				&emsp;
+				<span style="white-space:nowrap">
 				<%= radio_button_tag(:topic, "work") %>
 				<%= label_tag(:work, "Work") %>
+				</span>
           </div>
 
         <div class="field">
         	<h4>Stage</h4>
+        		<span style="white-space:nowrap">
         		<%= radio_button_tag(:stage, "all stages", :checked) %>
 				<%= label_tag(:any_stage, "A mixture of stages") %>
+				</span>
 				&ensp;
+				<span style="white-space:nowrap">
 				<%= radio_button_tag(:stage, "0") %>
 				<%= label_tag(:zero, "Words I haven't got right yet") %>
+				</span>
 				&ensp;
+				<span style="white-space:nowrap">
 				<%= radio_button_tag(:stage, "1") %>
 				<%= label_tag(:one, "Stage 1 words") %>
+				</span>
 				&ensp;
+				<span style="white-space:nowrap">
 				<%= radio_button_tag(:stage, "2") %>
 				<%= label_tag(:two, "Stage 2 words") %>
+				</span>
 				&ensp;
+				<span style="white-space:nowrap">
 				<%= radio_button_tag(:stage, "3") %>
 				<%= label_tag(:three, "Stage 3 words") %>
+				</span>
 				&ensp;
+				<span style="white-space:nowrap">
 				<%= radio_button_tag(:stage, "4") %>
-				<%= label_tag(:four, "Stage 4 words") %>				
+				<%= label_tag(:four, "Stage 4 words") %>	
+				</span>			
         </div>
 
         <div class="field">
         	<h4>Type of word</h4>
+        		<span style="white-space:nowrap">
         		<%= radio_button_tag(:word_type, "all word types", :checked) %>
 				<%= label_tag(:all_word_types, "A mixture of word types") %>
+				</span>
 				&ensp;
+				<span style="white-space:nowrap">
 				<%= radio_button_tag(:word_type, "verb") %>
 				<%= label_tag(:verb, "Only verbs") %>
+				</span>
 				&ensp;
+				<span style="white-space:nowrap">
 				<%= radio_button_tag(:word_type, "noun") %>
 				<%= label_tag(:noun, "Only nouns") %>
+				</span>
 				&ensp;
+				<span style="white-space:nowrap">
 				<%= radio_button_tag(:word_type, "adjective") %>
 				<%= label_tag(:adjective, "Only adjectives") %>
+				</span>
 				&ensp;
+				<span style="white-space:nowrap">
 				<%= radio_button_tag(:word_type, "preposition") %>
 				<%= label_tag(:preposition, "Only prepositions") %>
+				</span>
 				&ensp;
+				<span style="white-space:nowrap">
 				<%= radio_button_tag(:word_type, "other") %>
-				<%= label_tag(:other, "Only other types of words") %>				
+				<%= label_tag(:other, "Only other types of words") %>
+				</span>				
         </div>
 
         <input type="hidden" name="user_id" value=<%= current_user.id %>>

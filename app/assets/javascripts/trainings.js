@@ -48,6 +48,7 @@ var counter = 1
 		$(this).parent().find('#submit').hide();
 		// console.log($(this).serializeArray())
 		var guess = $(this).parent().find('input:radio:checked').val();
+		console.log(guess)
 		if (guess == undefined) {
 			guess = $(this).parent().find('input:text').val(); 
 		};

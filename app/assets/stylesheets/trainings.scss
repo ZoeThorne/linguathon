@@ -35,7 +35,10 @@
 	opacity: 1;
  	filter: alpha(opacity=100);
  	padding: 20px;
- 	margin-left: 150px;
+ 	margin-left: 12%;
+ 	// margin-right: 8%;
+ 	max-width: 90%;
+ 	
 }
 
 .table-headings {
@@ -57,3 +60,23 @@
 .training-2, .training-3, .training-4, .training-5, .training-6, .training-7, .training-8, .training-9, .training-10  {
 	display: none;
 }
+
+.multiple-choice {
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 3px;
+
+}
+
+label {
+	white-space: nowrap;
+}
+
+@media screen and (max-width: 767px) {
+
+	.multiple-choice {
+		display: block;
+		width: 100%;
+	}
+
+	}

@@ -69,16 +69,21 @@
 									<% poss_words = [] %>
 									<% until poss_words.length == 3 %>
 										<% a_word = @words.sample %>
-										<% unless a_word == w %>
+										<% if a_word != w && poss_words.include?(a_word) == false %>
 											<% poss_words.push(a_word) %>
 										<% end %>
 									<% end %>
 									<% poss_words.push(w) %>
 									<form class="answer-question-<%= q_num %>" method="POST">
+										<div class="btn-group " data-toggle="buttons">
+
 										<% poss_words.shuffle.each do |pw| %>
-											<input type="radio" name="q<%= q_num %>-answer" value="<%= pw.word.tl%>" ><%= pw.word.tl %> &emsp;
+											<label class="btn btn-primary multiple-choice">
+											<input type="radio" name="q<%= q_num %>-answer" value="<%= pw.word.tl%>" ><%= pw.word.tl %>
+											 </label>
 										<% end %>
 										<input type="hidden" class="js-answer" name="js-q<%= q_num %>-answer" id="<%= w.word_id %>">
+										</div>
 										<br><br>
 										<button id="submit" type="submit" name="button">Submit</button>
 									</form>
