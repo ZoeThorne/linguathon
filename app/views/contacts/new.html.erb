@@ -1,0 +1,24 @@
+<div class="container-fluid devise-form">
+  <div class="row">
+      <h2>Send us a message</h2>
+    <div class="col-lg-12 comment-form">
+      
+        
+
+        <%= simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f| %>
+          <%= f.input :name, :required => true, input_html:  { class: 'comment-form-input' } %>
+          
+          <%= f.input :message, :as => :text, :required => true, input_html: { class: 'comment-form-input' } %>
+          <div class= "hidden">
+            <%= f.input :nickname, :hint => 'Leave this field blank!' %>
+            <%= f.input :email, input_html: {value: current_user.email }%>
+          </div>
+          <div>
+            </br>
+            <%= f.button :submit, 'Send message', :class=> "btn btn-primary" %>
+          </div>
+        <% end %>
+      
+    </div>
+  </div>
+</div>
