@@ -133,14 +133,19 @@ function getResults(){
 		url: "/api/trainings/"+id+"/results",
 		success: function(response){
 			console.log(response)
+			var score = 0;
 			response.forEach(function(r){
+				
 				$('.results').append("<h4>Word: "+ r.word.english +"&emsp; Answer: "+ r.word.tl +"</h4>")
 				if (r.result == true) {
 					$('.results').append("<h4>You got this right!</h4><br><br>")
+					score ++
 				} else {
 					$('.results').append("<h4>You didn't get it this time.</h4><br><br>")
 				};
 			})
+			$('.results').prepend("<h2>Total score: "+score+" / 10</h2><br>")
+			console.log(score)
 		}, 
 		error: handleError
 	});
