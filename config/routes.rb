@@ -10,10 +10,11 @@ Rails.application.routes.draw do
   get '/api/trainings/:id/words', to: 'api_words#get_words', as: 'get_words'
   get '/api/trainings/:id/results', to: 'api_words#get_results', as: 'get_results'
   post '/api/trainings/:training_id/words/:word_id/check', to: 'api_words#check'
-  
+  get "/cheat", to: 'api_words#cheat', as: 'cheat'
   match '/contacts',     to: 'contacts#new',             via: 'get',  :as => :contact
 resources "contacts", only: [:new, :create]
 
 get "/:page" => "static#show"
+
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

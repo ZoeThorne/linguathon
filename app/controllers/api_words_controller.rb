@@ -54,8 +54,19 @@ class ApiWordsController < ApplicationController
 		@words = @training.words
 		@training_words = @training.training_words
 		@user.check_achievements
-		render json: @training_words.to_json(:include => :word)
+		
+		check_results = @training_words.map(&:result)
+		if check_results.any? { |item| item.nil? }
+			@user.update_attributes(:points => 0)
+			render js: "window.location = '#{cheat_path}'"
+		else
+			render json: @training_words.to_json(:include => :word)
+		end
+		
+		
+	end
 
+	def cheat
 	end
 
 end
