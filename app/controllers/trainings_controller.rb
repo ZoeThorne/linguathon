@@ -12,7 +12,7 @@ class TrainingsController < ApplicationController
 	    @stage = params[:stage]
 	    @word_type = params[:word_type]
 
-	    training = Training.new(user: current_user, topic: @topic, tier: @tier)
+	    training = Training.new(user: current_user, topic: @topic, tier: @tier, stage: @stage, word_type: @word_type)
 
 	    @words = training.filter_words(@tier, @topic, @stage, @word_type)
 	    	if @words.length < 10
