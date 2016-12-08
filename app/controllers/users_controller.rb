@@ -11,7 +11,7 @@ class UsersController < ApplicationController
 
 	def show
 		@user = current_user
-		@user.check_achievements
+		
 		@words = @user.user_words
 		@recent_words = @words.order("created_at DESC").limit(15)
 		@best_words = @words.order("stage DESC").limit(15)
