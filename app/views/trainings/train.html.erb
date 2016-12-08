@@ -26,16 +26,7 @@
 										<input type="hidden" class="js-answer" name="js-q<%= q_num %>-answer" id="<%= w.word_id %>">
 
 										<button id="submit" type="submit" name="button">Submit</button>
-										<div class="umlauts">
-											<br>
-											<button type="button" class="btn btn-primary btn-xs spec-char" id="Ae" data-value="&Auml;">&Auml;</button>
-											<button type="button" class="btn btn-primary btn-xs spec-char" id="Oe" data-value="&Ouml;">&Ouml;</button>
-											<button type="button" class="btn btn-primary btn-xs spec-char" id="Ue" data-value="&Uuml;">&Uuml;</button>
-											<button type="button" class="btn btn-primary btn-xs spec-char" id="ae" data-value="&auml;">&auml;</button>
-											<button type="button" class="btn btn-primary btn-xs spec-char" id="oe" data-value="&ouml;">&ouml;</button>
-											<button type="button" class="btn btn-primary btn-xs spec-char" id="ue" data-value="&uuml;">&uuml;</button>
-											<button type="button" class="btn btn-primary btn-xs spec-char" id="ss" data-value="&szlig;">&szlig;</button>
-										</div>
+										<%= render "umlauts" %>
 									</form>
 								</div>
 							<% elsif this_word.stage == 2 || this_word.stage == 3 %>
@@ -49,16 +40,7 @@
 										<input type="hidden" class="js-answer" name="js-q<%= q_num %>-answer" id="<%= w.word_id %>">
 
 										<button id="submit" type="submit" name="button">Submit</button>
-										<div class="umlauts">
-											<br>
-											<button type="button" class="btn btn-primary btn-xs spec-char" id="Ae" data-value="&Auml;">&Auml;</button>
-											<button type="button" class="btn btn-primary btn-xs spec-char" id="Oe" data-value="&Ouml;">&Ouml;</button>
-											<button type="button" class="btn btn-primary btn-xs spec-char" id="Ue" data-value="&Uuml;">&Uuml;</button>
-											<button type="button" class="btn btn-primary btn-xs spec-char" id="ae" data-value="&auml;">&auml;</button>
-											<button type="button" class="btn btn-primary btn-xs spec-char" id="oe" data-value="&ouml;">&ouml;</button>
-											<button type="button" class="btn btn-primary btn-xs spec-char" id="ue" data-value="&uuml;">&uuml;</button>
-											<button type="button" class="btn btn-primary btn-xs spec-char" id="ss" data-value="&szlig;">&szlig;</button>
-										</div>
+										<%= render "umlauts" %>
 									</form>
 								</div>
 							<% else %>
@@ -251,14 +233,7 @@
 
 			<div class="results">
 			</div>
-			<div>
-		  		<% flash.each do |key, value| %>
-		    		<div>
-		      			<a href="#" data-dismiss="alert">×</a>
-		        		<%= value %>
-		    		</div>
-		 		<% end %>
-			</div>
+
 			
 		</div>
 	</div>

@@ -31,6 +31,7 @@ class TrainingsController < ApplicationController
     	@user = current_user
     	@training = Training.find_by(id: params[:id])
     	@words = @training.training_words
+    	redirect_to user_path(@user) if @training.user_id != @user.id
     	# @stages = @words.each do |word|
     	# 			word.stage_for_user
     	# 			end
