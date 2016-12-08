@@ -53,6 +53,7 @@ class ApiWordsController < ApplicationController
 		@training = Training.find_by(id: params[:id])
 		@words = @training.words
 		@training_words = @training.training_words
+		@user.check_achievements
 		render json: @training_words.to_json(:include => :word)
 
 	end

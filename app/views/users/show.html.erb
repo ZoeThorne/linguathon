@@ -84,16 +84,16 @@
 					<button href="#top-topics" class="btn btn-default" data-toggle="collapse">Top Topics</button>
 					<div id="top-topics" class="collapse">
 					
-						<% @best_topics.uniq.each do |bt| %>
-							<p><%= bt.word.topic %></p>
+						<% @best_topics.each do |bt| %>
+							<p><%= bt %></p>
 						<% end %>
 					</div>
 					<br><br>
 					<button href="#top-types" class="btn btn-default" data-toggle="collapse">Top Word Types</button>
 					<div id="top-types" class="collapse">
 					
-						<% @best_word_types.uniq.each do |bwt| %>
-							<p><%= bwt.word.word_type %></p>
+						<% @best_word_types.each do |bwt| %>
+							<p><%= bwt %></p>
 						<% end %>
 					</div>
 					</div>
@@ -119,16 +119,16 @@
 					<button href="#worst-topics" class="btn btn-default" data-toggle="collapse">Topics To Work On</button>
 					<div id="worst-topics" class="collapse">
 
-						<% @worst_topics.uniq.each do |wt| %>
-							<p><%= wt.word.topic %></p>
+						<% @worst_topics.each do |wt| %>
+							<p><%= wt %></p>
 						<% end %>
 					</div>
 					<br><br>
 					<button href="#worst-types" class="btn btn-default" data-toggle="collapse">Word Types To Work On</button>
 					<div id="worst-types" class="collapse">
 
-						<% @worst_word_types.uniq.each do |wwt| %>
-							<p><%= wwt.word.word_type %></p>
+						<% @worst_word_types.each do |wwt| %>
+							<p><%= wwt%></p>
 						<% end %>
 					</div>
 					</div>

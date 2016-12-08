@@ -30,11 +30,12 @@
     <%= f.password_field :password_confirmation, autocomplete: "off" %>
   </div>
   <div class="field">
-    <%= radio_button_tag(:tier, "foundation") %>
-    <%= label_tag(:foundation, "Foundation tier") %>
 
-    <%= radio_button_tag(:tier, "higher") %>
-    <%= label_tag(:higher, "Higher tier") %>
+    <%= f.radio_button(:tier, "foundation") %>
+    <%= f.label(:tier, "Foundation tier", value: "foundation" ) %>
+
+    <%= f.radio_button(:tier, "higher") %>
+    <%= f.label(:tier, "Higher tier", value: "higher") %>
   </div>
 
   <div class="actions">
